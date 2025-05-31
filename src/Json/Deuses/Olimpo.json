@@ -1,0 +1,231 @@
+{
+  "deuses": {
+    "Zeus": {
+      "nome_original": "Zeupiteris Maximus",
+      "nome_grego": "Zeus",
+      "nome_romano": "Jupiter",
+      "Hierarquia Divina": "Rei Supremo/Trindade Soberana",
+      "Classe": "Tank/Lutador",
+      "Divindade": "Deus dos Deuses, dos Céus, dos Raios, trovões e relâmpagos, da Ordem Cósmica e da Justiça",
+      "Símbolos": "Raio, Águia e o Touro",
+      "Atratividade_AD": {
+        "Pontos_Fixos": {
+          "Aprender_Forma_Divina": 20,
+          "Ser_Desperto_de_um_dos_dois_Deuses": 20
+        },
+        "Feitos_Comuns": {
+          "Orações": 2,
+          "Dedicar_poemas_e_canções": 2,
+          "Oferendas": 2,
+          "Batalhas_enquanto_o_represents": 5,
+          "Rituais": 8,
+          "Vitórias_contra_Terrenos": 1,
+          "Vitórias_contra_Celestes": 3,
+          "Vitórias_contra_Submundo": 5,
+          "Dedicar_novos_conhecimentos": 2
+        },
+        "Feitos_Divinos": {
+          "Batalhas_em_Forma_Divina": 10,
+          "Vitória_contra_uma_Forma_Divina": 10,
+          "Enfrentar_Deuses_em_combate": 40,
+          "Oferendas_Divinas": 20
+        },
+        "Feitos_Negativos": {
+          "Oferendas_Negativas": -15,
+          "Oferendas_Erradas": -10,
+          "Derrotas_enquanto_o_represents": -25,
+          "Desrespeito": -35,
+          "Ofensas": -25
+        }
+      },
+      "HabilidadesPassivas": {
+        "Capacidade": {
+          "nome": "De origem: Olimpo",
+          "Tipo": "Capacidade",
+          "descricao": "Os descendentes possuem uma grande resistência ao frio, graças a sua vivência em ambientes de extrema altitude em especial quando utilizam de sua habilidade de voo, e da mesma forma se considera com o calor, assim como também são completamente imunes aos raios que possuem uma temperatura superior até mesmo a da superfície do sol! Por fim, isso transmite aos mesmos uma imunidade relacionada aos ataques (exceto para habilidades de gelo, ele é imune ao debuff de congelamento porém ainda recebe o dano da habilidade) afins e debuffs de extorquido, queimadura e eletrificação. Estes também podem se comunicar com criaturas aladas e que possuem capacidade natural de voo."
+        },
+        "Poder_Divino": {
+          "nome": "O Imperador",
+          "Tipo": "Poder Divino",
+          "descricao": "Estes possuem uma presença completamente anormal e não anulável em relação aos de outras divindades. Ao ouvir sua voz, olhar seu rosto, corpo ou apenas ver vultos de seus movimentos, reprimem quem o vê, gerando um sentimento similar a medo, mas é apenas... inferioridade. Sua gigantesca presença faz recuar até existências não vivas, como habilidades que afetariam sua mente, sentidos ou tentasse controla-lo(a) ou engana-la de alguma forma (imunidade a ilusões e controles mentais).",
+          "niveis": [
+            {
+              "level": 25,
+              "descrição": "O descendente aplica extorsão e fixação para todos aqueles de level inferior ou até 10 leveis superior a ele de 5% de sua velocidade, dano físico e de habilidade dentro do combate e aplica em si mesmo extorquir no mesmo valor.",
+              "duracao": "5 turnos",
+              "recarga": "1 vez por combate",
+              "alcance": "35 metros"
+            },
+            {
+              "level": 60,
+              "descrição": "Desperto pode causa efeito de amplificar com seus ataques físicos e habilidades. Os valores do nível anterior se elevam em 10%.",
+              "duracao": "4 turnos",
+              "recarga": "5 turnos",
+              "alcance": ""
+            }
+          ]
+        },
+        "Alteração_de_Status": {
+          "nome": "Filho dos Céus",
+          "Tipo": "Alteração de Status",
+          "descricao": "O deus dos céus e do trovão é reconhecido como o soberano do Olimpo, senhor dos deuses e das tempestades. Sua presença é majestosa, e sua autoridade inquestionável. Reverenciado por reis e guerreiros, Zeus/Júpiter representa a ordem, a justiça e o poder absoluto. Seus raios cortam os céus como um lembrete de sua vigilância e domínio sobre tudo o que vive abaixo das nuvens. Zeuspiteris é símbolo de liderança e equilíbrio, mas também de fúria divina quando provocado. Os corpos dos despertos são quase indestrutíveis a danos físicos, e só sofrem de ataques com sangramento para oponentes que tiverem pelo menos 10 leveis acima do seu.",
+          "bonusPorLevel": {
+            "1-25": {
+              "PV": "+25",
+              "Força": "+50",
+              "VelocidadeMovimento": "+9",
+              "VelocidadeHabilidade": "+7",
+              "DanoFisico": "+6",
+              "DanoHabilidade": "+9",
+              "DanoArmaInvocada": "+1"
+            },
+            "26-50": {
+              "PV": "+35",
+              "Força": "+500",
+              "VelocidadeMovimento": "+11",
+              "VelocidadeHabilidade": "+10",
+              "DanoFisico": "+8",
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+3"
+            },
+            "51-75": {
+              "PV": "+50",
+              "Força": "+5000",
+              "VelocidadeMovimento": "+16",
+              "VelocidadeHabilidade": "+18",
+              "DanoFisico": "+10",
+              "DanoHabilidade": "+20",
+              "DanoArmaInvocada": "+5"
+            },
+            "76-100": {
+              "PV": "+70",
+              "Força": "+10000",
+              "VelocidadeMovimento": "+20",
+              "VelocidadeHabilidade": "+22",
+              "DanoFisico": "+12",
+              "DanoHabilidade": "+23",
+              "DanoArmaInvocada": "+5"
+            },
+            "101+": {
+              "PV": "+35",
+              "Força": "+15000",
+              "VelocidadeMovimento": "+11",
+              "VelocidadeHabilidade": "+10",
+              "DanoFisico": "+8",
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+3"
+            }
+          }
+        }
+      },
+      "HabilidadesAtivas": {
+        "AtivaUm": {
+          "nome:": "Imperador das Tempestades",
+          "tipo": "Elemental",
+          "descricao": "O poder característica do rei, o controle dos poderosos e perigosos... raios e eletricidade!!! Esta capacidade escala com o dano físico do semideus invés do dano de habilidade(utiliza-se também da penetração física). O corpo do divino é uma fonte inesgotável de eletricidade, no sentido literal do infinito, assim lhe permitindo manipular a eletricidade de dentro para fora e as externas, da mesma forma, realizando os mais possíveis feitos da manipulação em perfeita escala. Quando utilizados com água (em oponentes molhados), o dano é aumentado em 25%!",
+          "Obs1": "O ar escala com a força física do descendente do deus: Se ele consegue levantar 100 Kg, consegue empurrar 1 Kg com o ar e erguer da mesma forma.",
+          "Obs2": "Os raios podem ser utilizados com Alme Larn.",
+          "Obs3": "Para apenas manipular e controlar o elemento o gasto é de 1%",
+          "Obs4": "",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Concentrando-se e movendo as mãos, pode criar fortes rajadas de ar cortantes que causam sangramento por 2 turnos.",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "15 metros",
+              "danoHabilidade": "25%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "Focando em suas quatro partes, duas mãos e os dois pés, pode gerar uma onda de eletricidade que focada nestes causam queimadura e eletrificação por 1 turno no alvo atingido. É capaz de manipular a eletricidade do ambiente em até 10 metros. Utilizando a eletricidade já presente no ambiente(não conta de sua própria origem), pode causar um aumento de 5% de dano.",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "30 metros",
+              "danoHabilidade": "35%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "Com seu controle de ar mais elevado, causando tornados furiosos com este que puxam os alvos para dentro de si e causa novamente o dano de sangramento porém este dura até o alvo ser curado. Também é capaz de manipular o ar com maestria, gerando objetos e até mesmo uma armadura de ar.",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "50 metros",
+              "danoHabilidade": "50%",
+              "gastoEnergia": "30%",
+              "subHabilidade": "Armadura de Ar",
+              "reducaoDeDano": "15%",
+              "gastoDeEnergia": "10%",
+              "subDuracao": "2 turnos"
+            },
+            {
+              "level": 80,
+              "descrição": "Queimadura e eletrificação agora dura por 2 turnos. Manipulando o clima, pode gerar chuva e invocar raios e eletricidade das próprias nuvens para gerar ataques surpresas e destrutivos. Ataques vindos de nuvens carregadas possuem +15% de velocidade.",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "70 metros",
+              "danoHabilidade": "75%",
+              "gastoEnergia": "35%"
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn - O poder de um nascido das tempestades. Uma tempestade feita total e unicamente de apenas raios, trovões e relâmpagos e destroem tudo. É uma gigantesca catástrofe danosa, e o mais monstruoso disso: os raios não podem ser absorvidos, e só podem ser redirecionados por oponentes de level maior com controle do elemento natural, ferindo qualquer um sobre o desejo do filho do rei! Essa habilidade ainda aplica os efeitos anteriores e também adiciona o efeito de fúria. Perfuração aplicada é a física.",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "150 metros",
+              "danoFísico": "100%",
+              "danoHabilidade": "150%",
+              "gastoEnergia": "75%"
+            }
+          ]
+        },
+        "AtivaDois": {
+          "nome:": "Entre Raios",
+          "tipo": "Magia",
+          "descricao": "Uma habilidade extremamente útil e única... era o que se pensava até os dragões de raio também demonstra-la! A habilidade de se teletransportar instantaneamente entre raios! Bastando exalar seu poder e se concentrar em que alvo quer ir.",
+          "Obs1": "Não possui tempo de recarga.",
+          "niveis": [
+            {
+              "level": 40,
+              "descrição": "Inicialmente precisa de contato visual com a eletricidade para se teletransportar aonde ela estiver.",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "4 metros",
+              "danoHabilidade": "",
+              "gastoEnergia": "10%"
+            },
+            {
+              "level": 80,
+              "descrição": "Apenas sentido a eletricidade, pode se teletransportar entre ela com perfeição!.",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "50 metros",
+              "danoHabilidade": "",
+              "gastoEnergia": "15%"
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn - Agora a distância acompanha a do 'Imperador da Tempestade'!",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "",
+              "danoHabilidade": "",
+              "gastoEnergia": "20%"
+            }
+          ]
+        },
+        "AtivaTres": {}
+      }
+    },
+	"Hera":{
+
+	},
+	"Poseidon":{
+
+	},
+	"Afrodite":{
+
+	}
+  }
+}
