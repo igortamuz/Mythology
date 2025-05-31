@@ -1,0 +1,143 @@
+{
+  "sagas": {
+    "temporadaUm": {
+      "nome": "Guerra e Sangue‎‎‎‎‎‎‎‎ㅤ",
+      "SagaUm": {
+        "nome": "O início de tudo",
+        "anoInicial": "1967",
+        "anoFinal": "1969",
+        "Sinopse": "Deuses são reais — e você nem precisa acreditar neles.Isso não é como aquelas histórias infantis em que as coisas só existem se você acreditar. A vida real não funciona assim. Os deuses gregos e romanos existem, sim. Júpiter e Zeus... você pode até considerá-los o mesmo deus visto por culturas diferentes — e no passado, realmente eram. Mas agora, não mais.Os deuses gregos e romanos se separaram, e desde os tempos mitológicos travam desavenças e combates intermináveis. Não são guerras devastadoras, mas embates constantes, mesmo que menos invasivos. Ainda assim, são intensos. Mas não pense que tudo é 'caos'. De vez em quando — mesmo que por breves períodos — surgem momentos de paz. Em certas ocasiões, deuses desses dois panteões chegaram até a se unir temporariamente.Mas isso não é o mais importante agora.Se você está lendo isso... na verdade, se essa informação chegou até você, então provavelmente... você é parente, de alguma forma, desses deuses.Você está tendo acesso à história do surgimento de vários heróis e lendas, em pleno e literal fim da 'guerra fria' entre gregos e romanos. Espero que, um dia, você também esteja registrado como um dos Despertos desta Cidade.",
+        "arcos": {
+          "arcoUm": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          },
+          "arcoDois": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          }
+        }
+      },
+      "SagaDois": {
+        "nome": "Guerra do Primordio",
+        "anoInicial": "1969",
+        "anoFinal": "1999",
+        "Sinopse": "Em 1969, dois anos após o último grande evento envolvendo os deuses gregos e romanos, o Olimpo declarou oficialmente a criação da Ilha de Júpiter, um ato simbólico que selava a 'paz' entre os deuses gregos e suas contrapartes romanas.Uma tentativa de Zeus e Júpiter — sua outra metade — se aliarem mais uma vez, em uma condição idealizada por Atena e Minerva, que juntas convenceram seus pais a tentar novamente aquele ano. Pedidos e tentativas como essas vinham sendo feitas há anos.Para celebrar esse marco histórico, Zeus convocou todos os despertos para uma grande comemoração. Os Doze Deuses Olímpicos estavam presentes, assim como os Doze Deuses Olimpianos, acompanhados, em sua maioria, por deuses menores aliados.Tudo transcorreu em relativa harmonia até o momento do anúncio do novo local designado aos despertos das contrapartes romanas. Foi então que se notou a ausência de Hades, deus do submundo, que optou por não comparecer à cerimônia de assinatura do tratado de paz. Júpiter interpretou essa ausência como um ato de extrema insubordinação. Em resposta, declarou que qualquer um que se opusesse ao acordo deveria estar preparado para enfrentar ele e todo o Olimpo.Plutão, então, respondeu com uma enorme risada e revelou que sequer queria estar ali, pois sua confiança nos gregos era como uma ilusão em um deserto — ato que ofendeu diretamente Hera e Zeus.Por fim, o conjunto dessas atitudes resultou na declaração informal de uma 'pré-guerra' entre o Olimpo e o Submundo, despertando a revolta entre os despertos de divindades ctônicas, assim como o aquecimento da rivalidade romana.Assim, as festividades, que começaram com brilho e grandiosidade, encerraram-se em um clima de tensão e incerteza.",
+        "arcos": {
+          "arcoUm": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          },
+          "arcoDois": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          }
+        }
+      },
+      "SagaTres": {
+        "nome": "A Queda do Olimpo",
+        "anoInicial": "1999",
+        "anoFinal": "2019",
+        "Sinopse": "Com a Cidade de Zeus agora em reconstrução, os deuses gregos mantêm-se ocultos entre os descendentes outras criaturas e no pelas duas dimensões, buscando recuperar suas forças antes de tentarem retomar os domínios perdidos durante o lapso temporal causado por Cronos. Os Titãs, com exceção de Atlas e alguns poucos aliados dos gregos, desapareceram — provavelmente aguardando à sombra o início iminente da guerra entre gregos e romanos, enquanto restauram o poder que perderam após incontáveis eras aprisionados no Tártaro.Na última cidade grega ainda existente, a cidade de Zeus, onde nossa história se desenrola, descendentes vindos de diversas linhas temporais e realidades se esforçam para reconstruir o único ponto de segurança que lhes resta. Ao mesmo tempo, os deuses aguardam de seus filhos... o melhor preparo possível para a verdadeira guerra que se aproxima.O papel de antagonista agora recai sobre os romanos, que, mesmo após tentativas de paz por parte dos gregos no passado, cultivaram um profundo ressentimento, sobretudo pela negação de Hades em reconhecer a legitimidade romana. Com o desaparecimento dos deuses gregos, aproveitaram-se do vácuo de poder para usurpar os domínios de seus 'irmãos divinos'. Agora, caminham para cravar o golpe final que poderá extinguir, de uma vez por todas, qualquer distinção entre as mitologias.",
+        "arcos": {
+          "arcoUm": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          },
+          "arcoDois": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          }
+        }
+      },
+      "SagaQuatro": {
+        "nome": "Chronos",
+        "anoInicial": "2019",
+        "anoFinal": "2020",
+        "Sinopse": "Apesar dos horrores vividos, os despertos — tanto romanos quanto gregos — tentavam, com dificuldade, reconstruir a paz após a fusão das divindades entre si e seus reis em um único ser: Zeuspiteris Maximus, o Verdadeiro Rei dos Deuses. A guerra havia terminado, mas as cicatrizes ainda ardiam. O sangue derramado não secou apenas sobre o campo de batalha, mas também nos laços entre os dois povos. A união era mais um experimento frágil do que uma conquista verdadeira.Durante séculos, romanos e gregos se enfrentaram como inimigos mortais. Agora, eram forçados a conviver lado a lado — nos mesmos alojamentos, nos mesmos campos de treinamento, sob a mesma bandeira. Não era incomum cruzar olhares com quem havia matado seus irmãos, amigos ou mentores. Era um desafio constante, um teste de tolerância, perdão e humanidade. E embora os deuses estivessem dispostos a colaborar, não compartilhavam da mesma leveza com que seus filhos sonhavam com a paz.Elizabeth DeWitt assumiu o local de líder da Cidade de Zeus no lugar de Athenerva que, graças as suas ações e seu sacrifício para proteger os moradores da cidade durante o ataque o romano foi perdoada por seu pai e ergue-se novamente ao status de divindade. Agora, com um pensamento diferente e buscando a redenção em uma busca de melhora do mundo por outros meios.Zeuspiteris então, enviou Quiron para auxiliar no desenvolvimento dos despertos e com a ajuda de Raggio e Amélia ensinar os outros despertos a dominarem a 'Theikos Tropos'.Com a queda das bestas, o colapso do panteão dividido e a unificação sob um só trono celestial, os deuses assumiram o dever de enfrentar os verdadeiros arquitetos do caos: os Titãs, e entre eles, Chronos — o senhor do tempo, responsável pelas distorções nas linhas temporais que quase destruíram as duas dimensões, a existência e a hiperexistência ao provocar e alarmar ainda mais a guerra entre romanos e gregos.Nesseidon Rex Abissus (A união de Poseidon e Netuno), em um voto solene, prometeu que os despertos não participariam da guerra contra os Titãs, garantindo que essa responsabilidade caberia aos próprios deuses. Mas Chronos sabia o que muitos deuses insistiam em negar: descendentes divinos também carregavam o potencial de alterar o destino — para o bem ou para o mal.Entre elas, uma figura ressurgiu com peso ameaçador: Ícarus Zeppeli, o plano inicial de Athenerva: O primeiro filho de Zeuspiteris Maximus, conhecido como 'O Caçador de Deuses'. Antigo príncipe romano, abençoado por todas as divindades romanas na antiguidade por sua lealdade inabalável, Ícarus fora considerado a arma secreta da guerra. No entanto, recusou-se a lutar ao lado do Júpiter. Rejeitou ordens, títulos e glórias — tornando-se uma lenda silenciosa.Seu poder era tão latente que facilmente era comparado a um Deus Olimpiano, como o próprio Ares e Atena.Mas Chronos não deixou esse potencial escapar. Ele manipula as peças desde as sombras.De alguma forma, o 'Caçador' se revelou ao ser aliado com o Titã, arquitetou o sequestro de seu meio-irmão mais jovem: Raggio Zeppeli. Afinal, a pose da arma lendária o faria ser uma ameaça próxima do que o próprio rei dos deuses era.Porém... ao mais velho encontrar o mais novo, logo notou que a 'The Fall of Olympus', desapareceu ao fim da guerra. E então, Raggio sequer teve a chance de enfrentar seu irmão em combate, sendo facilmente capturado.Agora, mesmo com a guerra contra os Titãs fora de alcance, a Cidade de Zeus — recém-fundada como o lar greco-romano da nova era — vê-se forçada a agir rapidamente. Uma ameaça cresce não apenas nos céus e no tempo, mas dentro do próprio sangue dos heróis que um dia foram salvos.",
+        "arcos": {
+          "arcoUm": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          },
+          "arcoDois": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          }
+        }
+      },
+      "SagaCinco": {
+        "nome": "A Queda Dos Deuses",
+        "anoInicial": "2021",
+        "anoFinal": "2022",
+        "Sinopse": "",
+        "arcos": {
+          "arcoUm": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          },
+          "arcoDois": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          }
+        }
+      }
+    },
+	"temporadaDois": {
+      "nome": "O antigo futuro",
+      "SagaUm": {
+        "nome": "Primeiros Passos",
+        "anoInicial": "1985",
+        "anoFinal": "---",
+        "Sinopse": "",
+        "arcos": {
+          "arcoUm": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          },
+          "arcoDois": {
+            "nome": {},
+            "descricaoUm": {},
+            "descricaoDois": {},
+            "descricaoTres": {},
+            "descricaoQuatro": {}
+          }
+        }
+      }
+    }
+
+  }
+}
