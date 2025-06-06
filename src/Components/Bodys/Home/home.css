@@ -1,0 +1,84 @@
+.fundoHome{
+    width: 100vw;
+}
+.ola{
+    background-color: black;
+    color: #fce63e;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.textoInicial{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.imgInicial{
+    width: 30%;
+}
+.texto-Ola{
+    color:#dcdcdc;
+    width: 40%;
+    font-size: 18px;
+   
+}
+.texto-Ola p{
+    margin-bottom: 4%;
+}
+
+.data{
+    color: #e6cc00;
+}
+
+.parteFinal{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+   
+    
+}
+
+.textoFinal{
+    color:#dcdcdc;
+    width: 68%;
+    margin-right: 2%;
+    font-size: 18px;
+    
+}
+
+.textoFinal p{
+    margin-bottom: 4%;
+}
+
+.letra-grega{
+    color: #e6cc00;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+.mensagem-final{
+    width: 80%;
+    margin-left: 15%;
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    color: #fe86a4;
+}
+
+.bem-vindo{
+     color: #e6cc00;
+     font-size: 35px;
+     font-style: italic;
+     text-align: center;
+     margin-left: 8%;
+}
+p{
+    line-height: 1.6;
+}
+ul{
+    margin-left: 5%;
+    list-style-type: disc;
+}
