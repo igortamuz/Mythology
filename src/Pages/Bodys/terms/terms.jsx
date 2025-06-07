@@ -1,6 +1,6 @@
 import './termos.css';
 
-export default function Termos() {
+export default function Terms() {
   return (
     <article className="terms-container">
       <header className="terms-header">
