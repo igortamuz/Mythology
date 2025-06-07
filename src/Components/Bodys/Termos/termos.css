@@ -1,49 +1,108 @@
-h1{
-    color:#ffeb3b;
-    background-color: black;
-   margin-left: 10%;
-   margin-bottom: 5%;
-   font-size: 40px;
-    text-align: center;
-    width: 80%;
-    font-weight: 300;
-    font-style: normal;
+body {
+  background-color: #000000;
+  color: #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.contrato{
-    background-color: black;
-    color: #dcdcdc;
-    justify-content: center;
-    padding-left: 16%;
-}
-.pre-contrato{
-    font-size: 17px;
- font-weight: 500;
- width: 80%;
- padding-bottom: 3%;
-}
-.preambulo{
-    padding-bottom: 1%;
-}
-.texto-preambulo{
-    font-weight: 400;
-}
-.clausulas{
-    width: 80%;
-    font-size: 17px;
-}
-h3{
-    font-weight: 400;
-    padding-top: 3%;
-    padding-bottom: 2%;
+.terms-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 40px;
+  background-color: #121212;
+  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
-.pos-clausula{
-    padding-top: 5%;
-    padding-bottom: 4%;
-    
+.terms-header {
+  text-align: center;
+  border-bottom: 2px solid #c8a2c8;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-.pos-clausula p{
-    padding-bottom: 3%;
+.terms-header h1 {
+  color: #ffffff;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.preamble-title {
+  font-weight: bold;
+  color: #c8a2c8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.preamble-text {
+  font-style: italic;
+  color: #b0b0b0;
+}
+
+.terms-main-content .terms-section {
+  margin-bottom: 35px;
+}
+
+.terms-main-content h3 {
+  color: #c8a2c8;
+  font-size: 1.4em;
+  border-left: 4px solid #c8a2c8;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.terms-main-content p {
+  text-align: justify;
+  margin-bottom: 1em;
+}
+
+.terms-main-content ul {
+  list-style-type: '» ';
+  padding-left: 20px;
+}
+
+.terms-main-content li {
+  margin-bottom: 0.5em;
+}
+
+strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+.terms-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  color: #a0a0a0;
+  font-size: 0.9em;
+}
+
+.terms-footer .footer-section {
+  margin-bottom: 25px;
+}
+
+.terms-footer h4 {
+  color: #c8a2c8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.signature-block {
+  margin-top: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.signature-block p {
+  margin: 5px 0;
+  text-align: center;
 }
