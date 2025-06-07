@@ -1,8 +1,10 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   background-color: #000;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -41,15 +43,6 @@ body, html {
   z-index: 2;
 }
 
-.hero-title {
-  position: relative;
-  color: #ffffff;
-  font-size: 4rem;
-  font-weight: bold;
-  text-shadow: 0 0 15px rgba(200, 162, 200, 0.7);
-  z-index: 3;
-}
-
 .content-section {
   background-color: #121212;
   color: #e0e0e0;
@@ -65,13 +58,17 @@ body, html {
   margin-bottom: 50px;
 }
 
+.main-content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .intro-block {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
-  max-width: 1200px;
-  margin: 0 auto 60px auto;
+  margin-bottom: 60px;
 }
 
 .intro-text {
@@ -90,19 +87,23 @@ body, html {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
-.intro-text p, .final-text-block p {
+.intro-text p,
+.aligned-text-block p {
   line-height: 1.7;
   font-size: 1.1rem;
   margin-bottom: 1.5em;
+  margin-top: 0;
 }
 
-.final-text-block {
-  max-width: 900px;
-  margin: 0 auto;
+.aligned-text-block {
+  max-width: 100%;
   text-align: justify;
+  padding-left: 40px;
 }
 
-.highlight-gold, .greek-quote, .welcome-message {
+.highlight-gold,
+.greek-quote,
+.welcome-message {
   color: #e6cc00;
 }
 
@@ -111,16 +112,17 @@ body, html {
   text-align: center;
   font-size: 1.5rem;
   font-style: italic;
-  margin-bottom: 2.5em;
+  margin: 0 auto 2.5em auto;
+  max-width: 900px;
 }
 
 .farewell-message {
   text-align: center;
   font-style: italic;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #fe86a4;
   margin: 40px auto;
-  max-width: 70%;
+  max-width: 800px;
 }
 
 .welcome-message {
@@ -128,11 +130,12 @@ body, html {
   font-style: italic;
   text-align: center;
   font-weight: bold;
-  margin-top: 50px;
+  margin: 50px auto 0 auto;
+  max-width: 800px;
 }
 
 a {
-  color: rgb(8, 205, 235);
+  color: #c8a2c8;
   text-decoration: none;
   font-weight: bold;
 }
@@ -141,21 +144,24 @@ a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 2.5rem;
-  }
+.city-name {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
 
-  .intro-block {
-    flex-direction: column;
-  }
-
-  .intro-text {
+@media (max-width: 1024px) {
+  .intro-text,
+  .aligned-text-block {
     max-width: 100%;
   }
-
   .intro-image {
-    width: 70%;
-    margin-top: 30px;
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-header {
+    font-size: 2rem;
   }
 }
