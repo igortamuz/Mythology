@@ -1,4 +1,4 @@
-import './termos.css';
+import './terms.css';
 
 export default function Terms() {
   return (
