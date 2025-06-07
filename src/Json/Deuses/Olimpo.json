@@ -178,7 +178,8 @@
               "alcance": "150 metros",
               "danoFísico": "100%",
               "danoHabilidade": "150%",
-              "gastoEnergia": "75%"
+              "gastoEnergia": "75%",
+			  "Reborn": ""
             }
           ]
         },
@@ -213,7 +214,8 @@
               "recarga": "",
               "alcance": "",
               "danoHabilidade": "",
-              "gastoEnergia": "20%"
+              "gastoEnergia": "20%",
+			  "Reborn": ""
             }
           ]
         },
@@ -262,16 +264,6 @@
               "danoHabilidade": "75%",
               "gastoEnergia": "25%",
               "Reborn": ""
-            },
-            {
-              "level": 120,
-              "descrição": "Reborn - O poder de um nascido das tempestades. Uma tempestade feita total e unicamente de apenas raios, trovões e relâmpagos e destroem tudo. É uma gigantesca catástrofe danosa, e o mais monstruoso disso: os raios não podem ser absorvidos, e só podem ser redirecionados por oponentes de level maior com controle do elemento natural, ferindo qualquer um sobre o desejo do filho do rei! Essa habilidade ainda aplica os efeitos anteriores e também adiciona o efeito de fúria. Perfuração aplicada é a física.",
-              "duracao": "",
-              "recarga": "",
-              "alcance": "150 metros",
-              "danoFísico": "100%",
-              "danoHabilidade": "150%",
-              "gastoEnergia": "75%"
             }
           ]
         }
@@ -284,8 +276,8 @@
 		"niveis": {
 			"Level 80": "2 Turnos. Aumento de atributos: +10%",
 			"Level 100": "3 Turnos. Aumento de atributos: +20%",
-			"Level 125": "Reborn: 4 Turnos. Aumento de atributos: +35%",
-			"Level 150": "Reborn: 5 Turnos. Aumento de atributos: +50%"
+			"Level 125": "4 Turnos. Aumento de atributos: +35%",
+			"Level 150": "5 Turnos. Aumento de atributos: +50%"
 		},
 		"subDescricao": {
 			"Raios Celestiais": "Seus raios tocam e acertam quaisquer coisa, tangível ou intangível, não podem ser absorvidos e estes possuem efeito de Fúria. Todos danos recebidos pelo desperto são reduzidos em 20%!"
