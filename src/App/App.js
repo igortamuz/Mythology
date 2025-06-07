@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "../Components/Header/header";
+import Header from "../Pages/Header/header";
 import "../ResetCss/reset.css";
-import Footer from "../Components/Footer/footer";
-import Home from "../Components/Bodys/home/home";
-import Termos from "../Components/Bodys/termos/termos";
+import Footer from "../Pages/Footer/footer";
+import Home from "../Pages/Bodys/home/home";
+import Terms from "../Pages/Bodys/terms/terms";
+import GodsPage from "../Pages/Bodys/gods/godsPage";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
 			<Route path="/Entrada" element={<Home />} />
-            <Route path="/Termos" element={<Termos />} />
+            <Route path="/Termos" element={<Terms />} />
+            <Route path="/panteao/:panteao/:nomeDeus" element={<GodsPage />} />
           </Routes>
         </main>
         <Footer />
