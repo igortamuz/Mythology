@@ -1,0 +1,717 @@
+/* --- Global Styles & Background --- */
+body {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+}
+
+.page-container {
+    min-height: 100vh;
+    padding: 1rem;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-matter.png');
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+.max-width-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --- Navigation Buttons & Links --- */
+.back-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(245, 158, 11, 0.5);
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 0.875rem;
+}
+.back-button:hover {
+    background-color: #d97706; /* amber-600 */
+}
+
+.home-link-button {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #d97706; /* amber-600 */
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.home-link-button:hover {
+    background-color: #b45309; /* amber-700 */
+}
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #fcd34d;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    position: relative;
+    padding-top: 2.5rem;
+}
+
+.main-title {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #fcd34d;
+    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.8));
+}
+
+.main-title-roman {
+    font-size: 2.25rem;
+    color: rgba(253, 230, 138, 0.8);
+}
+
+.main-subtitle {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: rgba(253, 230, 138, 0.9);
+    margin-top: 0.5rem;
+    letter-spacing: 0.1em;
+}
+
+/* --- Main Layout --- */
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+/* --- Left Column (Aside) --- */
+.aside-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.god-image-container {
+    border-width: 4px;
+    border-color: rgba(245, 158, 11, 0.5);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.god-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.375rem;
+    display: block; /* Remove extra space below image */
+}
+
+/* --- Right Column (Skills) --- */
+.skills-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skills-section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* --- Component: SectionTitle (h2) --- */
+.section-title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #fcd34d;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid rgba(245, 158, 11, 0.3);
+    padding-bottom: 0.5rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* --- Component: InfoCard --- */
+.info-card {
+    background-color: rgba(30, 41, 59, 0.5);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(146, 64, 14, 0.5);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3), 0 4px 6px -4px rgba(0,0,0,0.3);
+}
+
+.info-card-title {
+    font-size: 1.25rem;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #fbbf24;
+    border-bottom: 1px solid rgba(180, 83, 9, 0.2);
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.info-card-dl {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    color: #d1d5db;
+}
+
+.info-card-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+}
+.info-card-item dt {
+    font-weight: 700;
+    color: rgba(253, 230, 138, 0.8);
+    text-transform: capitalize;
+}
+.info-card-item dd {
+    text-align: right;
+    margin-left: 0;
+}
+
+
+/* --- Component: DivineAttractionCard --- */
+.divine-deeds-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.deeds-title-positive {
+    font-weight: 700;
+    color: #fde047; /* amber-200 */
+    margin: 0 0 0.5rem 0;
+}
+.deeds-title-negative {
+    font-weight: 700;
+    color: #f87171; /* red-400 */
+    margin: 0 0 0.5rem 0;
+}
+.deeds-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.deeds-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #9ca3af; /* slate-400 */
+}
+.deeds-value {
+    font-weight: 700;
+}
+.deeds-value.text-green { color: #4ade80; }
+.deeds-value.text-red { color: #ef4444; }
+
+
+/* --- Component: AbilityCard & TheikosTroposCard --- */
+.ability-card {
+    background-color: rgba(30, 41, 59, 0.5);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(146, 64, 14, 0.5);
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3), 0 4px 6px -4px rgba(0,0,0,0.3);
+    break-inside: avoid;
+}
+
+.ability-card-name {
+    font-size: 1.5rem;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #fcd34d;
+    margin: 0 0 0.25rem 0;
+}
+
+.ability-card-type {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #d97706;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.ability-card-description {
+    color: #d1d5db;
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.ability-obs {
+    font-size: 0.8rem;
+    color: rgba(253, 230, 138, 0.7);
+    font-style: italic;
+    margin: 0.5rem 0;
+    border-left: 2px solid rgba(253, 230, 138, 0.3);
+    padding-left: 0.75rem;
+}
+
+.level-progression {
+    margin-top: 1.5rem;
+}
+
+.level-progression-title {
+    font-weight: 700;
+    color: #fde047;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.level-progression-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.level-progression-item {
+    border-top: 1px solid rgba(146, 64, 14, 0.3);
+    padding-top: 0.75rem;
+}
+
+.level-progression-level {
+    color: #fbbf24;
+}
+
+.level-progression-description {
+    color: #9ca3af;
+    margin-top: 0.25rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem 1rem;
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.stat-item strong { margin-right: 0.25rem; }
+.stat-item.damage-f { color: #f87171; } /* Físico */
+.stat-item.damage-h { color: #a55cf7; } /* Habilidade*/
+.stat-item.damage-a { color: #09640f; } /* Arma */
+.stat-item.cost { color: #60a5fa; }
+.stat-item.duration { color: #4ade80; }
+.stat-item.recharge { color: #facc15; }
+.stat-item.range { color: #7cffcb; }
+.stat-item.reborn { color: #ff00ee; }
+
+/* Theikos Tropos Lists */
+.theikos-level-list, .theikos-sub-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #d1d5db;
+}
+.theikos-level-list li, .theikos-sub-list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(146, 64, 14, 0.2);
+}
+.theikos-level-list li:last-child, .theikos-sub-list li:last-child {
+    border-bottom: none;
+}
+.theikos-sub-list p {
+    margin: 0.25rem 0 0 0;
+    color: #9ca3af;
+    font-size: 0.9rem;
+}
+
+
+/* --- [IMPROVED] Bonus per Level Table --- */
+.table-container {
+    overflow-x: auto;
+}
+
+.bonus-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.875rem;
+    color: #d1d5db;
+}
+
+.bonus-table thead {
+    font-size: 0.75rem;
+    color: #fbbf24;
+    text-transform: uppercase;
+    background-color: rgba(51, 65, 85, 0.5);
+}
+
+.bonus-table th, .bonus-table td {
+    padding: 0.75rem 1rem; /* Increased horizontal padding */
+    vertical-align: middle;
+}
+
+.bonus-table th {
+    white-space: nowrap; /* Prevents headers from wrapping */
+}
+
+.bonus-table tbody tr {
+    border-bottom: 1px solid #334155;
+    transition: background-color 0.2s ease;
+}
+
+.bonus-table tbody tr:hover {
+    background-color: rgba(30, 41, 59, 0.7);
+}
+
+.bonus-table .level-range {
+    font-weight: 700;
+    color: #fcd34d;
+    white-space: nowrap; /* Prevents "75-100" from line breaking */
+    padding-right: 1.5rem; /* Extra space for the level column */
+}
+
+
+.status-calculator {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    border-radius: 0.5rem;
+    background-color: rgba(15, 23, 42, 0.4); /* slate-900 com transparência */
+}
+
+.calculator-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fde047; /* amber-300 */
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(253, 230, 138, 0.2);
+}
+
+.calculator-input-group {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.calculator-input {
+    flex-grow: 1;
+    background-color: #1e293b; /* slate-800 */
+    border: 1px solid #475569; /* slate-600 */
+    color: #e2e8f0; /* slate-200 */
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.calculator-input:focus {
+    outline: none;
+    border-color: #f59e0b; /* amber-500 */
+    box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.4);
+}
+
+/* Remove as setas do input de número */
+.calculator-input::-webkit-outer-spin-button,
+.calculator-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.calculator-input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.calculator-button {
+    background-color: #d97706; /* amber-600 */
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.calculator-button:hover {
+    background-color: #b45309; /* amber-700 */
+}
+
+.calculator-results {
+    margin-bottom: 1.5rem;
+}
+
+.results-table tbody tr:hover {
+    background-color: rgba(51, 65, 85, 0.6);
+}
+
+.results-table td:last-child {
+    font-weight: bold;
+    color: #4ade80;
+    text-align: right;
+}
+
+.results-table td:first-child {
+    color: #e2e8f0; /* slate-200 */
+}
+
+.calculator-disclaimer {
+    font-size: 0.8rem;
+    color: #94a3b8; /* slate-400 */
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0.75rem;
+    background-color: rgba(30, 41, 59, 0.6);
+    border-radius: 0.375rem;
+    line-height: 1.5;
+}
+
+/* --- [NOVO] Estilos do Seletor de Forma Theikos --- */
+
+.theikos-form-selector {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(253, 230, 138, 0.2);
+}
+
+.theikos-form-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fde047; /* amber-300 */
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+.theikos-radio-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 0.75rem;
+}
+
+.radio-button-wrapper input[type="radio"] {
+    /* Esconde o botão de rádio padrão */
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radio-button-wrapper label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    background-color: #1e293b; /* slate-800 */
+    border: 1px solid #475569; /* slate-600 */
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #cbd5e1; /* slate-300 */
+}
+
+.radio-button-wrapper label .bonus-pill {
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    background-color: #334155; /* slate-700 */
+    color: #fcd34d; /* amber-300 */
+    margin-top: 0.5rem;
+}
+
+.radio-button-wrapper label:hover {
+    background-color: #334155; /* slate-700 */
+    border-color: #94a3b8; /* slate-400 */
+}
+
+/* Estilo para o botão selecionado */
+.radio-button-wrapper input[type="radio"]:checked + label {
+    background-color: #b45309; /* amber-700 */
+    border-color: #f59e0b; /* amber-500 */
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+    transform: translateY(-2px);
+}
+
+.radio-button-wrapper input[type="radio"]:checked + label .bonus-pill {
+    background-color: #fefce8; /* yellow-50 */
+    color: #b45309; /* amber-700 */
+}
+
+/* Estilo para o botão desabilitado */
+.radio-button-wrapper input[type="radio"]:disabled + label {
+    background-color: #334155; /* slate-700 */
+    border-color: #475569; /* slate-600 */
+    color: #64748b; /* slate-500 */
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.radio-button-wrapper input[type="radio"]:disabled + label:hover {
+    transform: none;
+}
+
+.radio-button-wrapper input[type="radio"]:disabled + label .bonus-pill {
+    background-color: #1e293b; /* slate-800 */
+    color: #475569; /* slate-600 */
+}
+
+/* --- [NOVO] Estilos do Seletor de Reborn --- */
+
+.reborn-selector {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(253, 230, 138, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.reborn-toggle-label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fde047; /* amber-300 */
+}
+
+/* Estilo para o switch 'toggle' */
+.reborn-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.reborn-toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.reborn-toggle-switch label {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #334155; /* slate-700 */
+    transition: .4s;
+    border-radius: 34px;
+    border: 1px solid #475569; /* slate-600 */
+}
+
+.reborn-toggle-switch label:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 3px;
+    background-color: #94a3b8; /* slate-400 */
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.reborn-toggle-switch input:checked + label {
+    background-color: #f59e0b; /* amber-500 */
+    border-color: #d97706; /* amber-600 */
+}
+
+.reborn-toggle-switch input:checked + label:before {
+    transform: translateX(26px);
+    background-color: white;
+}
+
+/* Grupo do input do nível de Reborn */
+.reborn-level-input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.reborn-level-input-group label {
+    font-size: 0.875rem;
+    color: #cbd5e1; /* slate-300 */
+}
+
+.reborn-level-input {
+    width: 50%;
+    max-width: 150px;
+    text-align: center;
+}
+
+.reborn-error-message {
+    font-size: 0.8rem;
+    color: #f87171; /* red-400 */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* --- Media Queries --- */
+@media (min-width: 640px) {
+    .page-container {
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-title {
+        font-size: 4.5rem;
+        line-height: 1;
+    }
+     .stats-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-header {
+        padding-top: 0;
+    }
+    .main-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .aside-column {
+        grid-column: span 1 / span 1;
+    }
+    .skills-column {
+        grid-column: span 2 / span 2;
+    }
+}

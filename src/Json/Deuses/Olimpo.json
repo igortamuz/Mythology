@@ -1,8 +1,10 @@
 {
   "deuses": {
     "Zeus": {
+      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001139-b594bb594d/700/imagem_2025-05-16_073313014.webp?ph=2880431619",
       "nome_original": "Zeupiteris Maximus",
       "nome_grego": "Zeus",
+      "Tipo": "Olimpo",
       "nome_romano": "Jupiter",
       "Hierarquia Divina": "Rei Supremo/Trindade Soberana",
       "Classe": "Tank/Lutador",
@@ -176,7 +178,8 @@
               "alcance": "150 metros",
               "danoFísico": "100%",
               "danoHabilidade": "150%",
-              "gastoEnergia": "75%"
+              "gastoEnergia": "75%",
+			  "Reborn": ""
             }
           ]
         },
@@ -211,21 +214,78 @@
               "recarga": "",
               "alcance": "",
               "danoHabilidade": "",
-              "gastoEnergia": "20%"
+              "gastoEnergia": "20%",
+			  "Reborn": ""
             }
           ]
         },
-        "AtivaTres": {}
-      }
+        "AtivaTres": {
+          "nome:": "Julgamento de Hérmia",
+          "tipo": "Poder Divino",
+          "descricao": "O rei dos deuses, quando nascido foi escondido aonde pudesse crescer e se preparar para destronar o seu pai e engolidor de seus irmãos: Cronos. Desta forma, este foi criado e treinado em proteção das ninfas e fadas a qual o abençoaram com sua presença e quando o homem se tornou o Deus supremo, foram abençoadas com a beleza eterna. O descendentes nascem sob proteção dessas belas criaturas e podem invocar minúsculas fadas de energia. As fadas causam efeito de eliminar contato. Essas pequenas criaturas, não são seres vivos e nem mortos, possuem um aspecto transparente (ficam invisíveis no escuro) e podem se tornar intangíveis e com a cor indo do branco, amarelo ao rosado. Apesar de serem extremamente sensíveis, são bem úteis.",
+          "Obs1": "Gasto de energia para convocar 10 fadas: 1% de energia.",
+          "Obs2": "Dano de Habilidade: 1%",
+          "Obs3": "Duração: 3 turnos.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Pode gerar pequenas borboletas/fadas de energia que pode controlar com sua mente. Não pode ver através delas, então precisa do conhecimento espacial ao seu redor para isso. Elas podem atravessar objetos sólidos não energizados com poder divino/elemental/mágico. Por elas serem feitas de energia divina, é possível usá-las para enganar rastreamentos de energia.",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "10 metros",
+              "danoHabilidade": "",
+              "gastoEnergia": ""
+            },
+            {
+              "level": 25,
+              "descrição": "As fadas podem lançar rajadas de energia que causam dano de habilidade do invocador. O usuário pode escolher a partir de qual fada a energia será disparada.",
+              "duracao": "",
+              "recarga": "",
+              "alcance": "10 metros",
+              "danoHabilidade": "40%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 100,
+              "descrição": "As fadas podem adentrar a mente de oponentes de até dez leveis superior ao usuário e assim podem assumir controle mental do alvo.",
+              "duracao": "1 turno",
+              "recarga": "4 turnos",
+              "alcance": "35 metros",
+              "danoHabilidade": "",
+              "gastoEnergia": "25%",
+              "Reborn": ""
+            },
+            {
+              "level": 150,
+              "descrição": "A duração da fada dentro do usuário e de até ela ser destruída.",
+              "duracao": "",
+              "recarga": "4 turnos",
+              "alcance": "???",
+              "danoHabilidade": "75%",
+              "gastoEnergia": "25%",
+              "Reborn": ""
+            }
+          ]
+        }
+      },
+      "TheikosTropos": {
+		"nome": "A Reencarnação dos Céus",
+		"descricao": "Com cabelos de cor completamente indo do branco ao cinza, olhos claros(cinzas ou totalmente brancos) e com feixes destrutivos, a forma divina está ativa. A forma do rei. Pode detectar eletricidade em qualquer local em uma distância de 1 Km, além de poder sentir vibrações do ar, detectando movimentos e os diferenciando facilmente na mesma distância. O ar ao seu redor ficam densos e pesados, eletrificado em uma distância de até 50 metros.",
+		"obs": "Força: +???.",
+		"Obs2": "Afins de comparação de força física entre dois despertos, o que for superior em forma base também será na divina",
+		"niveis": {
+			"Level 80": "2 Turnos. Aumento de atributos: +10%",
+			"Level 100": "3 Turnos. Aumento de atributos: +20%",
+			"Level 125": "4 Turnos. Aumento de atributos: +35%",
+			"Level 150": "5 Turnos. Aumento de atributos: +50%"
+		},
+		"subDescricao": {
+			"Raios Celestiais": "Seus raios tocam e acertam quaisquer coisa, tangível ou intangível, não podem ser absorvidos e estes possuem efeito de Fúria. Todos danos recebidos pelo desperto são reduzidos em 20%!"
+		}
+	  }
     },
-	"Hera":{
-
-	},
-	"Poseidon":{
-
-	},
-	"Afrodite":{
-
-	}
+    "Hera": {},
+    "Poseidon": {},
+    "Afrodite": {}
   }
 }
