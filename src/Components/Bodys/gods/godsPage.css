@@ -1,6 +1,6 @@
 /*
 ================================================
-|                 ESTILOS GLOBAIS              |
+|               ESTILOS GLOBAIS               |
 ================================================
 */
 body {
@@ -26,7 +26,7 @@ body {
 
 /*
 ================================================
-|             LAYOUT E ESTRUTURA               |
+|             LAYOUT E ESTRUTURA              |
 ================================================
 */
 .main-grid {
@@ -55,7 +55,7 @@ body {
 
 /*
 ================================================
-|          NAVEGAÇÃO E CABEÇALHO DA PÁGINA     |
+|        NAVEGAÇÃO E CABEÇALHO DA PÁGINA        |
 ================================================
 */
 .main-header {
@@ -145,7 +145,7 @@ body {
 
 /*
 ================================================
-|                   COMPONENTES                |
+|                 COMPONENTES                 |
 ================================================
 */
 
@@ -160,11 +160,13 @@ body {
 
 .god-image {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 34rem; /* Altura fixa para padronizar o tamanho */
+    object-fit: cover; /* Preenche a área da imagem, cortando o excesso sem distorcer */
+    object-position: center top; /* Prioriza a parte de cima da imagem no corte */
     border-radius: 0.375rem;
     display: block;
 }
+
 
 /* ----- Componente: InfoCard (Nomes, Informações Gerais) ----- */
 .info-card {
@@ -392,16 +394,16 @@ body {
 
 .level-progression-item {
     border-top: 1px solid rgba(146, 64, 14, 0.3);
-    padding-top: 0.75rem;
+    padding-top: 1rem;
 }
 
 .level-progression-level {
     color: #fbbf24;
 }
 
-.level-progression-description {
+.level-progression-desc {
     color: #9ca3af;
-    margin-top: 0.25rem;
+    margin: 0.5rem 0;
 }
 
 .stats-grid {
@@ -444,6 +446,41 @@ body {
     margin: 0.25rem 0 0 0;
     color: #9ca3af;
     font-size: 0.9rem;
+}
+
+/* ESTILOS PARA ADAPTAÇÕES E SUB-HABILIDADES */
+.ability-adaptation, .sub-ability {
+    background-color: rgba(17, 24, 39, 0.7);
+    border: 1px solid rgba(55, 65, 81, 1);
+    border-radius: 0.375rem;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.adaptation-title, .sub-ability-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    color: #a7f3d0; /* Verde menta */
+    margin: 0 0 0.5rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(5, 150, 105, 0.3);
+}
+
+.sub-ability-title {
+    color: #fbcfe8; /* Rosa claro */
+    border-bottom-color: rgba(190, 24, 93, 0.3);
+}
+
+.ability-adaptation p, .sub-ability p {
+    margin: 0.25rem 0;
+    color: #d1d5db;
+}
+
+.ability-adaptation p strong, .sub-ability p strong {
+    color: #e5e7eb;
 }
 
 /* ----- Elemento: Tabela de Bônus ----- */
@@ -778,7 +815,7 @@ body {
 
 /*
 ================================================
-|                 RESPONSIVIDADE               |
+|                RESPONSIVIDADE               |
 ================================================
 */
 
