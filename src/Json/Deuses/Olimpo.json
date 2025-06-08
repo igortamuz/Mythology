@@ -1475,7 +1475,7 @@
               "alcance": "15 metros",
               "danoHabilidade": "25%",
               "gastoEnergia": "25%",
-              "duracao": "1 turno (Sangramento)"
+              "duracao": "1 turno"
             },
             {
               "level": 50,
@@ -1490,7 +1490,7 @@
               "alcance": "30 metros",
               "danoHabilidade": "55%",
               "gastoEnergia": "35%",
-              "duracao": "2 turnos (Sangramento)"
+              "duracao": "2 turnos"
             }
           ]
         },
