@@ -44,7 +44,7 @@
         "Capacidade": {
           "nome": "De origem: Olimpo",
           "Tipo": "Capacidade",
-          "descricao": "Os descendentes possuem uma grande resistência ao frio, graças a sua vivência em ambientes de extrema altitude em especial quando utilizam de sua habilidade de voo, e da mesma forma se considera com o calor, assim como também são completamente imunes aos raios que possuem uma temperatura superior até mesmo a da superfície do sol! Por fim, isso transmite aos mesmos uma imunidade relacionada aos ataques (exceto para habilidades de gelo, ele é imune ao debuff de congelamento porém ainda recebe o dano da habilidade) afins e debuffs de extorquido, queimadura e eletrificação. Estes também podem se comunicar com criaturas aladas e que possuem capacidade natural de voo."
+          "descricao": "Os descendentes possuem uma grande resistência ao frio, graças a sua vivência em ambientes de extrema altitude em especial quando utilizam de sua habilidade de voo, e da mesma forma se considera com o calor, assim como também são completamente imunes aos raios que possuem uma temperatura superior até mesmo a da superfície do sol! Por fim, isso transmite aos mesmos uma imunidade relacionada aos ataques (exceto para habilidades de gelo, ele é imune ao debuff de Congelamento porém ainda recebe o dano da habilidade) afins e debuffs de extorquido, Queimadura e eletrificação. Estes também podem se comunicar com criaturas aladas e que possuem capacidade natural de voo."
         },
         "Poder_Divino": {
           "nome": "O Imperador",
@@ -67,10 +67,10 @@
             }
           ]
         },
-        "Alteração_de_Status": {
+        "Alteracao_de_Status": {
           "nome": "Descendente dos Céus",
           "Tipo": "Alteração de Status",
-          "descricao": "O deus dos céus e do trovão é reconhecido como o soberano do Olimpo, senhor dos deuses e das tempestades. Sua presença é majestosa, e sua autoridade inquestionável. Reverenciado por reis e guerreiros, Zeus/Júpiter representa a ordem, a justiça e o poder absoluto. Seus raios cortam os céus como um lembrete de sua vigilância e domínio sobre tudo o que vive abaixo das nuvens. Zeuspiteris é símbolo de liderança e equilíbrio, mas também de ira divina quando provocado. Os corpos dos despertos são quase indestrutíveis a danos físicos, e só sofrem de ataques com sangramento para oponentes que tiverem pelo menos 10 leveis acima do seu.",
+          "descricao": "O deus dos céus e do trovão é reconhecido como o soberano do Olimpo, senhor dos deuses e das tempestades. Sua presença é majestosa, e sua autoridade inquestionável. Reverenciado por reis e guerreiros, Zeus/Júpiter representa a ordem, a justiça e o poder absoluto. Seus raios cortam os céus como um lembrete de sua vigilância e domínio sobre tudo o que vive abaixo das nuvens. Zeuspiteris é símbolo de liderança e equilíbrio, mas também de ira divina quando provocado. Os corpos dos despertos são quase indestrutíveis a danos físicos, e só sofrem de ataques com Sangramento para oponentes que tiverem pelo menos 10 leveis acima do seu.",
           "bonusPorLevel": {
             "1-25": {
               "PV": "+25",
@@ -122,9 +122,9 @@
       },
       "HabilidadesAtivas": {
         "AtivaUm": {
-          "nome:": "Imperador das Tempestades",
+          "nome": "Imperador das Tempestades",
           "tipo": "Elemental",
-          "descricao": "O poder característica do rei, o controle dos poderosos e perigosos... raios e eletricidade!!! Esta capacidade escala com o dano físico do semideus invés do dano de habilidade(utiliza-se também da penetração física). O corpo do divino é uma fonte inesgotável de eletricidade, no sentido literal do infinito, assim lhe permitindo manipular a eletricidade de dentro para fora e as externas, da mesma forma, realizando os mais possíveis feitos da manipulação em perfeita escala. Quando utilizados com água (em oponentes molhados), o dano é aumentado em 25%!",
+          "descricao": "O poder característica do rei, o controle dos poderosos e perigosos... raios e eletricidade! O corpo do divino é uma fonte inesgotável de eletricidade, no sentido literal do infinito, assim lhe permitindo manipular a eletricidade de dentro para fora e as externas, da mesma forma, realizando os mais possíveis feitos da manipulação em perfeita escala. Quando utilizados com água (em oponentes molhados), o dano é aumentado em 25%!",
           "Obs1": "O ar escala com a força física do descendente do deus: Se ele consegue levantar 100 Kg, consegue empurrar 1 Kg com o ar e erguer da mesma forma.",
           "Obs2": "Os raios podem ser utilizados com Alme Larn.",
           "Obs3": "Para apenas manipular e controlar o elemento o gasto é de 1%",
@@ -132,7 +132,7 @@
           "niveis": [
             {
               "level": 5,
-              "descrição": "Concentrando-se e movendo as mãos, pode criar fortes rajadas de ar cortantes que causam sangramento por 2 turnos.",
+              "descrição": "Concentrando-se e movendo as mãos, pode criar fortes rajadas de ar cortantes que causam Sangramento por 2 turnos.",
               "duracao": "",
               "recarga": "",
               "alcance": "15 metros",
@@ -141,7 +141,7 @@
             },
             {
               "level": 20,
-              "descrição": "Focando em suas quatro partes, duas mãos e os dois pés, pode gerar uma onda de eletricidade que focada nestes causam queimadura e eletrificação por 1 turno no alvo atingido. É capaz de manipular a eletricidade do ambiente em até 10 metros. Utilizando a eletricidade já presente no ambiente(não conta de sua própria origem), pode causar um aumento de 5% de dano.",
+              "descrição": "Focando em suas quatro partes, duas mãos e os dois pés, pode gerar uma onda de eletricidade que focada nestes causam Queimadura e eletrificação por 1 turno no alvo atingido. É capaz de manipular a eletricidade do ambiente em até 10 metros. Utilizando a eletricidade já presente no ambiente(não conta de sua própria origem), pode causar um aumento de 5% de dano.",
               "duracao": "",
               "recarga": "",
               "alcance": "30 metros",
@@ -150,7 +150,7 @@
             },
             {
               "level": 50,
-              "descrição": "Com seu controle de ar mais elevado, causando tornados furiosos com este que puxam os alvos para dentro de si e causa novamente o dano de sangramento porém este dura até o alvo ser curado. Também é capaz de manipular o ar com maestria, gerando objetos e até mesmo uma armadura de ar.",
+              "descrição": "Com seu controle de ar mais elevado, causando tornados furiosos com este que puxam os alvos para dentro de si e causa novamente o dano de Sangramento porém este dura até o alvo ser curado. Também é capaz de manipular o ar com maestria, gerando objetos e até mesmo uma armadura de ar.",
               "duracao": "",
               "recarga": "",
               "alcance": "50 metros",
@@ -172,19 +172,19 @@
             },
             {
               "level": 120,
-              "descrição": "Reborn - O poder de um nascido das tempestades. Uma tempestade feita total e unicamente de apenas raios, trovões e relâmpagos e destroem tudo. É uma gigantesca catástrofe danosa, e o mais monstruoso disso: os raios não podem ser absorvidos, e só podem ser redirecionados por oponentes de level maior com controle do elemento natural, ferindo qualquer um sobre o desejo do filho do rei! Essa habilidade ainda aplica os efeitos anteriores e também adiciona o efeito de fúria.",
+              "descrição": "Reborn - O poder de um nascido das tempestades. Uma tempestade feita total e unicamente de apenas raios, trovões e relâmpagos e destroem tudo. É uma gigantesca catástrofe danosa, e o mais monstruoso disso: os raios não podem ser absorvidos, e só podem ser redirecionados por oponentes de level maior com controle do elemento natural, ferindo qualquer um sobre o desejo do filho do rei! Essa habilidade ainda aplica os efeitos anteriores e também adiciona o efeito de Fúria.",
               "duracao": "",
               "recarga": "",
               "alcance": "150 metros",
               "danoFísico": "100%",
               "danoHabilidade": "150%",
               "gastoEnergia": "75%",
-			  "Reborn": ""
+              "Reborn": ""
             }
           ]
         },
         "AtivaDois": {
-          "nome:": "Entre Raios",
+          "nome": "Entre Raios",
           "tipo": "Magia",
           "descricao": "Uma habilidade extremamente útil e única... era o que se pensava até os dragões de raio também demonstra-la! A habilidade de se teletransportar instantaneamente entre raios! Bastando exalar seu poder e se concentrar em que alvo quer ir.",
           "Obs1": "Não possui tempo de recarga.",
@@ -215,12 +215,12 @@
               "alcance": "",
               "danoHabilidade": "",
               "gastoEnergia": "20%",
-			  "Reborn": ""
+              "Reborn": ""
             }
           ]
         },
         "AtivaTres": {
-          "nome:": "Julgamento de Hérmia",
+          "nome": "Julgamento de Hérmia",
           "tipo": "Poder Divino",
           "descricao": "O rei dos deuses, quando nascido foi escondido aonde pudesse crescer e se preparar para destronar o seu pai e engolidor de seus irmãos: Cronos. Desta forma, este foi criado e treinado em proteção das ninfas e fadas a qual o abençoaram com sua presença e quando o homem se tornou o Deus supremo, foram abençoadas com a beleza eterna. O descendentes nascem sob proteção dessas belas criaturas e podem invocar minúsculas fadas de energia. As fadas causam efeito de eliminar contato. Essas pequenas criaturas, não são seres vivos e nem mortos, possuem um aspecto transparente (ficam invisíveis no escuro) e podem se tornar intangíveis e com a cor indo do branco, amarelo ao rosado. Apesar de serem extremamente sensíveis, são bem úteis.",
           "Obs1": "Gasto de energia para convocar 10 fadas: 1% de energia.",
@@ -269,23 +269,2021 @@
         }
       },
       "TheikosTropos": {
-		"nome": "A Reencarnação dos Céus",
-		"descricao": "Com cabelos de cor completamente indo do branco ao cinza, olhos claros(cinzas ou totalmente brancos) e com feixes destrutivos, a forma divina está ativa. A forma do rei. Pode detectar eletricidade em qualquer local em uma distância de 1 Km, além de poder sentir vibrações do ar, detectando movimentos e os diferenciando facilmente na mesma distância. O ar ao seu redor ficam densos e pesados, eletrificado em uma distância de até 50 metros.",
-		"obs": "Força: +???.",
-		"Obs2": "Afins de comparação de força física entre dois despertos, o que for superior em forma base também será na divina",
-		"niveis": {
-			"Level 80": "2 Turnos. Aumento de atributos: +10%",
-			"Level 100": "3 Turnos. Aumento de atributos: +20%",
-			"Level 125": "4 Turnos. Aumento de atributos: +35%",
-			"Level 150": "5 Turnos. Aumento de atributos: +50%"
-		},
-		"subDescricao": {
-			"Raios Celestiais": "Seus raios tocam e acertam quaisquer coisa, tangível ou intangível, não podem ser absorvidos e estes possuem efeito de Fúria. Todos danos recebidos pelo desperto são reduzidos em 20%!"
-		}
-	  }
+        "nome": "A Reencarnação dos Céus",
+        "descricao": "Com cabelos de cor completamente indo do branco ao cinza, olhos claros(cinzas ou totalmente brancos) e com feixes destrutivos, a forma divina está ativa. A forma do rei. Pode detectar eletricidade em qualquer local em uma distância de 1 Km, além de poder sentir vibrações do ar, detectando movimentos e os diferenciando facilmente na mesma distância. O ar ao seu redor ficam densos e pesados, eletrificado em uma distância de até 50 metros.",
+        "obs": "Força: +???.",
+        "Obs2": "Afins de comparação de força física entre dois despertos, o que for superior em forma base também será na divina",
+        "niveis": {
+          "Level 80": "2 Turnos. Aumento de atributos: +10%",
+          "Level 100": "3 Turnos. Aumento de atributos: +20%",
+          "Level 125": "4 Turnos. Aumento de atributos: +35%",
+          "Level 150": "5 Turnos. Aumento de atributos: +50%"
+        },
+        "subDescricao": {
+          "Raios Celestiais": "Seus raios tocam e acertam quaisquer coisa, tangível ou intangível, não podem ser absorvidos e estes possuem efeito de Fúria. Todos danos recebidos pelo desperto são reduzidos em 20%!"
+        }
+      }
     },
-    "Hera": {},
-    "Poseidon": {},
-    "Afrodite": {}
+    "Hera": {
+      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001133-f185bf185d/700/imagem_2025-05-16_071744186.webp?ph=2880431619",
+      "nome_original": "Junera Regines",
+      "nome_grego": "Hera",
+      "Tipo": "Olimpo",
+      "nome_romano": "Juno",
+      "Hierarquia Divina": "Rainha Suprema",
+      "Classe": "Suporte Puro",
+      "Divindade": "Deusa do Casamento, da Fidelidade, do Nascimento e da Maternidade",
+      "Símbolos": "Pavão, Vaca e a Diadema",
+      "Atratividade_AD": {
+        "Pontos_Fixos": {
+          "Aprender_Forma_Divina": 20,
+          "Ser_desperto_de_um_dos_dois_deuses": 20
+        },
+        "Feitos_Comuns": {
+          "Orações": 5,
+          "Dedicar_poemas_e_canções": 2,
+          "Oferendas": 8,
+          "Batalhas_enquanto_o_representa": 2,
+          "Rituais": 5,
+          "Vitórias_contra_Terrenos": 1,
+          "Vitórias_contra_Celestes": 2,
+          "Vitórias_contra_Submundo": 2,
+          "Dedicar_novos_conhecimentos": 3
+        },
+        "Feitos_Divinos": {
+          "Batalhas_em_Forma_Divina": 5,
+          "Vitória_contra_uma_Forma_Divina": 10,
+          "Enfrentar_Deuses_em_combate": 10,
+          "Oferendas_Divinas": 15
+        },
+        "Feitos_Negativos": {
+          "Oferendas_Negativas": -20,
+          "Oferendas_Erradas": -15,
+          "Derrotas_enquanto_o_representa": -15,
+          "Desrespeito": -20,
+          "Ofensas": -20
+        }
+      },
+      "HabilidadesPassivas": {
+        "PassivaUm": {
+          "nome": "Alto controle da realeza - Poder Divino - Martares Bellatores e Athenerva Custosena",
+          "Tipo": "Poder Divino",
+          "descricao": "Como Sacerdotisa da Deusa Junera, a deusa da proteção feminina, está possuirá inúmeras habilidades fantásticas, além de uma personalidade extremamente forte. As sacerdotisas de Junera Regines buscam sempre refletir a sua deusa e a honra-la. Portanto, são abençoadas por Ares e Atena, adquirindo imunidades a debuffs de Atordoamento, corrosão e provocação."
+        },
+        "PassivaDois": {
+          "nome": "Joia Veloz - Poder Divino - Mercmes Vox Caelestises e Vulcanus Hephaesti",
+          "Tipo": "Poder Divino",
+          "descricao": "As sacerdotisas de Junera, são abençoadas desde sempre pelos deuses Mercmes e Vulcanus; estes que apesar de não serem os favoritos da Deusa, ainda servem e possuem certo respeito pela mesma. A a sacerdotisa terá alguns acréscimos em sua velocidade. E do filho menos querido da Deusa, a sacerdotisa receberá a possibilidade de usar \"barreira\", efeito de habilidade que absorve danos.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "A devota deverá escolher apenas um dos dois deuses para receber o buff de tal! De Mercmes: Ela aplicará Incremento de Velocidade, de si mesmo e de um aliado em 5%. De Vulcanus: Uma aura vermelha cobrirá seu corpo, e a de um aliado, aplicando barreira, absorvendo 10% do dano que deveria ser no PV, escalando com seu dano de habilidade.",
+              "duracao": "2 turnos",
+              "recarga": "4 turnos",
+              "alcance": "4 metros"
+            },
+            {
+              "level": 20,
+              "descrição": "De Mercmes: Ela aplicará Incremento de Velocidade, de si mesmo e de um aliado em 7.5%. De Vulcanus: Uma aura vermelha cobrirá seu corpo, absorvendo 25% do dano que deveria ser no PV.",
+              "duracao": "2 turnos",
+              "recarga": "4 turnos",
+              "alcance": "15 metros"
+            },
+            {
+              "level": 50,
+              "descrição": "No ultimo level, a sacerdotisa poderá usufruir de ambas habilidades fornecidas pelos deuses, se caso desejarem. Nesse caso, se usarem o Incremento de Velocidade e o efeito de barreira, ambos terão o valor igual de 10% e 25%. Mas, se usar separadamente. De Mercmes: Ela aplicará Incremento de Velocidade, de si mesmo e de um aliado em 15%. De Vulcanus: Uma aura vermelha cobrirá seu corpo, absorvendo 45% do dano que deveria ser no PV.",
+              "duracao": "3 turnos",
+              "recarga": "4 turnos",
+              "alcance": "50 metros"
+            }
+          ]
+        },
+        "PassivaTres": {
+          "nome": "Devotas da Rainha - Poder Divino - Junera Regines e Afrênus Divina",
+          "Tipo": "Alteração de Status",
+          "descricao": "Filha de Cronos e Reia, Junera é uma das mais importantes deusas da mitologia grega. Além, de claro, ser o símbolo do casamento e fertilidade. A deusa é casada com seu irmão Zeus, o rei do Olimpo, o que a torna rainha dos deuses. Ela possui o pavão como seu animal preferido e diversas sacerdotisas e, sendo assim, suas devotas possuem uma \"benção\" da própria deusa em seu corpos. Graças a benção de Afrodite, suas belezas se tornam esplendorosas como uma manhã de céu claro. Em contra partida, possuem uma extrema atração por despertos de Zeus/Júpiter.",
+          "bonusPorLevel": {
+            "1-25": {
+              "PV": "+12",
+              "Força": "+2",
+              "VelocidadeMovimento": "+7",
+              "VelocidadeHabilidade": "+9",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+8",
+              "DanoArmaInvocada": "+2"
+            },
+            "26-50": {
+              "PV": "+20",
+              "Força": "+2",
+              "VelocidadeMovimento": "+8",
+              "VelocidadeHabilidade": "+14",
+              "DanoFisico": "+1",
+              "DanoHabilidade": "+17",
+              "DanoArmaInvocada": "+2"
+            },
+            "51-75": {
+              "PV": "+27",
+              "Força": "+4",
+              "VelocidadeMovimento": "+15",
+              "VelocidadeHabilidade": "+20",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+23",
+              "DanoArmaInvocada": "+2"
+            },
+            "76-100": {
+              "PV": "+45",
+              "Força": "+5",
+              "VelocidadeMovimento": "+18",
+              "VelocidadeHabilidade": "+25",
+              "DanoFisico": "+3",
+              "DanoHabilidade": "+27",
+              "DanoArmaInvocada": "+5"
+            },
+            "101+": {
+              "PV": "+20",
+              "Força": "+3",
+              "VelocidadeMovimento": "+8",
+              "VelocidadeHabilidade": "+14",
+              "DanoFisico": "+1",
+              "DanoHabilidade": "+17",
+              "DanoArmaInvocada": "+2"
+            }
+          }
+        }
+      },
+      "HabilidadesAtivas": {
+        "AtivaUm": {
+          "nome": "Cura do Eclipse - Poder Divino - Solumen Aeternum e Luamen Aeternum",
+          "tipo": "Poder Divino",
+          "descricao": "Apolo é conhecido popularmente como o deus do sol, das artes, da musica e, curiosamente, da medicina também. Ele é irmão gêmeo de Ártemis, a deusa da lua, da caça, dos animais selvagens e da castidade. A pedido de Junera, os deuses gêmeos uniram seus poderes para abençoar suas sacerdotisas. Como um eclipse, elas podem curar a si mesmas e aos seus aliados. Sua cura é emanada numa espécie de chama solar e lunar que cobrirá seus alvos ou a si mesmo, realizando a cura!",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Pode curar apenas si mesma. Precisa do toque físico.",
+              "Cura": "5% do PV máximo",
+              "gastoEnergia": "15% por alvo"
+            },
+            {
+              "level": 20,
+              "descrição": "Pode curar até um aliado. Precisa estar num raio de 3 metros.",
+              "alcance": "3 metros",
+              "Cura": "10% do PV máximo",
+              "gastoEnergia": "20% por alvo"
+            },
+            {
+              "level": 40,
+              "descrição": "Pode curar até dois aliados ao mesmo tempo por batalha, num raio de 15 metros. A cura pode remover até um debuff de escolha da mesma que estiver ativo no aliado e desativa automaticamente o debuff de infecção. O gasto agora é por ativação e não por alvo.",
+              "alcance": "10 metros",
+              "Cura": "15% do PV máximo",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 75,
+              "descrição": "Agora pode curar até 3 aliados ao mesmo tempo, podendo remover dois debuffs do mesmo e adiciona o Incremento de Dano de Habilidade em +10% por 3 turnos.",
+              "alcance": "30 metros",
+              "Cura": "25% do PV máximo",
+              "gastoEnergia": "40%"
+            }
+          ]
+        },
+        "AtivaDois": {
+          "nome": "Vinhas da Malícia - Poder Divino - Dionísio/Baco e Demceres Frugum",
+          "tipo": "Poder Divino",
+          "descricao": "Abençoada por Dionísio (ou Baco, entre os romanos), deus do vinho, da celebração e da embriaguez, e por Deméter, deusa da colheita e da fertilidade, a devota de Junera manifesta a força da natureza viva e do caos etílico em uma habilidade que mescla encanto, veneno e destruição sensorial. Por 2 turnos, os efeitos debilitantes se mantêm ativos nos inimigos atingidos.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "No primeiro level desta habilidade, a devota de Junera pode convocar vinhas do subsolo e de arvores para golpear seus alvos e \"amaldiçoar\" um oponente atingido com a Perda de Tato e Perda de Olfato, dificultando para aqueles que precisam usar armas ou se guiam por cheiros.",
+              "alcance": "20 metros",
+              "danoHabilidade": "25%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "A devota de Junera pode imitar as sensações de embriaguez em até dois alvos de uma vez. Nesse caso, causando a Perda do Tato, Perda do Olfato e sua Perda da Visão.",
+              "alcance": "30 metros",
+              "danoHabilidade": "35%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 45,
+              "descrição": "Agora, o efeito de Envenenamento também é aplicado, em união aos debuffs de perda de sentido!",
+              "alcance": "50 metros",
+              "danoHabilidade": "50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "Reborn: No auge de seu poder, a sacerdotisa canaliza a ira combinada de Junera, Dionísio e Deméter. Os inimigos atingidos sofrem a supressão completa dos cinco sentidos (tato, olfato, visão, audição e paladar), mergulhando num estado de confusão total. Além disso, o poder das vinhas agora provoca efeito de Fúria!",
+              "alcance": "70 metros",
+              "danoHabilidade": "100%",
+              "gastoEnergia": "35%",
+              "Reborn": ""
+            }
+          ]
+        },
+        "AtivaTres": {
+          "nome": "Benção da Dualidade Real - Poder Divino - Zeupiteris Maximus e Nesseidon Rex Abissus",
+          "tipo": "Poder Divino",
+          "descricao": "Para agradar sua rainha, Junera, e fortalecer suas devotas em batalha, Zeus — o Soberano do Olimpo — uniu seu poder ao de seu irmão, Poseidon, senhor dos mares e das marés. Dessa união divina, nasceu uma dádiva rara e poderosa: a capacidade de canalizar as forças do trovão e das profundezas. Ao entoar antigos encantamentos sagrados e unir suas mãos em prece, a sacerdotisa invoca uma aura mística composta por eletricidade crepitante e água etérea, que envolve o alvo escolhido com o vigor dos elementos.",
+          "niveis": [
+            {
+              "level": 10,
+              "descrição": "A devota conjura uma névoa azulada e elétrica que envolve seu corpo ou o de um aliado através do toque, pode ativar o efeito de Incremento de Dano de Físico, de Incremento de Dano de Arma ou de Incremento de Dano de Habilidade de si mesma ou de um aliado em 7%! No caso dos descendentes de Zeus, 14%!",
+              "duracao": "2 turnos",
+              "alcance": "Toque físico",
+              "gastoEnergia": "10% por alvo (Até 1 alvo)",
+              "adaptacao": {
+                "alvo": "Descendentes de Zeus",
+                "efeito": "Bônus de incremento de dano dobrado (14%) e alcance aumentado para 3 metros."
+              }
+            },
+            {
+              "level": 20,
+              "descrição": "Ao invocar os nomes de Zeus e Poseidon em um cântico ritmado, a sacerdotisa gera uma esfera de energia líquida e pulsante ao seu redor. Esta energia se desprende como um feixe e envolve até mesmo aliados próximos: o efeito de Incremento de Dano de Físico, de Incremento de Dano de Arma ou de Incremento de Dano de Habilidade de si mesma ou de um aliado em 10%! No caso dos descendentes de Zeus, 20%! Caso usado em despertos de Zeus, a habilidade pode ser usada em si mesma e nele ao mesmo tempo com um único gasto!",
+              "duracao": "2 turnos",
+              "alcance": "3 metros",
+              "gastoEnergia": "15% por alvo (Até 1 alvo)",
+              "adaptacao": {
+                "alvo": "Descendentes de Zeus",
+                "efeito": "Bônus de incremento de dano dobrado (20%) e alcance aumentado para 10 metros."
+              }
+            },
+            {
+              "level": 50,
+              "descrição": "A prece agora reverbera como trovões distantes e o som das ondas quebrando nos penhascos. Um redemoinho de eletricidade e água sagrada cobre os aliados com uma bênção visível, como uma armadura divina. A devota pode ativar o efeito de Incremento de Dano de Físico, de Incremento de Dano de Arma ou de Incremento de Dano de Habilidade  de si mesma ou de um aliado em 15%! No caso dos descendentes de Zeus, 25%!",
+              "duracao": "2 turnos",
+              "alcance": "10 metros",
+              "gastoEnergia": "20% por alvo (Até 2 alvos)",
+              "adaptacao": {
+                "alvo": "Descendentes de Zeus",
+                "efeito": "Bônus de incremento de dano aumentado para 25%, duração aumentada para 3 turnos e alcance estendido para 20 metros."
+              }
+            },
+            {
+              "level": 80,
+              "descrição": "Reborn: No ápice de sua conexão com os deuses, a sacerdotisa canaliza a essência pura do céu e do mar. Uma coroa de luz líquida e raios orbita sobre sua cabeça, e um pilar de energia se forma ao redor do alvo escolhido. com sua habilidade ao limite, é capaz de ativar o Incremento de Dano de Físico, de Incremento de Dano de Arma ou de Incremento de Dano de Habilidade ao mesmo tempo! Sendo um tipo de cada, do alvo(a si ou um aliado) em até 25%! No caso dos descendentes de Zeus, 40%!",
+              "duracao": "3 turnos",
+              "alcance": "20 metros",
+              "gastoEnergia": "25% por alvo (Até 3 alvos)",
+              "Reborn": "",
+              "adaptacao": {
+                "alvo": "Descendentes de Zeus",
+                "efeito": "Bônus de incremento de dano aumentado para 40%, duração aumentada para 4 turnos e alcance estendido para 50 metros."
+              }
+            }
+          ]
+        }
+      },
+      "TheikosTropos": {
+        "nome": "A Princesa Celestial",
+        "descricao": "Quando a verdadeira forma divina da seguidora de Junera se revela, uma aura de autoridade absoluta emana de seu corpo. Seus cabelos se tornam fios dourados ou prateados, flutuando como se estivessem imersos em divindade pura. Olhos cintilantes com o brilho da justiça celestial brilham como estrelas fixas no céu — imutáveis, imponentes. Uma coroa feita de luz e mármore flutua sobre sua cabeça, pulsando com o poder de Junera. Seu manto, etéreo e translúcido como véus de nuvens, arrasta-se pelo ar com o som do trovão distante e o aroma suave de flores sagradas. Neste estado, sua simples presença impõe respeito, silencia almas impuras e faz com que os juramentos se tornem inquebráveis. A vontade da sacerdotisa é como um decreto divino — e resisti-la é como tentar contrariar o destino. Ela é a voz da Rainha dos Céus. Ela é o julgamento final.",
+        "niveis": {
+          "Level 80": "2 Turnos. Aumento de atributos: +10%",
+          "Level 100": "3 Turnos. Aumento de atributos: +20%",
+          "Level 125": "4 Turnos. Aumento de atributos: +35%",
+          "Level 150": "5 Turnos. Aumento de atributos: +50%"
+        },
+        "subDescricao": {
+          "Cetro do Julgamento Divino": "Durante sua forma divina, a sacerdotisa manifesta o Cetro do Julgamento Divino — um bastão dourado adornado com rubis pulsantes e símbolos antigos de lealdade, família e ordem. +5x Ômega Divino. Com ele, ela pode invocar julgamentos mágicos!",
+          "1º Julgamento: Dirás a Verdade Divina!": "Os alvos na presença de até 30 metros, é forçado a dizer a verdade (ignorando imunidades mentais de até 10 níveis abaixo).",
+          "2º Julgamento: Condenado ao Selo Sagrado!": " Ela pode selar aleatoriamente uma habilidade ativa de um inimigo, por 2 turnos, com um toque de seu Cetro ou acertar de suas Vinhas da Malicia.",
+          "3º Julgamento: Ordem Real, Proteção da Rainha!": "Suas palavras ganham o Efeito de Vontade Real, e com a ordem de proteção... todos os atributos dos aliados em um raio de 15 metros quando esse julgamento foi aplicado, ganham buff em 20% de todos seus atributos! Ignorando efeitos de restrição!"
+        }
+      }
+    },
+    "Poseidon": {
+      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001141-5138151384/158705ac814411ee9a6892669a1675b3_upscaled.webp?ph=2880431619",
+      "nome_original": "Nesseidon Rex Abissus",
+      "nome_grego": "Poseidon",
+      "Tipo": "Olimpo",
+      "nome_romano": "Netuno",
+      "Hierarquia Divina": "Trindade Soberana",
+      "Classe": "Mago/Armamentista",
+      "Divindade": "Deus dos Mares, dos Terremotos, das Tempestades Marítimas e dos Cavalos",
+      "Símbolos": "Tridente, Cavalo e o Golfinho",
+      "Atratividade_AD": {
+        "Pontos_Fixos": {
+          "Aprender_Forma_Divina": 20,
+          "Ser_desperto_de_um_dos_dois_deuses": 20
+        },
+        "Feitos_Comuns": {
+          "Orações": 2,
+          "Dedicar_poemas_e_canções": 4,
+          "Oferendas": 2,
+          "Batalhas_enquanto_o_representa": 3,
+          "Rituais": 10,
+          "Vitórias_contra_Terrenos": 1,
+          "Vitórias_contra_Celestes": 4,
+          "Vitórias_contra_Submundo": 2,
+          "Dedicar_novos_conhecimentos": 2
+        },
+        "Feitos_Divinos": {
+          "Batalhas_em_Forma_Divina": 12,
+          "Vitória_contra_uma_Forma_Divina": 10,
+          "Enfrentar_Deuses": 10,
+          "Oferendas_Divinas": 8
+        },
+        "Feitos_Negativos": {
+          "Oferendas_Negativas": -5,
+          "Oferendas_Erradas": 0,
+          "Derrotas_enquanto_o_representa": -20,
+          "Desrespeito": -35,
+          "Ofensas": -20
+        }
+      },
+      "HabilidadesPassivas": {
+        "PassivaUm": {
+          "nome": "Descobridor dos 7 mares",
+          "Tipo": "Capacidade",
+          "descricao": "O desperto pode ver linhas cartesianas e é um exímio navegador em alto mar, também pode pressentir tempestades e se guiar pelas correntes, além de servir de bússola, astrolábio e habilidade em cartografia. Possuindo imunidade a afogamento, Congelamento e corrosão e Envenenamento por líquidos. Além de imunidade ao debuff de Sangramento, impedindo seu corpo de sofrer hemorragias segurando o máximo possível do líquido dentro deste."
+        },
+        "PassivaDois": {
+          "nome": "O Regente",
+          "Tipo": "Poder Divino",
+          "descricao": "A inconstância sentimental dos despertos do deus dos mares por vezes podem ser transmitido para seus arredores, afetando seus aliados e animais próximos, não afetando os outros da trindade; se este acabar por se irritar acaba instigando o tal sentimento em outros, em especial se estiverem em presença de vasta quantidade de líquidos ou ar extremamente úmido. Com acréscimo disso, localizar facilmente objetos e seres na água. Além de possuir a capacidade de entender e se comunicar com as criaturas marítimas e poder falar embaixo da água de forma audível e compreensível.",
+          "niveis": [
+            {
+              "level": 25,
+              "descrição": "Nos primeiros 3 turnos de combate, o descendente possui o efeito de Incremento de Dano de Físico e de Incremento de Dano de Habilidade em + 10%, em ambos os status, totalizando 2 buffs."
+            },
+            {
+              "level": 50,
+              "descrição": "Pode concentrar sua energia e pode causa dano de lâmina furiosa com seus ataques com tridente e magia.",
+              "duracao": "3 turnos"
+            }
+          ]
+        },
+        "PassivaTres": {
+          "nome": "Líder das Águas",
+          "Tipo": "Alteração de Status",
+          "descricao": "O deus dos mares e oceano é considerado como uma figura mitológica forte e imponente, sendo um dos deuses mais importantes e poderosos. Foi adorado principalmente por pescadores e viajantes que pediam proteção durante suas idas e vindas pelo mar. No entanto, Poseidon/Netuno era conhecido por sua inconstância e instabilidade e transmiti-las aos mares, tornando-os imprevisíveis.",
+          "bonusPorLevel": {
+            "1-25": {
+              "PV": "+15",
+              "Força": "+3",
+              "VelocidadeMovimento": "+8",
+              "VelocidadeHabilidade": "+8",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+9",
+              "DanoArmaInvocada": "+4"
+            },
+            "26-50": {
+              "PV": "+22",
+              "Força": "+4",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+10",
+              "DanoFisico": "+3",
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+8"
+            },
+            "51-75": {
+              "PV": "+30",
+              "Força": "+6",
+              "VelocidadeMovimento": "+17",
+              "VelocidadeHabilidade": "+17",
+              "DanoFisico": "+5",
+              "DanoHabilidade": "+20",
+              "DanoArmaInvocada": "+10"
+            },
+            "76-100": {
+              "PV": "+50",
+              "Força": "+8",
+              "VelocidadeMovimento": "+20",
+              "VelocidadeHabilidade": "+21",
+              "DanoFisico": "+5",
+              "DanoHabilidade": "+23",
+              "DanoArmaInvocada": "+12"
+            },
+            "101+": {
+              "PV": "+22",
+              "Força": "+4",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+10",
+              "DanoFisico": "+3",
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+8"
+            }
+          }
+        }
+      },
+      "HabilidadesAtivas": {
+        "AtivaUm": {
+          "nome": "O Regente dos Oceanos",
+          "tipo": "Elemental",
+          "descricao": "Sendo desperto do deus dos mares e oceanos, o desperto possuirá o controle sobre água, podendo molda-la, controlar seu fluxo e usá-la plenamente. No entanto, não é possível gerar e/ou criar a partir do nada, ou mudar sua forma para sólida ou gasosa, da mesma forma este não será capaz de mudar a composição destas outras formas para gerar líquidos(normalmente). Estes, quando atingidos por rajadas de águas (que não estão imbuídas com magia ou poder elemental), podem absorve-las e evitar danos. Para apenas manipular e controlar o elemento o gasto é de 1%",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Com um controle simplista, mas ainda afiado, o desperto é capaz de gerar e controlar chicotes de água que pode usar da forma que preferir contra seu oponente, podendo a chegar a 8 destes com facilidade.",
+              "alcance": "10 metros",
+              "danoHabilidade": "25%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "Com o melhor domínio a quantidade de chicote chega a dobrar. Porém, algo especial é adicionado, o usuário é capaz de gerar uma enorme rajada líquida que, ao atingir uma parte do corpo do alvo, pode causar debuff de Congelamento por um turno inteiro.",
+              "alcance": "30 metros",
+              "danoHabilidade": "35%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "Com a evolução da sua especialização sobre a manipulação das águas e, ao contrário do que aprendeu antes, este agora é capaz de aumentar consideravelmente a temperatura desta para que, ao lançar contra seus alvos, possa gerar o debuff de Queimadura por 1 turno.",
+              "alcance": "50 metros",
+              "danoHabilidade": "50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "Agora, a manipulação atinge o nível próximo ao seu ápice, permitindo o controle quase que total das águas, do quente ao frio, a Queimadura gerada por se estender por 2 turnos completos.",
+              "alcance": "70 metros",
+              "danoHabilidade": "75%",
+              "gastoEnergia": "35%"
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn: O poder de um nascido dos oceanos. O desperto é capaz de gerar a mais turbulenta das tempestades marítimas, gerando tsunamis gigantescos e devastadores que engolem áreas inteiras. É capaz de, a partir do debuff de Congelamento, que agora se estende a dois turnos, gerar o de Queimadura, mantendo ambos ativos.",
+              "alcance": "120 metros",
+              "danoHabilidade": "175%",
+              "gastoEnergia": "75%",
+              "Reborn": ""
+            }
+          ]
+        },
+        "AtivaDois": {
+          "nome": "Toxina de 3 Dentes",
+          "tipo": "Magia",
+          "descricao": "O tridente de Poseidon/Netuno, o deus dos mares e oceanos, era uma arma extremamente poderosa e o um dos símbolos de seu poder. Sendo assim, a arma invocada pelo desperto, possuirá um efeito incomum: ela libera toxinas marítimas, que podem causar Envenenamento no alvo que for atingido, assim como usando da enorme energia que seu corpo produz, afiando as armas que utiliza para causar o poderoso Sangramento. Os buffs de dano ficam ativos na arma por 2 turnos!",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Imbuindo o tridente com sua energia, o desperto pode desferir cortes que causam o efeito de Sangramento instantaneamente na parte do corpo atingida, até mesmo com o leve tocar da arma, ficando ativo por 2 turnos.",
+              "danoHabilidade": "+10% da habilidade no Dano de Invocada",
+              "gastoEnergia": "5%"
+            },
+            {
+              "level": 15,
+              "descrição": "Alterando os componentes da sua própria energia canalizada no objeto que utiliza como arma, normalmente um tridente, o desperto ativa o efeito de Envenenamento, que fica ativo por 1 turno no corpo do alvo!",
+              "danoHabilidade": "+20% da habilidade no Dano de Invocada",
+              "gastoEnergia": "10%"
+            },
+            {
+              "level": 25,
+              "descrição": "O Sangramento é fortalecido, assim como a força da habilidade, durando agora a até mesmo 3 turnos completos.",
+              "danoHabilidade": "+35% da habilidade no Dano de Invocada",
+              "gastoEnergia": "12%"
+            },
+            {
+              "level": 50,
+              "descrição": "Agora em um estágio evoluído, o Envenenamento causado pelo tridente ativa automaticamente o efeito de Sangramento, com ambos durando 2 turnos juntos e ativos sob o alvo!",
+              "danoHabilidade": "+50% da habilidade no Dano de Invocada",
+              "gastoEnergia": "20%"
+            }
+          ]
+        },
+        "AtivaTres": {
+          "nome": "Terremotos Marítimos",
+          "tipo": "Poder Divino",
+          "descricao": "Os herdeiros de Poseidon/Netuno fazem da terra firme uma extensão de seu domínio oceânico com a técnica Terremotos Marítimos. Ao evocar essa habilidade divina, eles canalizam a ira ancestral dos oceanos e provocam tremores sísmicos que surgem das profundezas marinhas. O solo costeiro treme sob a pressão das águas revoltas, num estrondo titânico que misturam mar e terra num único elemento letal. Inimigos próximos são arremessados e esmagados pela força combinada das ondas e rachaduras terrestres, sentindo o peso da ira do deus do mar em cada abalo.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Descendente convoca um Tremor Costeiro modesto, mas já imbuído de poder divino. Uma vibração rústica emerge das areias e rochas da costa, envolvendo a área imediata ao invocador em tremores sutis. Num raio de apenas seis metros, o chão desnorteia inimigos como uma maré rasteira, fazendo-os perder o equilíbrio e sentir o estremecer das fundações terrestres.",
+              "alcance": "6 metros",
+              "danoHabilidade": "25%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "O poder da técnica se expande para um Tremor Oceânico muito mais impactante. O próprio mar parece cantar em uníssono com a terra: um rugido trovejante ecoa, e as ondas erguem-se como colossos em 30 metros ao redor do conjurador.",
+              "alcance": "30 metros",
+              "danoHabilidade": "35%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "A técnica atinge proporções épicas com o Tremor Abissal. Do abismo do fundo do mar, surge uma onda de destruição sem precedentes: numa extensão de 50 metros, a terra se abre em chamas salgadas. O estrondo sísmico abissal faz as construções costeiras desmoronar e ergue colossos de água que varrem tudo ao redor. Causa efeito de Atordoamento por 1 turno!",
+              "alcance": "50 metros",
+              "danoHabilidade": "50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 70,
+              "descrição": "No ápice do poder, o Cataclismo Oceânico é desencadeado, tornando-se uma calamidade lendária. A ira de Netuno irrompe com total magnitude: centenas de metros em torno do invocador se tornam um caos de mar aberto. O chão treme em fissuras colossais ao passo que ondas titânicas levantam-se como muralhas vivas, como se todo o mar se rebelasse. Causa efeito de Atordoamento por 1 turno!",
+              "alcance": "100 metros",
+              "danoHabilidade": "65%",
+              "gastoEnergia": "35%"
+            }
+          ]
+        }
+      },
+      "TheikosTropos": {
+        "nome": "O Mestre do Mar",
+        "descricao": "Invocando um tridente dourado em uma de suas mãos, feito de ômega divino, e emanando a luz divina de seu corpo, a gigantesca aura azulada exalada do deus dos mares. Os belos e profundos  olhos azuis parecem exalar calmaria e ao mesmo tempo ira. Seus cabelos se movem como se estivesse dentro da água e pode invocar e manipular as poderosas e mortais, no maior sentido da palavra, águas divinas e gerar água a partir do próprio ar e de suas energias!",
+        "niveis": {
+          "Level 80": "2 Turnos. Aumento de atributos: +10%",
+          "Level 100": "3 Turnos. Aumento de atributos: +20%",
+          "Level 125": "4 Turnos. Aumento de atributos: +35%",
+          "Level 150": "5 Turnos. Aumento de atributos: +50%"
+        },
+        "subDescricao": {
+          "Tridente dos 7 Mares": "Usando sua energia divina, pode recobrir um tridente que usa, com sua aura e assim, a resistência do material subirá em +5x Ômega Divino. Desta forma, se tornará um tridente capaz de causar horror a seus alvos. Concentrando sua energia, é capaz de invocar um raio dos céus que faz com que o tridente seja imbuído por um raio frio celeste, lhe dando o efeito de eletrificação, pode lançar rajadas elétricas deste ou perfurações e cortes. Seu controle sobre as águas se torna basicamente sem limites, se estendendo a quase qualquer líquido com H2O em sua composição (exceto no interior dos corpos de seres vivos com até menos 20 níveis que o seu)."
+        }
+      }
+    },
+    "Afrodite": {
+      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001129-3d2cd3d2cf/450/imagem_2025-05-16_071406753.webp?ph=2880431619",
+      "nome_original": "Afrênus Divina",
+      "nome_grego": "Afrodite",
+      "Tipo": "Olimpo",
+      "nome_romano": "Vênus",
+      "Hierarquia Divina": "Deusa Olimpiana/Olímpica",
+      "Classe": "Mago/Suporte",
+      "Divindade": "Deusa do Amor, Beleza, Desejo Sexual e da Luxúria",
+      "Símbolos": "Concha do Mar, Pombo e o Espelho",
+      "Atratividade_AD": {
+        "Pontos_Fixos": {
+          "Aprender_Forma_Divina": 20,
+          "Ser_desperto_de_um_dos_dois_deuses": 20
+        },
+        "Feitos_Comuns": {
+          "Orações": 5,
+          "Dedicar_poemas_e_canções": 3,
+          "Oferendas": 8,
+          "Batalhas_enquanto_o_representa": 2,
+          "Rituais": 5,
+          "Vitórias_contra_Terrenos": 1,
+          "Vitórias_contra_Celestes": 2,
+          "Vitórias_contra_Submundo": 2,
+          "Dedicar_novos_conhecimentos": 2
+        },
+        "Feitos_Divinos": {
+          "Batalhas_em_Forma_Divina": 7,
+          "Vitória_contra_uma_Forma_Divina": 10,
+          "Enfrentar_Deuses_em_combate": 10,
+          "Oferendas_Divinas": 13
+        },
+        "Feitos_Negativos": {
+          "Oferendas_Negativas": -15,
+          "Oferendas_Erradas": -10,
+          "Derrotas_enquanto_o_representa": -15,
+          "Desrespeito": -30,
+          "Ofensas": -20
+        }
+      },
+      "HabilidadesPassivas": {
+        "PassivaUm": {
+          "nome": "Beleza Eterna",
+          "Tipo": "Capacidade",
+          "descricao": "Os despertos de Afrodite/Vênus são reconhecidos pela sua beleza indescritível, do encanto e pela \"perfeição\" aparente. Embora possam parecer frágeis e inocentes à primeira vista, sua beleza não é mero adorno; ela é uma arma, uma armadura e um escudo. Seus corpos são templos divinos! Sendo assim, os herdeiros de Afrênus Divina não podem ser afetados por Atordoamento, cegueira e corrosão."
+        },
+        "PassivaDois": {
+          "nome": "Amor ou Ruína",
+          "Tipo": "Poder Divino",
+          "descricao": "A presença dos herdeiros de Afrodite/Vênus transmite o ápice de seu charme e influência sobre os corações e mentes daqueles que a sentem. É um catalisador de paixões, desejos e... até conflitos! O dom de um desperto de Afrodite é capaz de dobrar vontades, desfazer alianças e transformar guerreiros inabaláveis (semelhantes aos despertos de Ares e Hefesto! Cof cof) em protetores cegos de paixão.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "No primeiro turno de combate, os despertos de Afrodite/Vênus, em combates em grupo, não podem ser alvos de nenhum ataque ou habilidade.",
+              "duracao": "1 turno"
+            },
+            {
+              "level": 20,
+              "descrição": "Os despertos são perfeccionistas, desta forma, conseguem analisar ações, prever movimentos e identificar falhas que geram aberturas de seus oponentes. Como uma rosa, os despertos de Afrodite/Vênus, recebem o buff de espinhos.",
+              "duracao": "2 turnos"
+            },
+            {
+              "level": 50,
+              "descrição": "Nos primeiros dois turnos de combate, os despertos de Afrodite/Vênus, em combates em grupo, não podem ser alvos de nenhum ataque ou habilidade. E caso seja um combate um contra um, os despertos (abaixo da trindade) não poderão atacar os despertos de Afrodite/Vênus no primeiro turno. O buff de espinhos agora dura 3 turnos.",
+              "duracao": "2 turnos"
+            }
+          ]
+        },
+        "PassivaTres": {
+          "nome": "Graça Bélica",
+          "Tipo": "Poder Divino",
+          "descricao": "Apesar de ser conhecida como a Deusa do Amor, da Beleza e do Prazer, Afrodite/Vênus é muito mais do que apenas títulos! Como uma deusa guerreira (sim! Afinal, ela influenciou diretamente a Guerra de Tróia), compreende que há muitas formas de lutar, seja com armas, sua aparência, saciar desejos ou manipulações. A arte da guerra vai muito, muito além da velha e boa violência. Seus filhos e despertos também entendem isto, portanto, não deveriam ser facilmente subestimados.",
+          "bonusPorLevel": {
+            "1-25": {
+              "PV": "+12",
+              "Força": "+2",
+              "VelocidadeMovimento": "+7",
+              "VelocidadeHabilidade": "+9",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+8",
+              "DanoArmaInvocada": "+2"
+            },
+            "26-50": {
+              "PV": "+20",
+              "Força": "+2",
+              "VelocidadeMovimento": "+8",
+              "VelocidadeHabilidade": "+14",
+              "DanoFisico": "+1",
+              "DanoHabilidade": "+17",
+              "DanoArmaInvocada": "+2"
+            },
+            "51-75": {
+              "PV": "+27",
+              "Força": "+4",
+              "VelocidadeMovimento": "+15",
+              "VelocidadeHabilidade": "+20",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+23",
+              "DanoArmaInvocada": "+2"
+            },
+            "76-100": {
+              "PV": "+45",
+              "Força": "+5",
+              "VelocidadeMovimento": "+18",
+              "VelocidadeHabilidade": "+25",
+              "DanoFisico": "+3",
+              "DanoHabilidade": "+27",
+              "DanoArmaInvocada": "+5"
+            },
+            "101+": {
+              "PV": "+20",
+              "Força": "+3",
+              "VelocidadeMovimento": "+8",
+              "VelocidadeHabilidade": "+14",
+              "DanoFisico": "+1",
+              "DanoHabilidade": "+17",
+              "DanoArmaInvocada": "+2"
+            }
+          }
+        }
+      },
+      "HabilidadesAtivas": {
+        "AtivaUm": {
+          "nome": "Disparos Emocionais",
+          "tipo": "Magia",
+          "descricao": "Os despertos de Afrodite/Vênus são capazes de materializar flechas/rajadas de energia com capacidades variadas de acordo com seu nível de poder e podendo ignorar imunidades em relação ao nível do usuário destas (ou seja, ignora imunidades de criaturas, ou despertos abaixo de trindade de nível inferior que sejam 10 leveis). Os alcances das flechas, mesmo das anteriores, se tornam o do nível atual do desperto.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Disparo da Ódio - O alvo atingido sente sua pele esfriar como a frieza do ódio, essa flecha tem o efeito de Congelamento.",
+              "alcance": "20 metros",
+              "danoHabilidade": "25%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 15,
+              "descrição": "Disparo da Vagareza - O alvo atingido recebe Decrescimento de Velocidade em 10% por 2 turnos.",
+              "alcance": "30 metros",
+              "gastoEnergia": "25%",
+              "recarga": "2 Turnos."
+            },
+            {
+              "level": 30,
+              "descrição": "Disparo do Dor - O alvo atingido recebe uma dor intensa, essa habilidade possui o tem o efeito de Dor Cruél.",
+              "alcance": "50 metros",
+              "danoHabilidade": "50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 40,
+              "descrição": "Disparo da Fraqueza - O alvo atingido recebe Decrescimento de Dano de Habilidade e Decrescimento de Dano de Físico em 10% por 2 turnos.",
+              "alcance": "70 metros",
+              "gastoEnergia": "35%",
+              "recarga": "2 Turnos."
+            },
+            {
+              "level": 60,
+              "descrição": "Disparo da Ira - O alvo atingido recebe uma dor monstruosa, especialmente se já estiver sobre efeitos de outros debuffs, pois esse disparo tem o efeito de Fúria.",
+              "alcance": "70 metros",
+              "danoHabilidade": "75%",
+              "gastoEnergia": "35%"
+            },
+            {
+              "level": 80,
+              "descrição": "Disparo Magnifíco - O alvo atingido recebe perfeição pelo turno atingido e o seguinte!",
+              "alcance": "70 metros",
+              "gastoEnergia": "35%",
+              "recarga": "5 turnos."
+            },
+            {
+              "level": 80,
+              "descrição": "Reborn: Disparo da Destruição - O último disparo, concentrado e destrutivo com o poder imenso do desperto. Esse disparo recebe os efeitos de todos os disparos anteriores, que causam dano, combinados em um só: Ódio, Dor, Ira... gera a destruição! Os efeitos somam com o efeito de explosão!",
+              "alcance": "70 metros",
+              "danoHabilidade": "100%",
+              "gastoEnergia": "50%",
+              "Reborn": ""
+            }
+          ]
+        },
+        "AtivaDois": {
+          "nome": "Manto de Joias",
+          "tipo": "Magia",
+          "descricao": "Afrênus sempre foi alvo das mais luxuosas oferendas. Recebia presentes constantes do marido desagradável, do amante preferido, ou dos incontáveis que a desejavam mais do que qualquer outra coisa. Como reflexo desse legado de generosidade (ou vaidade rs), seus Despertos também são agraciados com um presente singular: a capacidade de invocar mantos deslumbrantes! Mas se engana quem acredita que sejam apenas um acessório; os mantos são bordados com a essência do desejo, do encanto e da sedução, assumindo a forma de joias etéreas poderosas! A mesma pode aplicar os mantos nos aliados! Os usuários envoltos do manto, recebem -10% de danos.",
+          "niveis": [
+            {
+              "level": 15,
+              "descrição": "Manto de Safira - Envolve o alvo em um manto etéreo de safiras cintilantes, conferindo leveza aos movimentos e resistência a elementos aquáticos e congelantes. O toque físico no manto aplica Congelamento em todo corpo do alvo e o usuário fica imune a Congelamento.",
+              "alcance": "1 metro",
+              "duracao": "2 turnos",
+              "recarga": "3 turnos",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 30,
+              "descrição": "Manto de Rubi - As chamas da paixão se transformam em rubis radiantes que cobrem o corpo, incendiando a ofensiva do portador. O toque físico no manto aplica Queimadura em todo corpo do alvo e o usuário fica imune a Queimadura.",
+              "alcance": "1 metro",
+              "duracao": "2 turnos",
+              "recarga": "3 turnos",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 40,
+              "descrição": "Manto de Perola - Um véu perolado e elegante envolve o corpo, refletindo ataques com graça e firmeza. O manto possui o efeito de reflexão de poder da habilidade, retornando o dano recebido em 50%.",
+              "alcance": "2 metros",
+              "duracao": "1 turno",
+              "recarga": "3 turnos",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 60,
+              "descrição": "Manto de Ametista - Canaliza a sabedoria mística da ametista em uma proteção elegante e rítmica que guia os movimentos e ignora completamente as maldades do mundo! Tendo em si, o efeito de Ataque preventivo e causa Eliminar nos que tocarem no mesmo.",
+              "alcance": "3 metros",
+              "duracao": "2 turnos",
+              "recarga": "3 turnos",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 100,
+              "descrição": "Reborn: Manto de Obsidiana - Um manto de obsidiana negra resplandece ao redor do portador e de dois aliados, reunindo o legado de todos os mantos anteriores e ampliando o potencial ofensivo.",
+              "alcance": "5 metros",
+              "duracao": "2 turnos",
+              "recarga": "5 turnos",
+              "gastoEnergia": "35%",
+              "Reborn": ""
+            }
+          ]
+        },
+        "AtivaTres": {
+          "nome": "Espuma Celeste",
+          "tipo": "Poder Divino",
+          "descricao": "Assim como a deusa Afrênus, que \"nasceu\" da espuma do mar, seus Despertos podem canalizar essa essência primordial, invocando entidades feitas de espuma cintilante que assumem a forma daquilo que o alvo mais deseja... ou abomina! Nesse jogo psicológico e físico, essas entidades encantam, desestabilizam e provocam, forçando inimigos a focarem sua atenção nelas.",
+          "niveis": [
+            {
+              "level": 20,
+              "descrição": "Invoca uma Criatura de Espuma que não causa dano, mas recebe o buff de Provocação, atraindo ataques inimigos.",
+              "resistenciaHabilidade": "25%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 50,
+              "descrição": "Invoca 2 Criaturas de Espuma com os mesmos efeitos do nível anterior. Agora, além de Provocação, também recebem o buff barreira, aumentando seus PV em 15%.",
+              "alcance": "10 metros",
+              "resistenciaHabilidade": "50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 100,
+              "descrição": "Reborn: Agora, elas podem realizar ataques que, embora não causem dano, aplicam Restrição em alvos atingidos, mantendo os efeitos anteriores!",
+              "alcance": "25 metros",
+              "resistenciaHabilidade": "100%",
+              "velocidadeCriaturas": "100% da Velocidade de Habilidade",
+              "gastoEnergia": "35%",
+              "Reborn": ""
+            }
+          ]
+        }
+      },
+      "TheikosTropos": {
+        "nome": "Forma Suprema do Amor",
+        "descricao": "As despertas de Afrodite/Vênus, ao liberarem sua \"energia do amor\", assumem sua forma divina, transcendendo a beleza e o encanto mortal. Seus cabelos brilham como fios de ouro rosado, os olhos reluzem como safiras líquidas e sua voz carrega um eco hipnótico que ressoa diretamente no coração de quem a ouve. Nesta forma, sua presença emana paixão e desejo absoluto, alterando a atmosfera ao seu redor como se o ar fosse impregnado por fragrâncias florais encantadoras e luzes suaves dançando em tons de rosa e dourado. Todos se sentirão atraídos pela cria de Afrodite/Vênus, independentemente da sexualidade, a menos que estejam em um amor verdadeiro e correspondido, ou sejam incapazes de sentir amor ou paixão. Podem gerar asas gigantes em suas costas, como de borboletas ou cisnes divinos. Descendentes de Hefesto/Vulcanus ou Ares/Marte são automaticamente afetados por Amor Incontrolável até final da forma divina.",
+        "obs": "Amor incontrolável: Alvos afetados por esse debuff tem a necessidade extrema de proteger os usuários dele.",
+        "obs 2": "O desperto ganha buff de perfeição por 1 turno inteiro!",
+        "niveis": {
+          "Level 80": "2 Turnos. Aumento de atributos: +10%",
+          "Level 100": "3 Turnos. Aumento de atributos: +20%",
+          "Level 125": "4 Turnos. Aumento de atributos: +35%",
+          "Level 150": "5 Turnos. Aumento de atributos: +50%"
+        },
+        "subDescricao": {
+          "Cinturão Divinus Ourum": "Uma geração de energia divina imitando o cinturão da própria Afrênus Divina. O Cinturão Divinus Ourum é feito de uma liga celestial de ouro estelar e pétalas cristalizadas de flores do Éden. Ao ser ativado, amplifica os poderes de atração, luxúria e influência da usuária. Todos os aliados na área de 30 metros, se sentem inspirados e protegidos, ganhando +10% de Incremento de Dano de Habilidade e +15% de em todas as curas."
+        }
+      }
+    },
+    "Ares": {
+      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001137-de9eade9ec/450/imagem_2025-05-16_073208564.webp?ph=2880431619",
+      "nome_original": "Martares Bellator",
+      "nome_grego": "Ares",
+      "Tipo": "Olimpo",
+      "nome_romano": "Marte",
+      "Hierarquia Divina": "Deus Olimpiano/Olímpico",
+      "Classe": "Armamentista/Lutador",
+      "Divindade": "Deus da da Guerra Bruta, da Violência, da Coragem e da Honra",
+      "Símbolos": "Cão, Lança e Armadura",
+      "Atratividade_AD": {
+        "Pontos_Fixos": {
+          "Aprender_Forma_Divina": 20,
+          "Ser_desperto_de_um_dos_dois_deuses": 20
+        },
+        "Feitos_Comuns": {
+          "Orações": 2,
+          "Dedicar_poemas_e_canções": 4,
+          "Oferendas": 2,
+          "Batalhas_enquanto_o_representa": 3,
+          "Rituais": 10,
+          "Vitórias_contra_Terrenos": 1,
+          "Vitórias_contra_Celestes": 4,
+          "Vitórias_contra_Submundo": 2,
+          "Dedicar_novos_conhecimentos": 2
+        },
+        "Feitos_Divinos": {
+          "Batalhas_em_Forma_Divina": 12,
+          "Vitória_contra_uma_Forma_Divina": 10,
+          "Enfrentar_Deuses": 10,
+          "Oferendas_Divinas": 8
+        },
+        "Feitos_Negativos": {
+          "Oferendas_Negativas": -5,
+          "Oferendas_Erradas": 0,
+          "Derrotas_enquanto_o_representa": -20,
+          "Desrespeito": -35,
+          "Ofensas": -20
+        }
+      },
+      "HabilidadesPassivas": {
+        "PassivaUm": {
+          "nome": "Adaptação Brusca",
+          "Tipo": "Capacidade",
+          "descricao": "Os despertos de Ares/Marte herdaram sua vontade indomável, coragem feroz e o ímpeto de batalha que consome tudo ao redor. São guerreiros natos, conhecidos por nunca recuar diante de um combate e por encontrarem glória mesmo nas derrotas. Sua presença no campo de batalha é marcada por intensidade e honra, sendo temidos e respeitados nas diversas vilas divinas espalhadas pela hyperdimensão. Seguindo os impulsos de seu ancestral, Ares/Marte, os despertos possuem algumas capacidades especiais, como serem imunes aos efeitos/debuffs de Petrificação, Queimadura e Decrescimento de Dano de Físico. Estes costumavam nascer na vila: \"Fortaleza de Ferro de Ares/Marte\"."
+        },
+        "PassivaDois": {
+          "nome": "Fúria Imponente",
+          "Tipo": "Poder Divino",
+          "descricao": "Os despertos de Ares/Marte carregam em si uma presença que transcende o entendimento comum — brutal, avassaladora e absolutamente inabalável. Não é uma aura que se vê, mas que se sente no mais profundo instinto. Ao cruzar o olhar com um desperto de Ares, ao ouvir sua voz ou perceber sua aproximação, mesmo as entidades mais orgulhosas hesitam. Não é medo. É inferioridade. Ao entrar em combate, sua presença provoca instintivamente os oponentes próximos, forçando-os a direcionar seus ataques a ele, como se desafiar outra coisa fosse impensável.",
+          "niveis": [
+            {
+              "level": 25,
+              "descrição": "No começo do combate, descendente recebe o efeito/buff de Provocação e Ataque Preventivo.",
+              "duracao": "2 turnos",
+              "recarga": "4 turnos"
+            },
+            {
+              "level": 50,
+              "descrição": "O desperto recebe o efeito/buff de Provocação e Ataque Preventivo. E no terceiro turno, após a habilidade se desativar, recebe Perfeição, por 1 turno!",
+              "duracao": "2 turnos",
+              "recarga": "4 turnos"
+            }
+          ]
+        },
+        "PassivaTres": {
+          "nome": "Criado para Guerra",
+          "Tipo": "Alteração de Status",
+          "descricao": "Deus Ares/Marte, como é conhecido pelos gregos como Ares e pelos romanos como Marte. É o deus da guerra, da coragem brutal, da destruição e da glória em combate. Representa o aspecto mais selvagem e impiedoso dos conflitos, sendo patrono dos soldados, conquistadores, estrategistas militares e líderes de batalha. É uma divindade que valoriza a força pura, a determinação e a vitória acima de tudo. Toda a ira, honra e poder de seu pai são refletidos em seus despertos.",
+          "bonusPorLevel": {
+            "1-25": {
+              "PV": "+20",
+              "Força": "+20",
+              "VelocidadeMovimento": "+7",
+              "VelocidadeHabilidade": "+6",
+              "DanoFisico": "+4",
+              "DanoHabilidade": "+3",
+              "DanoArmaInvocada": "+4"
+            },
+            "26-50": {
+              "PV": "+28",
+              "Força": "+100",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+8",
+              "DanoFisico": "+6",
+              "DanoHabilidade": "+8",
+              "DanoArmaInvocada": "+6"
+            },
+            "51-75": {
+              "PV": "+40",
+              "Força": "+100",
+              "VelocidadeMovimento": "+13",
+              "VelocidadeHabilidade": "+16",
+              "DanoFisico": "+6",
+              "DanoHabilidade": "+10",
+              "DanoArmaInvocada": "+11"
+            },
+            "76-100": {
+              "PV": "+60",
+              "Força": "+150",
+              "VelocidadeMovimento": "+18",
+              "VelocidadeHabilidade": "+18",
+              "DanoFisico": "+8",
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+13"
+            },
+            "101+": {
+              "PV": "+28",
+              "Força": "+100",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+8",
+              "DanoFisico": "+5",
+              "DanoHabilidade": "+8",
+              "DanoArmaInvocada": "+7"
+            }
+          }
+        }
+      },
+      "HabilidadesAtivas": {
+        "AtivaUm": {
+          "nome": "Energia Sangrenta",
+          "tipo": "Magia",
+          "descricao": "O aço nas mãos de um desperto de Ares/Marte não é apenas uma arma, mas uma extensão de sua Fúria divina. Toda lâmina, corrente, lança ou espada que empunhar será banhada pela essência bélica herdada do deus da guerra. Essa energia encarnada ativa efeitos devastadores: suas armas rasgam carne com precisão cirúrgica e infligem um Sangramento brutal nos inimigos. Os buffs de dano ficam ativos na arma por 2 turnos!",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "O desperto imbuí sua arma com sua essência combativa, permitindo que o mais leve toque cause Sangramento na região atingida. Esse efeito permanece ativo por 2 turnos.",
+              "danoArmaInvocada": "+15%",
+              "gastoEnergia": "5%",
+              "duracao": "2 turnos"
+            },
+            {
+              "level": 15,
+              "descrição": "O desperto manipula sua própria energia para alterar a natureza da arma, fazendo com que os golpes apliquem infecção, que enfraquece os processos regenerativos do alvo por 1 turno.",
+              "danoArmaInvocada": "+25%",
+              "gastoEnergia": "10%",
+              "duracao": "2 turnos"
+            },
+            {
+              "level": 25,
+              "descrição": "O Sangramento causado pelos golpes agora se intensifica, passando a durar 3 turnos completos, mesmo com ferimentos leves. O efeito representa a Fúria do combate que não cessa até o fim da luta.",
+              "danoArmaInvocada": "+40%",
+              "gastoEnergia": "15%",
+              "duracao": "2 turnos"
+            },
+            {
+              "level": 50,
+              "descrição": "A infecção causada pelos golpes do desperto agora ativa automaticamente o Sangramento, fazendo com que ambos os efeitos durem 2 turnos simultaneamente. Uma verdadeira maldição bélica selada na carne do inimigo.",
+              "danoArmaInvocada": "+60%",
+              "gastoEnergia": "20%",
+              "duracao": "2 turnos"
+            }
+          ]
+        },
+        "AtivaDois": {
+          "nome": "Punhos Pesados",
+          "tipo": "Capacidade",
+          "descricao": "Canalizando a Fúria bélica de Ares, o usuário envolve os punhos com luvas etéreas de energia vermelha incandescente. Durante a ativação, seus socos causam dano massivo corpo a corpo, liberam ondas de choque sísmicas que viajam até X metros à frente e podem ser canalizadas para armas, fundindo a força dos Punhos pesados a lâminas, martelos ou qualquer equipamento em mãos. Para apenas manifestar ou ampliar sua presença marcial (sem dano), o gasto é de 1%.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Seus punhos são cobertos por energia vermelha flamejante, ampliando sua força física para níveis sobrenaturais. Ao golpear, uma onda sísmica é disparada à frente, mesmo sem contato direto, atingindo inimigos em linha reta. Causa efeito de Lâmina Furiosa.",
+              "alcance": "1 metro",
+              "danoFísico": "+30%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "As luvas de energia se tornam mais densas e pulsantes. Agora, os golpes liberam impactos mais violentos, capazes de empurrar inimigos e afetar objetos ao redor. Ao serem canalizados para armas, ampliam seu alcance e impacto. Causa efeito de Lâmina Furiosa.",
+              "alcance": "2 metros",
+              "danoFísico": "+40%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "Cada golpe libera uma explosão sísmica mais agressiva, causando rachaduras no solo e afetando múltiplos inimigos em linha. As armas encantadas com essa energia vibram com poder, podendo romper defesas físicas. Causa efeito de Lâmina Furiosa.",
+              "alcance": "4 metros",
+              "danoFísico": "+50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "A energia de Ares agora cria tremores ao seu redor quando ativada, e seus golpes se tornam verdadeiros terremotos portáteis. O impacto gerado é capaz de desestabilizar até alvos que estejam protegidos por barreiras. Causa efeito de Lâmina Furiosa.",
+              "alcance": "6 metros",
+              "danoFísico": "+70%",
+              "gastoEnergia": "35%"
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn: Encarnando o aspecto bélico supremo de Marte, seus golpes se tornam cataclísmicos. As ondas sísmicas atravessam obstáculos, despedaçando estruturas e atingindo múltiplos alvos em ampla área. Armas canalizadas com esse poder brilham como forjadas na própria guerra. Causa efeito de Lâmina Furiosa.",
+              "alcance": "10 metros",
+              "danoFísico": "+150%",
+              "gastoEnergia": "60%",
+              "Reborn": ""
+            }
+          ]
+        },
+        "AtivaTres": {
+          "nome": "Retribuição Odiosa",
+          "tipo": "Poder Divino",
+          "descricao": "A prole de Ares/Marte é capaz de absorver o dano de todos os ataques que ela vier a sentir durante seus combates e então o liberar contra seus adversários em forma de uma poderosa onda de energia que cobre a área de 180° a frente do corpo da cria, o lançamento da capacidade, o desperto escolhe o método e por onde sai, contanto que seja para frente de seu corpo, a capacidade cobre uma área de até 20 metros.",
+          "niveis": [
+            {
+              "level": 30,
+              "descrição": "Pode absorver até 1 ataque. A habilidade tem o efeito de Devolução.",
+              "gastoEnergia": "40%",
+              "recarga": "3 turnos"
+            },
+            {
+              "level": 100,
+              "descrição": "Reborn: Pode absorver até 3 ataques. A habilidade tem o efeito de Devolução.",
+              "gastoEnergia": "60%",
+              "recarga": "3 turnos",
+              "Reborn": ""
+            }
+          ]
+        }
+      },
+      "TheikosTropos": {
+        "nome": "O Cão de Guerra",
+        "descricao": "A prole então adquire a capacidade de liberar sua energia divina, e assim poder acessar sua forma divina. Seu corpo adquirirá um corpo bem definido, seus olhos serão vermelhos e arderem com as mais quentes chamas da guerra. Nessa forma suas capacidades físicas se elevam drasticamente ao nível aproximado de uma verdadeira divindade lutadores. Seus olhos vermelhos são capazes enxergar a grandes distâncias (até 150 metros facilmente) e observar a escuridão como o mais claro dos dias.",
+        "niveis": {
+          "Level 80": "2 Turnos. Aumento de atributos: +10%",
+          "Level 100": "3 Turnos. Aumento de atributos: +20%",
+          "Level 125": "4 Turnos. Aumento de atributos: +35%",
+          "Level 150": "5 Turnos. Aumento de atributos: +50%"
+        },
+        "subDescricao": {
+          "Demi War": "Usando sua energia divina, pode recobrir um escudo que usa, com sua aura e assim, a resistência do material subirá em +3x Ômega Divino.",
+          "Lança da Guerra": "Usando sua energia divina, pode recobrir uma lança que usa, com sua aura e assim, a resistência do material subirá em +4x Ômega Divino. Sua lança pode lançar ondas de energias flamejantes, escalando com dano de arma invocada e aplicando efeito de Lâmina Furiosa, se expandindo a até 7 metros. O item assumira uma aparência nova em retribuição a transformação.",
+          "Armadura Espartana": "Usando sua energia divina, pode recobrir uma armadura que usa, com sua aura e assim, a resistência do material subirá em +3x Ômega Divino. Transformando sua armadura em uma verdadeira armadura divina espartana, cobrindo seus pés, pernas, tórax, antebraços e a cabeça, com o capacete revelando o símbolo do deus da guerra! A armadura ganha o efeito de Espinhos, retribuindo 10% do dano recebido!"
+        }
+      }
+    },
+    "Atena": {
+      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001135-7439774399/700/imagem_2025-05-16_072800744.webp?ph=2880431619",
+      "nome_original": "Athenerva Custos",
+      "nome_grego": "Atena",
+      "Tipo": "Olimpo",
+      "nome_romano": "Minerva",
+      "Hierarquia Divina": "Deusa Olimpiana/Olímpica",
+      "Classe": "Armamentista/Mago",
+      "Divindade": "Deusa da Sabedoria, da Guerra Justa, da Proteção das Cidades, da Filosofia e da Razão",
+      "Símbolos": "Coruja, Lança e Instrumentos de Escrita",
+      "Atratividade_AD": {
+        "Pontos_Fixos": {
+          "Aprender_Forma_Divina": 20,
+          "Ser_desperto_de_um_dos_dois_deuses": 20
+        },
+        "Feitos_Comuns": {
+          "Orações": 2,
+          "Dedicar_poemas_e_canções": 1,
+          "Oferendas": 2,
+          "Batalhas_enquanto_o_representa": 5,
+          "Rituais_Festas": 2,
+          "Vitórias_contra_Terrenos": 2,
+          "Vitórias_contra_Celestes": 3,
+          "Vitórias_contra_Submundo": 5,
+          "Dedicar_novos_conhecimentos": 8
+        },
+        "Feitos_Divinos": {
+          "Batalhas_em_Forma_Divina": 7,
+          "Vitória_contra_uma_Forma_Divina": 13,
+          "Enfrentar_Deuses_em_combate": 13,
+          "Oferendas_Divinas": 7
+        },
+        "Feitos_Negativos": {
+          "Oferendas_Negativas": -10,
+          "Oferendas_Erradas": -10,
+          "Derrotas_enquanto_o_representa": -25,
+          "Desrespeito": -20,
+          "Ofensas": -25
+        }
+      },
+      "HabilidadesPassivas": {
+        "PassivaUm": {
+          "nome": "Mente a Fio",
+          "Tipo": "Capacidade",
+          "descricao": "Os despertos de Atena/Minerva herdaram sua grande sabedoria, calma e controle nas mais adversas situações, para que assim, tirasse melhor proveito de quaisquer combate sendo os geniais lutadores conhecidas por todas as diversas vilas divinas espelhadas pela hyperdimensão. Seguindo os dons de sua ancestral, Atena/Minerva, os despertos possuem algumas capacidades especial, como serem imunes aos efeitos/debuffs de Petrificação, Atordoamento e Restrição. Estes costumavam nascer na vila: \"Bibliocidade de Atena/Minerva\"."
+        },
+        "PassivaDois": {
+          "nome": "O Patrono",
+          "Tipo": "Poder Divino",
+          "descricao": "As aves são consideradas seres próximos dos deuses, tendo algumas características atribuídas e associadas a eles. E como todo sabem, a coruja é o animal que reflete um dos principais símbolos da deusa da sabedoria. Sendo assim, seu desperto poderá convocar uma destas criaturas imbuídas de poder divino para lhe ajudar, da espécie mocho-galego. Apesar de não causar danos, o animal causa efeitos que podem definir a vitória do usuário em um combate.",
+          "niveis": [
+            {
+              "level": 25,
+              "descrição": "A presença da coruja afeta dois alvos vivos, com o Atordoamento. Porém, a coruja agora é capaz de arranhar seus alvos, lhe causando o efeito de infecção que reduz sua cura em 30% por 2 turnos."
+            },
+            {
+              "level": 50,
+              "descrição": "A presença do piar da coruja afetará até três alvos. E, a infecção é evoluída para reduzir as capacidades de cura do alvo em até 50% do efeito padrão! E, não apenas isso, pois o efeito de Restrição é aplicado tanto nesta capacidade, quanto na de Surdez, por um turno, impedindo o alvo se livrar de debuffs até passar este turno completo."
+            }
+          ]
+        },
+        "PassivaTres": {
+          "nome": "Reflexo da Sabedoria",
+          "Tipo": "Alteração de Status",
+          "descricao": "Deusa Atena/Minerva, como é conhecida pelos gregos e Minerva, pelos romanos. É a deusa da sabedoria, inteligência, do senso de justiça e das artes. Ela era uma das principais protetora dos heróis, arquitetos, tecelões, poetas e filósofos, além de ser a herdeira de Zeus no suposto trono do Olimpo. Toda a sabedoria e força de sua mãe são refletidas em seus despertos.",
+          "bonusPorLevel": {
+            "1-25": {
+              "PV": "+15",
+              "Força": "+3",
+              "VelocidadeMovimento": "+7",
+              "VelocidadeHabilidade": "+7",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+6",
+              "DanoArmaInvocada": "+4"
+            },
+            "26-50": {
+              "PV": "+22",
+              "Força": "+4",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+10",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+13",
+              "DanoArmaInvocada": "+5"
+            },
+            "51-75": {
+              "PV": "+30",
+              "Força": "+6",
+              "VelocidadeMovimento": "+14",
+              "VelocidadeHabilidade": "+17",
+              "DanoFisico": "+3",
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+10"
+            },
+            "76-100": {
+              "PV": "+50",
+              "Força": "+8",
+              "VelocidadeMovimento": "+18",
+              "VelocidadeHabilidade": "+19",
+              "DanoFisico": "+4",
+              "DanoHabilidade": "+21",
+              "DanoArmaInvocada": "+10"
+            },
+            "101+": {
+              "PV": "+22",
+              "Força": "+4",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+10",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+13",
+              "DanoArmaInvocada": "+5"
+            }
+          }
+        }
+      },
+      "HabilidadesAtivas": {
+        "AtivaUm": {
+          "nome": "A Mente Astuta",
+          "tipo": "Magia",
+          "descricao": "A Deusa Atena/Minerva, uma dos doze deuses do Olimpo é conhecida por representar a Sabedoria, estratégia em guerras, as artes e a justiça. Sendo assim, seus despertos são dotados de privilégios dos tais títulos. Por ter uma mente tão trabalhada, com o intelecto tão avançado e seus mistérios quase revelados, os despertos de Atena/Minerva são dotados de habilidades únicas, capazes de ajudá-los em qualquer situação que exija a astúcia de suas mentes. Seu cérebro é a maior fonte de poder e sua arma mais fatal. Para apenas manipular e controlar o elemento o gasto é de 1%. A força do que pode erguer é 50% de sua força.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Com sua telecinese no estágio inicial, é capaz de elevar o peso de coisas com até a mesma força física que você possui. Sua capacidade pode criar pequenos impulsos tele cinéticos.",
+              "alcance": "5 metros",
+              "danoHabilidade": "25%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "Neste estágio, é capaz de criar barreiras defensivas que podem te cercar a 360° o seu corpo e reduzir danos de acordo com até metade do seu dano do nível de habilidade.",
+              "alcance": "15 metros",
+              "danoHabilidade": "35%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "Os objetos erguidos agora são com o dobro de sua força máxima, desta forma consegue elevar até mesmo oponentes com uma considerável facilidade, os dominando pelo ar.",
+              "alcance": "25 metros",
+              "danoHabilidade": "50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "Agora suas habilidades se estendem a um nível novo de telecinese, aonde é capaz de gerar defesas refletoras, com o efeito de reflexão de até 25% do dano que elas receberem!",
+              "alcance": "40 metros",
+              "danoHabilidade": "75%",
+              "gastoEnergia": "35%"
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn: Um vendaval de poder mental, é capaz de causar tormentas gigantescas utilizando a força de sua mente e concentração, o nível de sua reflexão se estende para 40% do dano e é capaz de erguer objetos com o quadruplo de sua força física! Uma mente afiada e poderosa, supera os poderes e capacidades do mais forte de todos os corpos!!!",
+              "alcance": "50 metros",
+              "danoHabilidade": "175%",
+              "gastoEnergia": "75%",
+              "Reborn": ""
+            }
+          ]
+        },
+        "AtivaDois": {
+          "nome": "Sábia Tecelã",
+          "tipo": "Magia",
+          "descricao": "Atena/Minerva foi a deusa responsável por ensinar à humanidade diversas habilidades. Entre elas, a tecelagem e a costura, assim como a agricultura e a metalurgia. Sendo assim, seus despertos possuem a capacidade de extrair fios de seus dedos, que podem comandar aquilo que se conectarem, imobilizar inimigos ou serem usados de formas diretas, nesse caso os fios tomam uma cor esbranquiçada. Resistência dos fios é equivalente a resistência dos despertos.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "No primeiro level desta habilidade, o desperto poderá extrair até três fios, mas estes terão uma cor ainda visível aos olhos humanos. Estes servem para imobilizar, prender ou distrair os oponentes.",
+              "alcance": "10 metros",
+              "danoHabilidade": "15%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "Agora, o desperto poderá extrair a cerca de cinco fios, um em cada dedo. Essa habilidade irá causar Sangramento por um turno se for usada como ataque ofensivo.",
+              "alcance": "15 metros",
+              "danoHabilidade": "25%",
+              "gastoEnergia": "25%",
+              "duracao": "1 turno (Sangramento)"
+            },
+            {
+              "level": 50,
+              "descrição": "Agora é permitido que até sete fios saiam de suas mãos! Estes serão quase invisíveis a olhos semidivinos ou humanos. Sendo assim, receberá uma nova \"habilidade\" para estes, com efeito do livro sagrado.",
+              "alcance": "20 metros",
+              "danoHabilidade": "35%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 70,
+              "descrição": "Podendo extrair fios de todos os dez dedos, o desperto de Atena/Minerva terá domínio total dessa habilidade! Ele poderá usar para se defender, atacar, imobilizar e afins. E assim, o efeito de Sangramento é estendido para dois turnos, e mantém efeito de livro sagrado.",
+              "alcance": "30 metros",
+              "danoHabilidade": "55%",
+              "gastoEnergia": "35%",
+              "duracao": "2 turnos (Sangramento)"
+            }
+          ]
+        },
+        "AtivaTres": {
+          "nome": "O Proclamar de Medusa!",
+          "tipo": "Poder Divino",
+          "descricao": "Medusa é uma das criaturas mais famosas da mitologia grega, e é especialmente ligada a sua relação com a deusa Atena/Minerva. Em um dos diversos mitos, a mulher ousou competir com a deusa, mas acabou recebendo uma maldição como punição por seus atos. Desta forma, os despertos de Atena/Minerva podem amaldiçoar seus alvos em determinados leveis, para que se tornem \"pedras\". Ou melhor dizendo, petrifica-los. Essa habilidade afeta apenas alvos de até 10 leveis acima do mesmo.",
+          "niveis": [
+            {
+              "level": 50,
+              "descrição": "De inicio, seus olhos se tornam semelhante aos de répteis. E assim, os que olharem diretamente contra estes, terão suas mãos e pés transformados em pedra graças ao efeito de Petrificação.",
+              "alcance": "2 metros",
+              "gastoEnergia": "30%",
+              "duracao": "1 turno"
+            },
+            {
+              "level": 70,
+              "descrição": "O efeito se estende para os braços e pernas completos!",
+              "alcance": "4 metros",
+              "gastoEnergia": "40%",
+              "duracao": "1 turno"
+            },
+            {
+              "level": 90,
+              "descrição": "Reborn: Já com domínio de suas habilidades, a duração da Petrificação se estende por dois turnos inteiros!",
+              "alcance": "8 metros",
+              "gastoEnergia": "50%",
+              "duracao": "2 turnos",
+              "Reborn": ""
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn: Agora, com as capacidades ao limite, o olhar direto e trocado, o desperto de Atena/Minerva é capaz de petrificar completamente um alvo, mantendo-o sobre o efeito de se transformar em uma rocha por dois turnos inteiros! Graças a destrutiva Petrificação.",
+              "alcance": "10 metros",
+              "gastoEnergia": "70%",
+              "duracao": "2 turnos",
+              "Reborn": ""
+            }
+          ]
+        }
+      },
+      "TheikosTropos": {
+        "nome": "A Coruja da Sabedoria",
+        "descricao": "O herói invoca uma versão inferior de todos os itens sagrados de Atena/Minerva. O mesmo  seguindo os passos de suas mãe, a deusa da Sabedoria, ativa sua forma divina, nessa forma o desperto de Atena/Minerva adquire uma super inteligência, perdendo apena para a de sua mãe, sendo capaz de até mesmo expulsar seu próprio poder mental em um raio de 80 metros. Sua telecinese a permite levantar bem mais peso, até o 2 vezes de sua força física!",
+        "niveis": {
+          "Level 80": "2 Turnos. Aumento de atributos: +10%",
+          "Level 100": "3 Turnos. Aumento de atributos: +20%",
+          "Level 125": "4 Turnos. Aumento de atributos: +35%",
+          "Level 150": "5 Turnos. Aumento de atributos: +50%"
+        },
+        "subDescricao": {
+          "Demi Aegis": "Usando sua energia divina, pode recobrir um escudo que usa, com sua aura e assim, a resistência do material subirá em +2x Ômega Divino.",
+          "Lança da Sabedoria": "Usando sua energia divina, pode recobrir uma lança que usa, com sua aura e assim, a resistência do material subirá em +3x Ômega Divino. Sua lança pode lançar ondas de energias, escalando com dano de arma invocada e aplicando efeito de Lâmina Furiosa, se expandindo a até 20 metros. O item assumira uma aparência nova em retribuição a transformação.",
+          "Armadura Ateniense": "Usando sua energia divina, pode recobrir uma armadura que usa, com sua aura e assim, a resistência do material subirá em +2x Ômega Divino. Transformando sua armadura em uma verdadeira armadura divina ateniense, cobrindo seus pés, pernas, tórax, antebraços e a cabeça, com o capacete revelando o símbolo da deusa da sabedoria! A armadura ganha o efeito de Espinhos, retribuindo 10% do dano recebido!"
+        }
+      }
+    },
+    "Apolo": {
+      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001151-9253a9253d/450/imagem_2025-05-16_075251184.webp?ph=2880431619",
+      "nome_original": "Solumen Aeternum",
+      "nome_grego": "Apolo",
+      "Tipo": "Olimpo",
+      "nome_romano": "Febo",
+      "Hierarquia Divina": "Deus Olimpiano/Olímpico",
+      "Classe": "Armamentista/Mago",
+      "Divindade": "Deus do Sol, da Profecia, da Cura, da Música, das Artes e da Poesia",
+      "Símbolos": "Lira, Sol e o Arco",
+      "Atratividade_AD": {
+        "Pontos_Fixos": {
+          "Aprender_Forma_Divina": 10,
+          "Ser_desperto_de_um_dos_dois_deuses": 20
+        },
+        "Feitos_Comuns": {
+          "Orações": 5,
+          "Dedicar_poemas_e_canções": 10,
+          "Oferendas": 5,
+          "Batalhas_enquanto_o_representa": 0,
+          "Rituais": 3,
+          "Vitórias_contra_Terrenos": 1,
+          "Vitórias_contra_Celestes": 1,
+          "Vitórias_contra_Submundo": 2,
+          "Dedicar_novos_conhecimentos": 3
+        },
+        "Feitos_Divinos": {
+          "Batalhas_em_Forma_Divina": 5,
+          "Vitória_contra_uma_Forma_Divina": 10,
+          "Enfrentar_Deuses_em_combate": 10,
+          "Oferendas_Divinas": 15
+        },
+        "Feitos_Negativos": {
+          "Oferendas_Negativas": -25,
+          "Oferendas_Erradas": -10,
+          "Derrotas_enquanto_o_representa": -15,
+          "Desrespeito": -30,
+          "Ofensas": -20
+        }
+      },
+      "HabilidadesPassivas": {
+        "PassivaUm": {
+          "nome": "Luz Interior",
+          "Tipo": "Capacidade",
+          "descricao": "inextinguível de seu ancestral solar. Guiados pelo deus da luz, da profecia e da arte, esses indivíduos irradiam confiança, carisma e equilíbrio, sendo reconhecidos por manterem a clareza mesmo nas situações mais caóticas. Como marca divina, seus corpos brilham levemente em ambientes sombrios, tornando-os imunes aos efeitos de cegueira, Queimadura e infecção. Comumente nascem na vila: \"Aurora de Apolo/Febo\"."
+        },
+        "PassivaDois": {
+          "nome": "Presença Ressonante",
+          "Tipo": "Poder Divino",
+          "descricao": "Os despertos de Apolo/Febo carregam em si uma harmonia tão perfeita entre corpo, mente e espírito que sua simples presença altera o ambiente ao redor. Em ambientes carregados de medo, desespero ou caos, sua chegada é como o primeiro raio de sol após a tempestade!",
+          "niveis": [
+            {
+              "level": 25,
+              "descrição": "No começo do combate, o desperto de Apolo/Febo e seus aliados em até 10 metros, recebem um buff de Incremento de Alcance, aonde todas suas habilidades, por 2 turnos, recebem +10 metros de alcance extras!"
+            },
+            {
+              "level": 50,
+              "descrição": "Agora o incremento é aumentado para +15 metros. Por dois turno (reiniciar ao ser atingido novamente) os oponentes atingidos pelas flechas do usuário, recebem o efeito de extorquido, por 2 turnos, perdendo -20% de seu dano de arma invocada e o desperto recebe o buff de extorquir, recebendo o valor perdido pelo oponente!",
+              "recargaPorAlvo": "3 turnos"
+            }
+          ]
+        },
+        "PassivaTres": {
+          "nome": "Reflexo da Sabedoria",
+          "Tipo": "Alteração de Status",
+          "descricao": "Apolo, também chamado Febo entre os romanos, é o deus solar da beleza, música, poesia, cura, pestes e profecias. Irmão gêmeo de Ártemis/Diana e filho de Zeus/Júpiter e Leto, Febo era reverenciado tanto por sua arte quanto por seu poder destrutivo. Seu legado se reflete em seus despertos, que carregam traços de inspiração divina, magnetismo pessoal e dons místicos. Esses descendentes costumam ter aparência marcante, voz melodiosa e uma aura quente e tranquilizadora, sendo naturalmente carismáticos e inspiradores.",
+          "bonusPorLevel": {
+            "1-25": {
+              "PV": "+12",
+              "Força": "+3",
+              "VelocidadeMovimento": "+7",
+              "VelocidadeHabilidade": "+8",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+6",
+              "DanoArmaInvocada": "+4"
+            },
+            "26-50": {
+              "PV": "+20",
+              "Força": "+4",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+11",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+13",
+              "DanoArmaInvocada": "+5"
+            },
+            "51-75": {
+              "PV": "+25",
+              "Força": "+6",
+              "VelocidadeMovimento": "+14",
+              "VelocidadeHabilidade": "+18",
+              "DanoFisico": "+3",
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+10"
+            },
+            "76-100": {
+              "PV": "+45",
+              "Força": "+8",
+              "VelocidadeMovimento": "+18",
+              "VelocidadeHabilidade": "+12",
+              "DanoFisico": "+4",
+              "DanoHabilidade": "+21",
+              "DanoArmaInvocada": "+10"
+            },
+            "101+": {
+              "PV": "+20",
+              "Força": "+4",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+11",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+13",
+              "DanoArmaInvocada": "+5"
+            }
+          }
+        }
+      },
+      "HabilidadesAtivas": {
+        "AtivaUm": {
+          "nome": "Luz Infecciosa",
+          "tipo": "Elemental",
+          "descricao": "Inspirado no brilho celestial do deus solar Apolo/Febo, mestre da luz e da verdade, o desperto é capaz de manipular a luz em sua forma mais pura. A fotocinese permite criar rajadas de energia luminosa, manipular fótons ao redor e desintegrar sombras. Cada avanço nessa habilidade aproxima o desperto do esplendor do próprio Sol. Mas não apenas isso, a luz é composta por vírus divinos que ao atingir seus alvos de forma maciça, aplica os efeitos da praga divina vindas da ira do deus do sol e da cura! Para apenas manipular e controlar o elemento o gasto é de 1%.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "O desperto canaliza a luz ao seu redor e a projeta em um feixe concentrado, cegando, caso seja acertado no rosto, aplicando infecção ao inimigo por 1 turno!",
+              "alcance": "5 metros",
+              "danoHabilidade": "25% + 10% Durante a dia",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "A manipulação da luz torna-se mais refinada, permitindo lançar feixes mais longos e intensos que podem atravessar defesas simples.",
+              "alcance": "10 metros",
+              "danoHabilidade": "35% + 10% Durante a dia",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "O desperto agora invoca uma verdadeira lança de fótons, que perfura com precisão cirúrgica, lembrando as flechas de Apolo. Agora, a infecção se estende para 2 turnos aos alvos serem atingidos pelos feixes!",
+              "alcance": "10 metros",
+              "danoHabilidade": "50% + 10% Durante a dia",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "Reborn: O campo de batalha é banhado em rajadas cegantes e incandescentes. Os inimigos são atingidos por múltiplos feixes em sequência. Agora, apenas o ato de olhar diretamente a luz já aplica o efeito de cegueira, que agora é estendido para 2 turnos!",
+              "alcance": "15 metros",
+              "danoHabilidade": "75% + 10% Durante a dia",
+              "gastoEnergia": "35%",
+              "Reborn": ""
+            }
+          ]
+        },
+        "AtivaDois": {
+          "nome": "Cura de Louros",
+          "tipo": "Magia",
+          "descricao": "Apolo, além de deus do sol e das artes, também era patrono da medicina e da purificação. Seu desperto manifesta esse dom sagrado por meio de chamas douradas e prateadas — uma mescla solar e lunar que regenera os corpos feridos e dissipa corrupções da alma.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "O desperto canaliza a energia curativa através do toque direto, selando feridas leves.",
+              "Cura": "5% do PV máximo",
+              "gastoEnergia": "15% por alvo"
+            },
+            {
+              "level": 20,
+              "descrição": "A chama curativa pode ser direcionada a um aliado próximo, revitalizando-o com um sopro solar.",
+              "alcance": "3 metros",
+              "Cura": "8% do PV máximo",
+              "gastoEnergia": "20% por alvo"
+            },
+            {
+              "level": 40,
+              "descrição": "Agora o desperto pode curar dois aliados simultaneamente, purificando um efeito negativo de cada com sua luz restauradora.",
+              "alcance": "10 metros",
+              "Cura": "12% do PV máximo",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 75,
+              "descrição": "As melodias curativas inspiradas na lira permitem ao desperto curar até três aliados de uma só vez, dissipando até um debuff de cada um dos alvos!",
+              "alcance": "30 metros",
+              "Cura": "20% do PV máximo",
+              "gastoEnergia": "35%"
+            }
+          ]
+        },
+        "AtivaTres": {
+          "nome": "Arcus Solis",
+          "tipo": "Poder Divino",
+          "descricao": "Com um gesto, o desperto pode gerar energia da chama solar e alimentada pelo fogo divino. Essa arma é uma extensão direta da vontade de Apolo/Febo, lembrando suas lendárias flechas azuis. Pode disparar feixes de chamas solares diretamente das mãos ou em forma de flechas espirituais.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Um disparo de energia solar pura é lançado da mão do desperto ou por um arco invocado. Habilidade causa debuff de Queimadura por 2 turnos.",
+              "alcance": "5 metros",
+              "danoHabilidade": "20%",
+              "danoHabilidadeArco": "30% + 10% do dano de arma invocada",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "As flechas solares ganham mais potência!",
+              "alcance": "15 metros",
+              "danoHabilidade": "30%",
+              "danoHabilidadeArco": "35% + 10% do dano de arma invocada",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "A luz é condensada em uma flecha que explode ao impacto, emulando o poder destrutivo do meio-dia solar. Espalhando o debuff de Queimadura por todo corpo do alvo!",
+              "alcance": "35 metros",
+              "danoHabilidade": "45%",
+              "danoHabilidadeArco": "55% + 10% do dano de arma invocada",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "A flecha solar rasga os céus como um eclipse flamejante, com calor intenso e brilho cortante. Habilidade causa debuff de Queimadura por 3 turnos.",
+              "alcance": "70 metros",
+              "danoHabilidade": "70%",
+              "danoHabilidadeArco": "80% + 10% do dano de arma invocada",
+              "gastoEnergia": "35%"
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn: Manifestando o poder ancestral do nascimento de Apolo/Febo, o desperto lança um tiro devastador de pura luz divina, capaz de obliterar inimigos em seu caminho. Essa habilidade pode causar efeito de Ruína caso o usuário deseje!",
+              "alcance": "150 metros",
+              "danoHabilidade": "165%",
+              "danoHabilidadeArco": "185% + 10% do dano de arma invocada",
+              "gastoEnergia": "75%",
+              "Reborn": ""
+            }
+          ]
+        }
+      },
+      "TheikosTropos": {
+        "nome": "Núcleo Solar",
+        "descricao": "Quando o desperto é abençoado com essa forma, ele se torna luz solar pura, sendo imune a debuff de Congelamento e Sangramento. Sua pele toma um tom brilhante e dourado, seus olhos e boca, ao proferir, brilham em um intenso tom alaranjado e seus cabelos se tornam chamas solares de tão claros. Uma coroa de louro, envolve a cabeça do desperto, que parece se tornar uma versão de uma estrela igual ao sol.",
+        "niveis": {
+          "Level 80": "2 Turnos. Aumento de atributos: +10%",
+          "Level 100": "3 Turnos. Aumento de atributos: +20%",
+          "Level 125": "4 Turnos. Aumento de atributos: +35%",
+          "Level 150": "5 Turnos. Aumento de atributos: +50%"
+        },
+        "subDescricao": {
+          "Arco_Divinus_Solarian": "O arco que o desperto porta ganha um aumento de +5x Ômega Divino e suas chamas queimam a 5500° quando acertam o alvo, deixando um enorme rastro de luz. A sua arma se transforma num poderoso arco do sol, radiante e destrutivo. Na presença dessa arma, ao redor do desperto, todos a sua escolha em até 40 metros, sofrem o efeito de Queimadura em todas as partes de seu corpo. Os tiros realizados no arco tem o efeito de Dor Cruél."
+        }
+      }
+    },
+    "Artemis": {
+      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001147-253dc253dd/700/imagem_2025-05-16_075159301.webp?ph=2880431619",
+      "nome_original": "Lunala Aeternum",
+      "nome_grego": "Artemis",
+      "Tipo": "Olimpo",
+      "nome_romano": "Diana",
+      "Hierarquia Divina": "Deusa Olimpiana/Olímpica",
+      "Classe": "Armamentista/Mago",
+      "Divindade": "Deusa do Lua, da Castidade, da Caça, dos Animais, da Proteção as Mulheres",
+      "Símbolos": "Cervo, Lua e o Arco",
+      "Atratividade_AD": {
+        "Pontos_Fixos": {
+          "Aprender_Forma_Divina": 10,
+          "Ser_desperto_de_um_dos_dois_deuses": 20
+        },
+        "Feitos_Comuns": {
+          "Orações": 2,
+          "Dedicar_poemas_e_canções": 1,
+          "Oferendas": 2,
+          "Batalhas_enquanto_o_representa": 5,
+          "Rituais": 5,
+          "Vitórias_contra_Terrenos": 2,
+          "Vitórias_contra_Celestes": 3,
+          "Vitórias_contra_Submundo": 8,
+          "Dedicar_novos_conhecimentos": 2
+        },
+        "Feitos_Divinos": {
+          "Batalhas_em_Forma_Divina": 10,
+          "Vitória_contra_uma_Forma_Divina": 10,
+          "Enfrentar_Deuses_em_combate": 10,
+          "Oferendas_Divinas": 10
+        },
+        "Feitos_Negativos": {
+          "Oferendas_Negativas": -15,
+          "Oferendas_Erradas": -10,
+          "Derrotas_enquanto_o_representa": -25,
+          "Desrespeito": -20,
+          "Ofensas": -20
+        }
+      },
+      "HabilidadesPassivas": {
+        "PassivaUm": {
+          "nome": "Luz Interior",
+          "Tipo": "Capacidade",
+          "descricao": "Guiados pela deusa da noite, da caça e dos animais, essas seguidoras irradiam uma serenidade firme, um magnetismo silencioso e uma conexão profunda com a natureza. Seus corpos brilham levemente em ambientes escuros, tornando-os imunes a cegueira, Congelamento e infecção."
+        },
+        "PassivaDois": {
+          "nome": "Presença Ressonante",
+          "Tipo": "Poder Divino",
+          "descricao": "A presença da descendente de Ártemis muda o ambiente como a chegada de uma predadora silenciosa. Seus aliados se tornam caçadores. Seus inimigos, presas. Sua simples presença impõe respeito e eleva o foco dos aliados ao nível de predadores noturnos.",
+          "niveis": [
+            {
+              "level": 25,
+              "descrição": "No começo do combate, a seguidora e seus aliados em até 10 metros, recebem um buff de Incremento de Alcance, aonde todas suas habilidades, por 2 turnos, recebem +10 metros de alcance extras!"
+            },
+            {
+              "level": 50,
+              "descrição": "Agora o incremento é aumentado para +15 metros. Por dois turno (reiniciar ao ser atingido novamente) os oponentes atingidos pelas flechas do usuário, recebem o efeito de extorquido, por 2 turnos, perdendo -20% de seu dano de arma invocada e a seguidora recebe o buff de extorquir, recebendo o valor perdido pelo oponente!",
+              "recargaPorAlvo": "3 turnos"
+            }
+          ]
+        },
+        "PassivaTres": {
+          "nome": "Reflexo da Sabedoria",
+          "Tipo": "Alteração de Status",
+          "descricao": "Apolo, também chamado Febo entre os romanos, é o deus solar da beleza, música, poesia, cura, pestes e profecias. Irmão gêmeo de Ártemis/Diana e filho de Zeus/Júpiter e Leto, Febo era reverenciado tanto por sua arte quanto por seu poder destrutivo. Seu legado se reflete em suas seguidoras, que carregam traços de inspiração divina, magnetismo pessoal e dons místicos. Esses descendentes costumam ter aparência marcante, voz melodiosa e uma aura quente e tranquilizadora, sendo naturalmente carismáticos e inspiradores.",
+          "bonusPorLevel": {
+            "1-25": {
+              "PV": "+12",
+              "Força": "+3",
+              "VelocidadeMovimento": "+7",
+              "VelocidadeHabilidade": "+8",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+6",
+              "DanoArmaInvocada": "+4"
+            },
+            "26-50": {
+              "PV": "+20",
+              "Força": "+4",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+11",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+13",
+              "DanoArmaInvocada": "+5"
+            },
+            "51-75": {
+              "PV": "+25",
+              "Força": "+6",
+              "VelocidadeMovimento": "+14",
+              "VelocidadeHabilidade": "+18",
+              "DanoFisico": "+3",
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+10"
+            },
+            "76-100": {
+              "PV": "+45",
+              "Força": "+8",
+              "VelocidadeMovimento": "+18",
+              "VelocidadeHabilidade": "+12",
+              "DanoFisico": "+4",
+              "DanoHabilidade": "+21",
+              "DanoArmaInvocada": "+10"
+            },
+            "101+": {
+              "PV": "+20",
+              "Força": "+4",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+11",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+13",
+              "DanoArmaInvocada": "+5"
+            }
+          }
+        }
+      },
+      "HabilidadesAtivas": {
+        "AtivaUm": {
+          "nome": "Sombra Prateada",
+          "tipo": "Magia",
+          "descricao": "Guiadas pela luz da lua e pelo silêncio das florestas, as caçadoras de Lunala evocam o poder ancestral da deusa da caça, da noite e da lua. Sombra Prateada é uma habilidade que combina furtividade mística, precisão divina e o peso da justiça lunar. Cada disparo ou golpe sob o efeito da Sombra Prateada carrega a serenidade da noite e o julgamento de uma caçadora sagrada.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "A caçadora mergulha nas sombras da noite, ficando parcialmente camuflada sob o luar. Ela se torna mais difícil de detectar e seus ataques à distância (arco, besta ou lança) marcam o inimigo com um brilho prateado, tornando-o rastreável mesmo em meio ao caos. A caçadora fica invisível por um turno.",
+              "gastoEnergia": "10% + 10% Durante a noite.",
+              "recarga": "2 turnos"
+            },
+            {
+              "level": 20,
+              "descrição": "Agora, a Sombra Prateada assume forma tangível: uma aura de lua crescente envolve a arma da caçadora. Ataques causam Atordoamento, por 1 turno, e aplicam Marcação Lunar, que revela a posição do inimigo mesmo através de paredes.",
+              "danoHabilidade": "35% + 10% Durante a noite.",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "Agora a invisibilidade dura por 2 turnos, não deixa cheiros, rastros, energia ou pegadas no chão. Seus inimigos marcados pelos ataques energizados agora recebem +10% de danos de todos os locais por 2 turnos!",
+              "alcance": "10 metros",
+              "danoHabilidade": "50% + 10% Durante a noite.",
+              "gastoEnergia": "30%"
+            }
+          ]
+        },
+        "AtivaDois": {
+          "nome": "Cura da Natureza",
+          "tipo": "Magia",
+          "descricao": "Ao invocar a bênção da deusa lunar, uma névoa prateada envolve os aliados, curando seus corpos e acalmando seus espíritos. Sua aura tem o cheiro da terra molhada e da relva, trazendo vida e equilíbrio.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "A seguidora canaliza a energia curativa da natureza através do toque direto, selando feridas leves.",
+              "Cura": "5% do PV máximo",
+              "gastoEnergia": "15% por alvo"
+            },
+            {
+              "level": 20,
+              "descrição": "A chama curativa pode ser direcionada a um aliado próximo, revitalizando-o com um sopro solar.",
+              "alcance": "3 metros",
+              "Cura": "8% do PV máximo",
+              "gastoEnergia": "20% por alvo"
+            },
+            {
+              "level": 40,
+              "descrição": "Agora a seguidora pode curar dois aliados simultaneamente, purificando um efeito negativo de cada com sua luz restauradora.",
+              "alcance": "10 metros",
+              "Cura": "12% do PV máximo",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 75,
+              "descrição": "As energias da natureza permitem a seguidora curar até três aliados de uma só vez, dissipando até um debuff de cada um dos alvos!",
+              "alcance": "30 metros",
+              "Cura": "20% do PV máximo",
+              "gastoEnergia": "35%"
+            }
+          ]
+        },
+        "AtivaTres": {
+          "nome": "Arcus Lunae",
+          "tipo": "Poder Divino",
+          "descricao": "Com um gesto, a seguidora pode gerar energia da chama lunar e alimentada pelo fogo divino. Essa arma é uma extensão direta da vontade de Lunala, lembrando suas lendárias flechas azuis. Pode disparar feixes de chamas lunares diretamente das mãos ou em forma de flechas espirituais.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "Um disparo de energia lunar pura é lançado da mão da seguidora ou por um arco invocado. Habilidade causa debuff de Congelamento por 2 turnos.",
+              "alcance": "5 metros",
+              "danoHabilidade": "20%",
+              "danoHabilidadeArco": "30% + 10% do dano de arma invocada",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "As flechas lunares ganham mais potência!",
+              "alcance": "15 metros",
+              "danoHabilidade": "30%",
+              "danoHabilidadeArco": "35% + 10% do dano de arma invocada",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "A luz é condensada em uma flecha que explode ao impacto, emulando o poder destrutivo do meia-noite lunar. Espalhando o debuff de Congelamento por todo corpo do alvo!",
+              "alcance": "35 metros",
+              "danoHabilidade": "45%",
+              "danoHabilidadeArco": "55% + 10% do dano de arma invocada",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "A flecha solar rasga os céus como um eclipse flamejante, com calor intenso e brilho cortante. Habilidade causa debuff de Congelamento por 3 turnos.",
+              "alcance": "70 metros",
+              "danoHabilidade": "70%",
+              "danoHabilidadeArco": "80% + 10% do dano de arma invocada",
+              "gastoEnergia": "35%"
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn: Manifestando o poder ancestral do nascimento de Lunala, a seguidora lança um tiro devastador de pura luz divina, capaz de obliterar inimigos em seu caminho. Essa habilidade pode causar efeito de Ruína caso o usuário deseje!",
+              "alcance": "150 metros",
+              "danoHabilidade": "165%",
+              "danoHabilidadeArco": "185% + 10% do dano de arma invocada",
+              "gastoEnergia": "75%",
+              "Reborn": ""
+            }
+          ]
+        }
+      },
+      "TheikosTropos": {
+        "nome": "Coração Lunar",
+        "descricao": "Quando a seguidora é abençoado com essa forma, ele se torna luz solar pura, sendo imune a debuff de Queimadura e Sangramento. Sua pele toma um tom brilhante e azulada, seus olhos e boca, ao proferir, brilham em um intenso tom claro de azul e seus cabelos se tornam feixes lunares de tão claros. Uma faixa de pele de corça divina envolve a cintura da seguidora, que parece se tornar uma versão de uma astro luminoso igual a lua.",
+        "niveis": {
+          "Level 80": "2 Turnos. Aumento de atributos: +10%",
+          "Level 100": "3 Turnos. Aumento de atributos: +20%",
+          "Level 125": "4 Turnos. Aumento de atributos: +35%",
+          "Level 150": "5 Turnos. Aumento de atributos: +50%"
+        },
+        "subDescricao": {
+          "Arco_Divinus_Lunaris": "O arco que a seguidora porta ganha um aumento de +5x Ômega Divino e seus Congelamentos causam -230° quando acertam o alvo, deixando um enorme rastro de luz lunar. A sua arma se transforma num poderoso arco do sol, radiante e destrutivo. Na presença dessa arma, ao redor da seguidora, todos a sua escolha em até 40 metros, sofrem o efeito de Congelamento em todas as partes de seu corpo. Os tiros realizados no arco tem o efeito de Dor Cruél."
+        }
+      }
+    },
+    "Hefesto": {
+      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001145-08c6f08c71/450/imagem_2025-05-16_074121082.webp?ph=2880431619",
+      "nome_original": "Vulcanus Hephaesti",
+      "nome_grego": "Hefesto",
+      "Tipo": "Olimpo",
+      "nome_romano": "Vulcanus",
+      "Hierarquia Divina": "Olimpiano/Olímpico",
+      "Classe": "Armamentista/Tank",
+      "Divindade": "Deus do Fogo, da Forja, da Metalurgia, dos Vulcões e da Invenções",
+      "Símbolos": "Martelo, Bigorna e o Vulcão",
+      "Atratividade_AD": {
+        "Pontos_Fixos": {
+          "Aprender_Forma_Divina": 20,
+          "Ser_desperto_de_um_dos_dois_deuses": 20
+        },
+        "Feitos_Comuns": {
+          "Orações": 2,
+          "Dedicar_poemas_e_canções": 2,
+          "Oferendas": 8,
+          "Batalhas_enquanto_o_representa": 5,
+          "Rituais": 1,
+          "Vitórias_contra_Terrenos": 2,
+          "Vitórias_contra_Celestes": 3,
+          "Vitórias_contra_Submundo": 2,
+          "Dedicar_novos_conhecimentos": 5
+        },
+        "Feitos_Divinos": {
+          "Batalhas_em_Forma_Divina": 5,
+          "Vitória_contra_uma_Forma_Divina": 10,
+          "Enfrentar_Deuses_em_combate": 10,
+          "Oferendas_Divinas": 15
+        },
+        "Feitos_Negativos": {
+          "Oferendas_Negativas": -20,
+          "Oferendas_Erradas": -5,
+          "Derrotas_enquanto_o_representa": 0,
+          "Desrespeito": -30,
+          "Ofensas": -35
+        }
+      },
+      "HabilidadesPassivas": {
+        "PassivaUm": {
+          "nome": "A beleza da Construção",
+          "Tipo": "Capacidade",
+          "descricao": "Os descendentes de Hefesto/Vulcano são conhecidos pela sua grande capacidade de construção, sejam de tecnologias, equipamentos ou até mesmo moradias. Sendo assim, estes desenvolveram corpos extremamente adaptados para horas de trabalho contínuo e as piores condições de uma forja. Não recebendo danos de chamas comuns ou de forja, estes não podem ser afetados por debuffs de Queimadura, Atordoamento e de explosão."
+        },
+        "PassivaDois": {
+          "nome": "Elevação Constante!",
+          "Tipo": "Poder Divino",
+          "descricao": "Vulcano transmitiu sua extrema capacidade e desejo de aprendizado e evolução para seus filhos, junto de sua resistência e vontade de se aprimorar! Ultrapassando o limite comum dos metais, fortalecendo suas criações e equipamentos entre si e aos de seus aliados, tornando os extremamente poderosos que quaisquer outros comuns!",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "É capaz de elevar a capacidade de dois itens sobre sua posse em até +3x de estágio!"
+            },
+            {
+              "level": 40,
+              "descrição": "É capaz de elevar a capacidade de até quatro itens, seus ou de aliados em até +5x de Estágio! Ou, até 1 item em 7x!"
+            },
+            {
+              "level": 75,
+              "descrição": "Reborn: Ao limite do conhecimento e poder, até 6 itens podem ser elevados em +7x de estagio! Ou, 3 itens em até 10x!",
+              "Reborn": ""
+            }
+          ]
+        },
+        "PassivaTres": {
+          "nome": "Mestre da criação",
+          "Tipo": "Alteração de Status",
+          "descricao": "Hefesto é um deus da mitologia grega, cujo equivalente na mitologia romana era Vulcano. Filho de Zeus e Hera, rei e rainha dos deuses ou, de acordo com alguns relatos, apenas de Hera, era o deus da tecnologia, dos ferreiros, artesãos, escultores, metais, metalurgia, fogo, dos vulcões e do lume. Hefesto/Vulcano foi responsável, entre outras obras, pela Égide(Aegis), o escudo usado por Zeus/Jupiter em sua batalha contra os titãs. Construiu para si um magnífico e brilhante palácio de bronze, equipado com muitos servos mecânicos. De suas forjas... saiu Pandora, primeira mulher mortal.",
+          "bonusPorLevel": {
+            "1-25": {
+              "PV": "+20",
+              "Força": "+5",
+              "VelocidadeMovimento": "+7",
+              "VelocidadeHabilidade": "+6",
+              "DanoFisico": "+2",
+              "DanoHabilidade": "+5",
+              "DanoArmaInvocada": "+4"
+            },
+            "26-50": {
+              "PV": "+28",
+              "Força": "+10",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+8",
+              "DanoFisico": "+4",
+              "DanoHabilidade": "+10",
+              "DanoArmaInvocada": "+6"
+            },
+            "51-75": {
+              "PV": "+40",
+              "Força": "+20",
+              "VelocidadeMovimento": "+13",
+              "VelocidadeHabilidade": "+16",
+              "DanoFisico": "+4",
+              "DanoHabilidade": "+15",
+              "DanoArmaInvocada": "+9"
+            },
+            "76-100": {
+              "PV": "+60",
+              "Força": "+30",
+              "VelocidadeMovimento": "+18",
+              "VelocidadeHabilidade": "+18",
+              "DanoFisico": "+6",
+              "DanoHabilidade": "+18",
+              "DanoArmaInvocada": "+11"
+            },
+            "101+": {
+              "PV": "+28",
+              "Força": "+50",
+              "VelocidadeMovimento": "+10",
+              "VelocidadeHabilidade": "+8",
+              "DanoFisico": "+5",
+              "DanoHabilidade": "+8",
+              "DanoArmaInvocada": "+7"
+            }
+          }
+        }
+      },
+      "HabilidadesAtivas": {
+        "AtivaUm": {
+          "nome": "Chamas da Forja",
+          "tipo": "Elemental",
+          "descricao": "São chamas vindas a partir de fogo comum, mas não são apenas isso. Dizem vir da própria forja de Hefesto/Vulcano, o fogo é uma mistura de gases a altas temperaturas e a rápida oxidação de um material combustível liberando calor, luz e produtos de reação, tais como o dióxido de carbono e a água.",
+          "niveis": [
+            {
+              "level": 5,
+              "descrição": "É capaz de conjurar chamas, que saem de seu corpo e atira-las para atingir seus alvos. Estas causam efeito de Queimadura.",
+              "alcance": "6 metros",
+              "danoHabilidade": "25%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 20,
+              "descrição": "As chamas agora podem ser manipuladas em novos formatos, podendo ser mais versáteis e úteis dentro de um combate pesado. O efeito de ruptura é aplicado no alvo fortalecendo ainda mais a força da capacidade.",
+              "alcance": "12 metros",
+              "danoHabilidade": "35%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "O poder das chamas se estende a serem geradas ao seu redor e não apenas de seu próprio corpo. O debuff se estende para dois turnos. Os dois efeitos anteriores são aplicados na habilidade ao mesmo tempo.",
+              "alcance": "30 metros",
+              "danoHabilidade": "50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "As chamas ardem ainda mais forte e debuff o efeito de explosão.",
+              "alcance": "50 metros",
+              "danoHabilidade": "75%",
+              "gastoEnergia": "35%"
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn: O poder divino do fogo, as chamas agora possuem o debuff que causam o triplo do efeito e o efeito positivo da técnica se mantém por quatro turnos. Os vendavais de fogo são ameaçadores e extremamente destrutivos! Essa habilidade ativa efeito de Dor Cruél.",
+              "alcance": "100 metros",
+              "danoHabilidade": "175%",
+              "gastoEnergia": "75%",
+              "Reborn": ""
+            }
+          ]
+        },
+        "AtivaDois": {
+          "nome": "Metallica",
+          "tipo": "Elemental",
+          "descricao": "Facilitando sua vivência no meio metálico, os despertos de Hefesto/Vulcano desenvolveram uma capacidade idêntica ao de seu pai, podendo utilizar do controle de metais que não estejam sobre porte de um dono. Como os encontrados soltos ou sob o solo, podendo causar dos mais adversos planos e estratégias com estes. O usuário pode gerar os metais a partir das rochas ao seu redor.",
+          "niveis": [
+            {
+              "level": 10,
+              "descrição": "É capaz de manipular metais de primeiro grau! Os golpeado na cabeça por estes, sofrem de Atordoamento por 1 turno inteiro. As criações metálicas duram até 2 turnos ativas.",
+              "alcance": "10 metros",
+              "danoHabilidade": "25%",
+              "gastoEnergia": "20%"
+            },
+            {
+              "level": 25,
+              "descrição": "É capaz de manipular metais para modificar suas formas, podendo usá-lo apenas com o controle da mente e movimentos de mãos! Manipulando agora, metais de segundo grau! As criações metálicas duram até 3 turnos ativas.",
+              "alcance": "20 metros",
+              "danoHabilidade": "35%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "É capaz de manipular metais de terceiro grau! Agora, sua habilidade pode ativar o efeito de ruína! As criações metálicas duram até 4 turnos ativas.",
+              "alcance": "30 metros",
+              "danoHabilidade": "50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "Por fim, chegando ao limite de seu poder, é capaz de manipular metais de até quarto grau! Pode manipular e modelar o metal das formas mais variadas possíveis para usar das mais adversas capacidades destes para um bom uso em combate. As criações metálicas duram até 5 turnos ativas.",
+              "alcance": "40 metros",
+              "danoHabilidade": "75%",
+              "gastoEnergia": "35%"
+            }
+          ]
+        },
+        "AtivaTres": {
+          "nome": "Fúria em Erupção",
+          "tipo": "Poder Divino",
+          "descricao": "Os vulcões, uma destrutiva força da natureza que está em pose do domínio do deu Hefesto. Assim como nomeia a vila \"Vulcão Forjador\", a qual é o local de presente a grande maioria dos despertos de Vulcano, estes desenvolveram a capacidade de controlar a lava e utilizar esse poder como uma poderosa arma destrutiva.",
+          "niveis": [
+            {
+              "level": 20,
+              "descrição": "É capaz de, à partir de lava já criada, manipular estas para direciona-las e assim, atingir seus alvos, aplicando o efeito de Queimadura com o dobro de efeito) por 1 turno.",
+              "alcance": "20 metros",
+              "danoHabilidade": "35%",
+              "gastoEnergia": "25%"
+            },
+            {
+              "level": 50,
+              "descrição": "O poder da lava agora pode é ser controlado ainda mais, o desperto pode concentra-la e assim, endurecê-la, transformando-o na mais pura rocha para prender seus alvos.",
+              "alcance": "50 metros",
+              "danoHabilidade": "50%",
+              "gastoEnergia": "30%"
+            },
+            {
+              "level": 80,
+              "descrição": "A partir das rochas do solo, o desperto de Hefesto/Vulcano pode gerar criar vibrações extremamente poderosas para que estas se aqueçam em extrema velocidade e se transformem em lava!!! O efeito do debuff aumenta para 2 turnos! E, é capaz de ativar o debuff de explosão contra os seus alvos.",
+              "alcance": "70 metros",
+              "danoHabilidade": "75%",
+              "gastoEnergia": "35%"
+            },
+            {
+              "level": 120,
+              "descrição": "Reborn: Com o poder ao limite, é capaz de até mesmo forçar a ativação de vulcões inativos, iniciando uma onde gigantesca de destruição! Aplicando os dois debuffs anteriores.",
+              "alcance": "120 metros",
+              "danoHabilidade": "175%",
+              "gastoEnergia": "75%",
+              "Reborn": ""
+            }
+          ]
+        }
+      },
+      "TheikosTropos": {
+        "nome": "Divindade forjadora",
+        "descricao": "Os despertos de Hefesto/Vulcano podem adentrar em um estado usando seus conhecimentos e chamas ao máximo. Seu corpo exala chamas avermelhadas enquanto seu cabelo arde em fogo. Seu corpo arde em poder e energia, se tornando um verdadeiro vulcão desperto! É capaz de atirar tiros de chamas e lava de sua boca e até levar vulcões inativos a erupção, causando verdadeiros desastres naturais! Ganham dois grandes chifres com a resistência do seu martelo do forjador, referente a transformação bovina que Hefesto/Vulcano realizou durante a fuga de tifão!",
+        "niveis": {
+          "Level 80": "2 Turnos. Aumento de atributos: +10%",
+          "Level 100": "3 Turnos. Aumento de atributos: +20%",
+          "Level 125": "4 Turnos. Aumento de atributos: +35%",
+          "Level 150": "5 Turnos. Aumento de atributos: +50%"
+        },
+        "subDescricao": {
+          "Martelo_do_forjador": "Usando sua energia divina, pode recobrir um martelo que usa, com sua aura e assim, a resistência do material subirá em +5x Ômega Divino. Suas forjas, precisam de apenas uma batida deste para que seus equipamentos e armas estejam total construídos ou reconcertados (apenas duas vezes por combate, cada item). Podendo criar até 4 equipamentos em uma única cena! Os golpes desse item coberto de constantes chamas, ativam o efeito de Dor Cruél!"
+        }
+      }
+    }
   }
 }

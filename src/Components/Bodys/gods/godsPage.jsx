@@ -15,6 +15,8 @@ import {
   PlusCircle,
   BookUser,
   Info,
+  GitMerge, // Ícone para adaptações
+  ShieldPlus, // Ícone para sub-habilidades
 } from "lucide-react";
 import "../gods/godsPage.css";
 import olimpoData from "../../../Json/Deuses/Olimpo.json";
@@ -102,241 +104,331 @@ const AtratividadeDivinaCard = ({ data }) => {
 };
 
 const TheikosTroposCard = ({ data }) => {
-  if (!data) return null;
-  return (
-    <div className="ability-card">
-      <h4 className="ability-card-name">{data.nome}</h4>
-      <p className="ability-card-description">{data.descricao}</p>
-      {Object.keys(data)
-        .filter((key) => key.toLowerCase().startsWith("obs") && data[key])
-        .map((key, index) => (
-          <p key={key} className="ability-obs">
-            <strong>Obs{index > 0 ? ` ${index + 1}` : ""}:</strong> {data[key]}
+    if (!data) return null;
+
+    // Função para renderizar adaptações
+    const renderAdaptacao = (adaptacao) => {
+      if (!adaptacao || !adaptacao.alvo || !adaptacao.efeito) return null;
+      return (
+        <div className="ability-adaptation">
+          <h6 className="adaptation-title">
+            <GitMerge size={16} /> Adaptação
+          </h6>
+          <p>
+            <strong>Alvo:</strong> {adaptacao.alvo}
           </p>
-        ))}
-
-      {data.niveis && (
-        <div className="level-progression">
-          <h5 className="level-progression-title">Progressão de Nível</h5>
-          <ul className="theikos-level-list">
-            {Object.entries(data.niveis).map(([level, desc]) => (
-              <li key={level}>
-                <strong>
-                  {level}
-                  {(level.includes("125") || level.includes("150")) && (
-                    <>
-                      {"   "}
-                      <span
-                        className="stat-item reborn"
-                        style={{
-                          display: "inline-flex",
-                          alignItems: "center",
-                          gap: "0.25rem",
-                          verticalAlign: "baseline",
-                        }}
-                      >
-                        <Sparkles size={14} />
-                        Reborn
-                      </span>
-                    </>
-                  )}
-                  :
-                </strong>{" "}
-                {desc}
-              </li>
-            ))}
-          </ul>
+          <p>
+            <strong>Efeito:</strong> {adaptacao.efeito}
+          </p>
         </div>
-      )}
+      );
+    };
 
-      {data.subDescricao && (
-        <div className="level-progression">
-          <h5 className="level-progression-title">Habilidades Adicionais</h5>
-          <ul className="theikos-sub-list">
-            {Object.entries(data.subDescricao).map(([nome, desc]) => (
-              <li key={nome}>
-                <strong>{nome}:</strong>
-                <p>{desc}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </div>
-  );
-};
+    return (
+      <div className="ability-card">
+        <h4 className="ability-card-name">{data.nome}</h4>
+        <p className="ability-card-description">{data.descricao}</p>
+        {Object.keys(data)
+          .filter((key) => key.toLowerCase().startsWith("obs") && data[key])
+          .map((key, index) => (
+            <p key={key} className="ability-obs">
+              <strong>Obs{index > 0 ? ` ${index + 1}` : ""}:</strong> {data[key]}
+            </p>
+          ))}
 
-const HabilidadeCard = ({ habilidade, tipo, calculatedStats }) => {
-  const nomeHabilidade = habilidade["nome:"] || habilidade.nome;
-  if (!habilidade || !nomeHabilidade) return null;
+        {/* Renderiza a adaptação se existir */}
+        {data.adaptacao && renderAdaptacao(data.adaptacao)}
 
-  const getCalculatedValue = (statValue, statType, baseStats) => {
-    if (!baseStats || typeof statValue !== "string" || !statValue.includes("%"))
-      return statValue;
-    const percentage = parseFloat(statValue);
-    if (isNaN(percentage)) return statValue;
-    let baseValue = 0;
-    switch (statType) {
-      case "danoHabilidade":
-        baseValue = baseStats.DanoHabilidade;
-        break;
-      case "danoFísico":
-        baseValue = baseStats.DanoFisico;
-        break;
-      case "danoArma":
-        baseValue = baseStats.DanoArmaInvocada;
-        break;
-      case "gastoEnergia":
-        baseValue = baseStats.PV;
-        break;
-      default:
-        return statValue;
-    }
-    if (baseValue === undefined) return statValue;
-    const finalValue = Math.floor((percentage / 100) * baseValue);
-    return `${statValue} (${finalValue})`;
+        {data.niveis && (
+          <div className="level-progression">
+            <h5 className="level-progression-title">Progressão de Nível</h5>
+            <ul className="theikos-level-list">
+              {Object.entries(data.niveis).map(([level, desc]) => (
+                <li key={level}>
+                  <strong>
+                    {level}
+                    {(level.includes("125") || level.includes("150")) && (
+                      <>
+                        {"   "}
+                        <span
+                          className="stat-item reborn"
+                          style={{
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: "0.25rem",
+                            verticalAlign: "baseline",
+                          }}
+                        >
+                          <Sparkles size={14} />
+                          Reborn
+                        </span>
+                      </>
+                    )}
+                    :
+                  </strong>{" "}
+                  {desc}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {data.subDescricao && (
+          <div className="level-progression">
+            <h5 className="level-progression-title">Habilidades Adicionais</h5>
+            <ul className="theikos-sub-list">
+              {Object.entries(data.subDescricao).map(([nome, desc]) => (
+                <li key={nome}>
+                  <strong>{nome}:</strong>
+                  <p>{desc}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    );
   };
 
-  return (
-    <div className="ability-card">
-      <h4 className="ability-card-name">{nomeHabilidade}</h4>
-      <p className="ability-card-type">
-        {habilidade.Tipo || habilidade.tipo || tipo}
-      </p>
-      <p className="ability-card-description">{habilidade.descricao}</p>
-      {Object.keys(habilidade)
-        .filter((k) => k.startsWith("Obs") && habilidade[k])
-        .map((key) => (
-          <p key={key} className="ability-obs">
-            <strong>Obs:</strong> {habilidade[key]}
+
+const HabilidadeCard = ({ habilidade, tipo, calculatedStats }) => {
+    const nomeHabilidade = habilidade["nome:"] || habilidade.nome;
+    if (!habilidade || !nomeHabilidade) return null;
+
+    const getCalculatedValue = (statValue, statType, baseStats) => {
+        if (!baseStats || typeof statValue !== "string" || !statValue.includes("%"))
+          return statValue;
+        const percentage = parseFloat(statValue);
+        if (isNaN(percentage)) return statValue;
+        let baseValue = 0;
+        switch (statType) {
+          case "danoHabilidade":
+            baseValue = baseStats.DanoHabilidade;
+            break;
+          case "danoFísico":
+          case "danoFisicoArmaInvocada":
+            baseValue = baseStats.DanoFisico;
+            break;
+          case "danoArmaInvocada":
+            baseValue = baseStats.DanoArmaInvocada;
+            break;
+          case "gastoEnergia":
+          case "gastoDeEnergia": // Para sub-habilidades
+            baseValue = baseStats.PV;
+            break;
+          default:
+            return statValue;
+        }
+        if (baseValue === undefined) return statValue;
+
+        // Extrai a parte da string que é porcentagem e a parte que é texto puro
+        const match = statValue.match(/(\d+(\.\d+)?%)(.*)/);
+        if (match) {
+            const perc = parseFloat(match[1]);
+            const rest = match[3] || '';
+            const finalValue = Math.floor((perc / 100) * baseValue);
+            return `${statValue} (${finalValue})${rest}`;
+        }
+
+        const finalValue = Math.floor((percentage / 100) * baseValue);
+        return `${statValue} (${finalValue})`;
+      };
+
+    const renderAdaptacao = (adaptacao) => {
+      if (!adaptacao || !adaptacao.alvo || !adaptacao.efeito) return null;
+      return (
+        <div className="ability-adaptation">
+          <h6 className="adaptation-title">
+            <GitMerge size={16} /> Adaptação
+          </h6>
+          <p>
+            <strong>Alvo:</strong> {adaptacao.alvo}
           </p>
-        ))}
-      {habilidade.niveis && Array.isArray(habilidade.niveis) && (
-        <div className="level-progression">
-          <h5 className="level-progression-title">Progressão de Nível</h5>
-          <ul className="level-progression-list">
-            {habilidade.niveis.map((nivel, index) => (
-              <li key={index} className="level-progression-item">
-                <strong className="level-progression-level">
-                  Nível {nivel.level}:
-                </strong>
-                <p className="level-progression-desc">{nivel.descrição}</p>
-                <div className="stats-grid">
-                  {nivel.danoHabilidade && (
-                    <span className="stat-item damage-h">
-                      <Eclipse size={14} />
-                      <strong>Dano de Habilidade:</strong>
-                      {getCalculatedValue(
-                        nivel.danoHabilidade,
-                        "danoHabilidade",
-                        calculatedStats
-                      )}
-                    </span>
-                  )}
-                  {nivel.danoArma && (
-                    <span className="stat-item damage-a">
-                      <BowArrow size={14} />
-                      <strong>Dano de Arma Invocada:</strong>
-                      {getCalculatedValue(
-                        nivel.danoArma,
-                        "danoArma",
-                        calculatedStats
-                      )}
-                    </span>
-                  )}
-                  {nivel.danoFísico && (
-                    <span className="stat-item damage-f">
-                      <Sword size={14} />
-                      <strong>Dano Físico:</strong>
-                      {getCalculatedValue(
-                        nivel.danoFísico,
-                        "danoFísico",
-                        calculatedStats
-                      )}
-                    </span>
-                  )}
-                  {nivel.gastoEnergia && (
-                    <span className="stat-item cost">
-                      <Zap size={14} />
-                      <strong>Custo:</strong>
-                      {getCalculatedValue(nivel.gastoEnergia, "gastoEnergia")}
-                    </span>
-                  )}
-                  {nivel.duracao && (
-                    <span className="stat-item duration">
-                      <Clock size={14} />
-                      <strong>Duração:</strong>
-                      {nivel.duracao}
-                    </span>
-                  )}
-                  {nivel.recarga && (
-                    <span className="stat-item recharge">
-                      <Star size={14} />
-                      <strong>Recarga:</strong>
-                      {nivel.recarga}
-                    </span>
-                  )}
-                  {nivel.alcance && (
-                    <span className="stat-item range">
-                      <Telescope size={14} />
-                      <strong>Alcance:</strong>
-                      {nivel.alcance}
-                    </span>
-                  )}
-                  {nivel.Reborn !== undefined && (
-                    <span className="stat-item reborn">
-                      <Sparkles size={14} />
-                      <strong>Condição:</strong>Reborn
-                    </span>
-                  )}
-                </div>
-              </li>
-            ))}
-          </ul>
+          <p>
+            <strong>Efeito:</strong> {adaptacao.efeito}
+          </p>
         </div>
-      )}
-      {habilidade.bonusPorLevel && (
-        <div className="level-progression">
-          <h5 className="level-progression-title">
-            Bônus por Faixa de Nível (por nível ganho)
-          </h5>
-          <div className="table-container">
-            <table className="bonus-table">
-              <thead>
-                <tr>
-                  <th>Nível</th>
-                  <th>PV</th>
-                  <th>Força</th>
-                  <th>V. Movimento</th>
-                  <th>V. Habilidade</th>
-                  <th>D. Físico</th>
-                  <th>D. Habilidade</th>
-                  <th>D. Arma</th>
-                </tr>
-              </thead>
-              <tbody>
-                {Object.entries(habilidade.bonusPorLevel).map(
-                  ([levelRange, stats]) => (
-                    <tr key={levelRange}>
-                      <td className="level-range">{levelRange}</td>
-                      <td>{stats.PV}</td>
-                      <td>{stats.Força}</td>
-                      <td>{stats.VelocidadeMovimento}</td>
-                      <td>{stats.VelocidadeHabilidade}</td>
-                      <td>{stats.DanoFisico}</td>
-                      <td>{stats.DanoHabilidade}</td>
-                      <td>{stats.DanoArmaInvocada}</td>
-                    </tr>
-                  )
-                )}
-              </tbody>
-            </table>
+      );
+    };
+
+    const renderSubHabilidade = (nivel) => {
+        if (!nivel.subHabilidade) return null;
+        return (
+          <div className="sub-ability">
+            <h6 className="sub-ability-title">
+              <ShieldPlus size={16} /> {nivel.subHabilidade}
+            </h6>
+            <div className="stats-grid">
+              {nivel.reducaoDeDano && (
+                <span className="stat-item damage-h">
+                  <ShieldCheck size={14} />
+                  <strong>Redução de Dano:</strong> {nivel.reducaoDeDano}
+                </span>
+              )}
+              {nivel.gastoDeEnergia && (
+                <span className="stat-item cost">
+                  <Zap size={14} />
+                  <strong>Custo:</strong> {getCalculatedValue(nivel.gastoDeEnergia, "gastoDeEnergia", calculatedStats)}
+                </span>
+              )}
+              {nivel.subDuracao && (
+                <span className="stat-item duration">
+                  <Clock size={14} />
+                  <strong>Duração:</strong> {nivel.subDuracao}
+                </span>
+              )}
+            </div>
           </div>
-        </div>
-      )}
-    </div>
-  );
-};
+        );
+      };
+
+    return (
+      <div className="ability-card">
+        <h4 className="ability-card-name">{nomeHabilidade}</h4>
+        <p className="ability-card-type">
+          {habilidade.Tipo || habilidade.tipo || tipo}
+        </p>
+        <p className="ability-card-description">{habilidade.descricao}</p>
+        {Object.keys(habilidade)
+          .filter((k) => k.startsWith("Obs") && habilidade[k])
+          .map((key, i) => (
+            <p key={key} className="ability-obs">
+              <strong>Obs{i > 0 ? i + 1 : ''}:</strong> {habilidade[key]}
+            </p>
+          ))}
+        {habilidade.niveis && Array.isArray(habilidade.niveis) && (
+          <div className="level-progression">
+            <h5 className="level-progression-title">Progressão de Nível</h5>
+            <ul className="level-progression-list">
+              {habilidade.niveis.map((nivel, index) => (
+                <li key={index} className="level-progression-item">
+                  <strong className="level-progression-level">
+                    Nível {nivel.level}:
+                  </strong>
+                  <p className="level-progression-desc">{nivel.descrição}</p>
+                  <div className="stats-grid">
+                    {/* Renderiza os stats principais */}
+                    {nivel.danoHabilidade && (
+                      <span className="stat-item damage-h">
+                        <Eclipse size={14} />
+                        <strong>Dano de Habilidade:</strong>
+                        {getCalculatedValue(nivel.danoHabilidade, "danoHabilidade", calculatedStats)}
+                      </span>
+                    )}
+                    {nivel.danoArmaInvocada && (
+                      <span className="stat-item damage-a">
+                        <BowArrow size={14} />
+                        <strong>Dano de Arma:</strong>
+                        {getCalculatedValue(nivel.danoArmaInvocada, "danoArmaInvocada", calculatedStats)}
+                      </span>
+                    )}
+                     {nivel.danoFisicoArmaInvocada && (
+                      <span className="stat-item damage-f">
+                        <Sword size={14} />
+                        <strong>Dano de Arma:</strong>
+                        {getCalculatedValue(nivel.danoFisicoArmaInvocada, "danoFisicoArmaInvocada", calculatedStats)}
+                      </span>
+                    )}
+                    {nivel.danoFísico && (
+                        <span className="stat-item damage-f">
+                        <Sword size={14} />
+                        <strong>Dano Físico:</strong>
+                        {getCalculatedValue(nivel.danoFísico, "danoFísico", calculatedStats)}
+                        </span>
+                    )}
+                    {nivel.gastoEnergia && (
+                      <span className="stat-item cost">
+                        <Zap size={14} />
+                        <strong>Custo:</strong>
+                        {getCalculatedValue(nivel.gastoEnergia, "gastoEnergia", calculatedStats)}
+                      </span>
+                    )}
+                    {nivel.duracao && (
+                      <span className="stat-item duration">
+                        <Clock size={14} />
+                        <strong>Duração:</strong>
+                        {nivel.duracao}
+                      </span>
+                    )}
+                    {nivel.recarga && (
+                      <span className="stat-item recharge">
+                        <Star size={14} />
+                        <strong>Recarga:</strong>
+                        {nivel.recarga}
+                      </span>
+                    )}
+                    {nivel.alcance && (
+                      <span className="stat-item range">
+                        <Telescope size={14} />
+                        <strong>Alcance:</strong>
+                        {nivel.alcance}
+                      </span>
+                    )}
+                    {nivel.Cura && (
+                        <span className="stat-item duration">
+                        <PlusCircle size={14} />
+                        <strong>Cura:</strong>
+                        {nivel.Cura}
+                        </span>
+                    )}
+                    {nivel.Reborn !== undefined && (
+                      <span className="stat-item reborn">
+                        <Sparkles size={14} />
+                        <strong>Condição:</strong>Reborn
+                      </span>
+                    )}
+                  </div>
+                  {/* Renderiza a adaptação se existir no nível */}
+                  {nivel.adaptacao && renderAdaptacao(nivel.adaptacao)}
+                  {/* Renderiza a sub-habilidade se existir no nível */}
+                  {nivel.subHabilidade && renderSubHabilidade(nivel)}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {habilidade.bonusPorLevel && (
+          <div className="level-progression">
+            <h5 className="level-progression-title">
+              Bônus por Faixa de Nível (por nível ganho)
+            </h5>
+            <div className="table-container">
+              <table className="bonus-table">
+                <thead>
+                  <tr>
+                    <th>Nível</th>
+                    <th>PV</th>
+                    <th>Força</th>
+                    <th>V. Movimento</th>
+                    <th>V. Habilidade</th>
+                    <th>D. Físico</th>
+                    <th>D. Habilidade</th>
+                    <th>D. Arma</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Object.entries(habilidade.bonusPorLevel).map(
+                    ([levelRange, stats]) => (
+                      <tr key={levelRange}>
+                        <td className="level-range">{levelRange}</td>
+                        <td>{stats.PV}</td>
+                        <td>{stats.Força}</td>
+                        <td>{stats.VelocidadeMovimento}</td>
+                        <td>{stats.VelocidadeHabilidade}</td>
+                        <td>{stats.DanoFisico}</td>
+                        <td>{stats.DanoHabilidade}</td>
+                        <td>{stats.DanoArmaInvocada}</td>
+                      </tr>
+                    )
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  };
 
 const StatusCalculator = ({
   playerLevel,
@@ -359,7 +451,7 @@ const StatusCalculator = ({
     { id: "base", label: "Forma Base", level: 0, bonus: "0%" },
     { id: "falsa", label: "Falsa Theikos Tropos", level: 80, bonus: "+10%" },
     { id: "verdadeira", label: "Theikos Tropos", level: 100, bonus: "+20%" },
-    { id: "divina", label: "Theikos Tropos - Real", level: 120, bonus: "+35%" },
+    { id: "divina", label: "Theikos Tropos - Real", level: 125, bonus: "+35%" },
     {
       id: "explosiva",
       label: "Theikos Tropos - Modo Explosivo",
@@ -615,7 +707,7 @@ const GodsPage = () => {
   useEffect(() => {
     const level = parseInt(playerLevel, 10) || 0;
     if (level < 150 && theikosForm === "explosiva") setTheikosForm("divina");
-    if (level < 120 && theikosForm === "divina") setTheikosForm("verdadeira");
+    if (level < 125 && theikosForm === "divina") setTheikosForm("verdadeira");
     if (level < 100 && theikosForm === "verdadeira") setTheikosForm("falsa");
     if (level < 80 && theikosForm === "falsa") setTheikosForm("base");
   }, [playerLevel, theikosForm]);
