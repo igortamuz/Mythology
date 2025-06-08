@@ -53,14 +53,14 @@
           "niveis": [
             {
               "level": 25,
-              "descrição": "O descendente aplica extorsão e fixação para todos aqueles de level inferior ou até 10 leveis superior a ele de 5% de sua velocidade, dano físico e de habilidade dentro do combate e aplica em si mesmo extorquir no mesmo valor.",
+              "descrição": "O descendente aplica extorquido e fixação para todos aqueles de level inferior ou até 10 leveis superior a ele de 5% de sua velocidade, dano físico e de habilidade dentro do combate e aplica em si mesmo extorquir no mesmo valor.",
               "duracao": "5 turnos",
               "recarga": "1 vez por combate",
               "alcance": "35 metros"
             },
             {
               "level": 60,
-              "descrição": "Desperto pode causa efeito de amplificar com seus ataques físicos e habilidades. Os valores do nível anterior se elevam em 10%.",
+              "descrição": "Desperto pode causa efeito de Amplificação com seus ataques físicos e habilidades. Os valores do nível anterior se elevam em 10%.",
               "duracao": "4 turnos",
               "recarga": "5 turnos",
               "alcance": ""
@@ -68,9 +68,9 @@
           ]
         },
         "Alteração_de_Status": {
-          "nome": "Filho dos Céus",
+          "nome": "Descendente dos Céus",
           "Tipo": "Alteração de Status",
-          "descricao": "O deus dos céus e do trovão é reconhecido como o soberano do Olimpo, senhor dos deuses e das tempestades. Sua presença é majestosa, e sua autoridade inquestionável. Reverenciado por reis e guerreiros, Zeus/Júpiter representa a ordem, a justiça e o poder absoluto. Seus raios cortam os céus como um lembrete de sua vigilância e domínio sobre tudo o que vive abaixo das nuvens. Zeuspiteris é símbolo de liderança e equilíbrio, mas também de fúria divina quando provocado. Os corpos dos despertos são quase indestrutíveis a danos físicos, e só sofrem de ataques com sangramento para oponentes que tiverem pelo menos 10 leveis acima do seu.",
+          "descricao": "O deus dos céus e do trovão é reconhecido como o soberano do Olimpo, senhor dos deuses e das tempestades. Sua presença é majestosa, e sua autoridade inquestionável. Reverenciado por reis e guerreiros, Zeus/Júpiter representa a ordem, a justiça e o poder absoluto. Seus raios cortam os céus como um lembrete de sua vigilância e domínio sobre tudo o que vive abaixo das nuvens. Zeuspiteris é símbolo de liderança e equilíbrio, mas também de ira divina quando provocado. Os corpos dos despertos são quase indestrutíveis a danos físicos, e só sofrem de ataques com sangramento para oponentes que tiverem pelo menos 10 leveis acima do seu.",
           "bonusPorLevel": {
             "1-25": {
               "PV": "+25",
@@ -172,7 +172,7 @@
             },
             {
               "level": 120,
-              "descrição": "Reborn - O poder de um nascido das tempestades. Uma tempestade feita total e unicamente de apenas raios, trovões e relâmpagos e destroem tudo. É uma gigantesca catástrofe danosa, e o mais monstruoso disso: os raios não podem ser absorvidos, e só podem ser redirecionados por oponentes de level maior com controle do elemento natural, ferindo qualquer um sobre o desejo do filho do rei! Essa habilidade ainda aplica os efeitos anteriores e também adiciona o efeito de fúria. Perfuração aplicada é a física.",
+              "descrição": "Reborn - O poder de um nascido das tempestades. Uma tempestade feita total e unicamente de apenas raios, trovões e relâmpagos e destroem tudo. É uma gigantesca catástrofe danosa, e o mais monstruoso disso: os raios não podem ser absorvidos, e só podem ser redirecionados por oponentes de level maior com controle do elemento natural, ferindo qualquer um sobre o desejo do filho do rei! Essa habilidade ainda aplica os efeitos anteriores e também adiciona o efeito de fúria.",
               "duracao": "",
               "recarga": "",
               "alcance": "150 metros",
@@ -200,7 +200,7 @@
             },
             {
               "level": 80,
-              "descrição": "Apenas sentido a eletricidade, pode se teletransportar entre ela com perfeição!.",
+              "descrição": "Apenas sentido a eletricidade, pode se teletransportar entre ela com maestria total!.",
               "duracao": "",
               "recarga": "",
               "alcance": "50 metros",

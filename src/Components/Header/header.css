@@ -1,4 +1,8 @@
-/* (desktop)  */
+/*
+================================================
+|         ESTRUTURA PRINCIPAL DO HEADER        |
+================================================
+*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -9,6 +13,7 @@
   font-family: "Greek Freak", sans-serif;
   position: relative;
   z-index: 1000;
+  user-select: none;
 }
 
 .logo-container {
@@ -33,6 +38,11 @@
   letter-spacing: 1px;
 }
 
+/*
+================================================
+|            MENU DESKTOP (>= 993px)           |
+================================================
+*/
 .nav {
   font-family: "Roman SD";
 }
@@ -50,7 +60,8 @@
   cursor: pointer;
   padding: 0.7rem 1.3rem;
   border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
 }
 
 .menu li a {
@@ -109,8 +120,9 @@
   margin-left: 2px;
 }
 
+/* ----- Setas dos submenus (Desktop) ----- */
 .menu > .has-submenu::after {
-  content: '▼';
+  content: "▼";
   font-size: 0.7em;
   margin-left: 0.6em;
   display: inline-block;
@@ -123,7 +135,7 @@
 }
 
 .submenu .has-submenu::after {
-  content: '▶';
+  content: "▶";
   font-size: 0.8em;
   position: absolute;
   right: 1rem;
@@ -131,11 +143,16 @@
   transform: translateY(-50%);
   transition: transform 0.3s ease;
 }
+
 .submenu .has-submenu:hover::after {
-   transform: translateY(-50%) translateX(2px);
+  transform: translateY(-50%) translateX(2px);
 }
 
-/* --- Estilos para Menu Mobile --- */
+/*
+================================================
+|         BOTÃO DE MENU MOBILE (HAMBURGER)     |
+================================================
+*/
 .menu-toggle {
   display: none;
   background: none;
@@ -171,18 +188,33 @@
   transform: translateY(-8px) rotate(-135deg);
 }
 
-/* Media Query para Tablets e Mobile */
+/*
+================================================
+|           MEDIA QUERIES (RESPONSIVIDADE)     |
+================================================
+*/
+
+/* ----- Tablet (<= 992px) ----- */
 @media (max-width: 992px) {
+  .header {
+    padding: 1rem;
+  }
   .nav .menu {
     gap: 0.5rem;
   }
-   .header {
-    padding: 1rem;
-  }
 }
 
-
+/* ----- Mobile (<= 768px) ----- */
 @media (max-width: 768px) {
+  .header {
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .menu-toggle {
     display: block;
   }
@@ -200,7 +232,7 @@
     padding: 6rem 1.5rem 2rem;
     transition: left 0.45s cubic-bezier(0.23, 1, 0.32, 1.05);
     overflow-y: auto;
-    box-shadow: 5px 0px 20px rgba(0,0,0,0.25);
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
     z-index: 1000;
   }
 
@@ -242,7 +274,8 @@
     visibility: visible;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-in-out, padding-top 0.4s ease-in-out, padding-bottom 0.4s ease-in-out;
+    transition: max-height 0.4s ease-in-out, padding-top 0.4s ease-in-out,
+      padding-bottom 0.4s ease-in-out;
     padding-top: 0;
     padding-bottom: 0;
     border-radius: 0;
@@ -261,49 +294,54 @@
     border-top: 1px solid #303030;
     border-bottom: none;
   }
-   .submenu li:first-child {
+  .submenu li:first-child {
     border-top: none;
   }
   .submenu li:hover {
     background-color: #333;
   }
 
+  /* Desativa o hover de desktop no mobile */
   .has-submenu:hover > .submenu {
     display: none;
-    opacity: 0;
-    transform: translateY(10px);
-    visibility: hidden;
   }
 
+  /* Ativa a exibição via JS/classe .open */
   .has-submenu > .submenu.open {
     display: block;
-    opacity: 1;
-    transform: translateY(0);
-    visibility: visible;
   }
 
-  .menu li.has-submenu::after {
-    content: '';
+  /* Setas dos submenus (Mobile) */
+  .menu > li.has-submenu::after {
+    content: "";
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
     position: absolute;
     right: 1rem;
     top: 50%;
-    transform: translateY(-50%) rotate(0deg);
+    transform: translateY(-50%) rotate(45deg);
     transition: transform 0.3s ease;
   }
 
-  .menu li.has-submenu.mobile-submenu-open::after {
-    transform: translateY(-50%) rotate(90deg);
+  .menu > li.has-submenu.mobile-submenu-open::after {
+    transform: translateY(-50%) rotate(135deg);
   }
 
   .submenu li.has-submenu::after {
-    content: '';
+    content: "";
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
     position: absolute;
     right: 0.5rem;
     top: 50%;
-    transform: translateY(-50%) rotate(0deg);
+    transform: translateY(-50%) rotate(45deg);
     transition: transform 0.3s ease;
   }
   .submenu li.has-submenu.mobile-submenu-open::after {
-    transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(135deg);
   }
 }
