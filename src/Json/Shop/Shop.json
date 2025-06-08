@@ -1,0 +1,393 @@
+{
+  "grau1": {
+    "metais": [
+      {
+        "nome": "Bronzenium",
+        "valor": "250 D",
+        "nivel": 1,
+        "imagem": "https://placehold.co/400x300/8c7853/f0e8d9?text=Bronzenium",
+        "descricao": "Um metal comum, mas resistente, usado para forjar os primeiros equipamentos dos heróis."
+      },
+      {
+        "nome": "Ourum",
+        "valor": "250 D",
+        "nivel": 1,
+        "imagem": "https://placehold.co/400x300/fde047/1a1614?text=Ourum",
+        "descricao": "Metal dourado e maleável, frequentemente usado tanto em armaduras quanto em ornamentos."
+      },
+      {
+        "nome": "Ferrerium",
+        "valor": "450 D",
+        "nivel": 10,
+        "imagem": "https://placehold.co/400x300/a8a29e/1a1614?text=Ferrerium",
+        "descricao": "Um ferro de qualidade superior, conhecido por sua durabilidade em combate."
+      },
+      {
+        "nome": "Aço Abençoado",
+        "valor": "450 D",
+        "nivel": 10,
+        "imagem": "https://placehold.co/400x300/e0e7ff/1a1614?text=Aço+Abençoado",
+        "descricao": "Aço que recebeu bênçãos divinas, tornando-o mais eficaz contra criaturas sombrias."
+      },
+      {
+        "nome": "Titânio Sagrado",
+        "valor": "750 D",
+        "nivel": 20,
+        "imagem": "https://placehold.co/400x300/e5e7eb/1a1614?text=Titânio+Sagrado",
+        "descricao": "Leve e incrivelmente forte, este metal é imbuído com poder sagrado."
+      },
+      {
+        "nome": "Diamante Divino",
+        "valor": "750 D",
+        "nivel": 20,
+        "imagem": "https://placehold.co/400x300/bae6fd/1a1614?text=Diamante+Divino",
+        "descricao": "Um dos materiais mais resistentes conhecidos, capaz de suportar grandes impactos."
+      }
+    ],
+    "itens": [
+      {
+        "nome": "Biscoitinho Mágico",
+        "valor": "2.500 D",
+        "nivel": 1,
+        "quantidade": 2,
+        "imagem": "https://placehold.co/400x300/d4a373/1a1614?text=Biscoito+Mágico",
+        "capacidades": "Um biscoitinho feito para missões longas. Dá uma ativa por cada unidade ingerida, podendo ser muito útil em horas de emergência. Também pode recuperar uma parcela das suas energias. Limite: 2 vezes por combate. Regenera +10% de energia por biscoito mordido."
+      },
+      {
+        "nome": "Pulseira de Rosas",
+        "valor": "500 D",
+        "nivel": 1,
+        "imagem": "https://placehold.co/400x300/f472b6/1a1614?text=Pulseira+de+Rosas",
+        "capacidades": "Uma pulseira simples feita de pétalas de uma mistura de rosas vermelhas. Permite ao usuário trocar de roupa quando desejar. Além disso, pode mudar a aparência do usuário durante três rodadas. Não afeta os poderes da prole. Ao fim, ela desaparece."
+      },
+      {
+        "nome": "Espectro de Pombo",
+        "valor": "1.000 D",
+        "nivel": 25,
+        "imagem": "https://placehold.co/400x300/fefce8/1a1614?text=Espectro+de+Pombo",
+        "capacidades": "Um acessório da escolha do semideus que ao mínimo toque vira um pombo espectro de cor dourada. Ao atingir o alvo, ele explode exalando uma fumaça que se estende por 20 metros."
+      },
+      {
+        "nome": "Poção de Fôlego Aquático",
+        "valor": "800 D",
+        "nivel": 5,
+        "imagem": "https://placehold.co/400x300/38bdf8/1a1614?text=Poção+Aquática",
+        "capacidades": "Um pequeno frasco com um líquido azul cintilante. Ao ser consumido, permite ao usuário respirar debaixo d'água por 10 minutos. Uso único."
+      }
+    ],
+    "ovinhos": [
+      {
+        "nome": "Ovinho da Sorte - 1° Grau",
+        "valor": "2.500 D",
+        "nivel": 1,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/f3e8ff/1a1614?text=Ovinho+da+Sorte",
+        "capacidades": "Cada semideus pode ter até um ovinho da sorte que ao chocar, pode surgir um companheiro para todas as suas aventuras (será rolado em roleta).",
+        "companheiros": [
+          {
+            "nome": "Mini Unicórnio",
+            "descricao": "Frágil, doce e gentil. Não confia em pessoas com más intenções, podendo notar quando alguém está mentindo. Diante a sua presença, poderes ilusórios não funcionam com o seu dono, durante duas rodadas, precisando de duas para ativar novamente."
+          },
+          {
+            "nome": "Mini Dragão",
+            "descricao": "Uma espécie de 'dragão anão'. Pode sobrevoar áreas de até 10 metros e suas narinas soltam fumaças que exalam um odor terrível, criando grandes cortinas de fumaça que apenas o dono pode ver através."
+          },
+          {
+            "nome": "Mini Píton",
+            "descricao": "Com aproximadamente 25 cm, são traiçoeiras e desconfiadas, mas fiéis quando conquistadas. Pode rastejar até 15 metros e lançar pequenas esferas de fogo que causam efeito de queimadura por um turno."
+          }
+        ],
+        "status": {
+          "PV": "25% do HP do dono",
+          "Força": "+10",
+          "Velocidade de Habilidade": "+25",
+          "D. Físico": "+15",
+          "D. Habilidades": "+30"
+        }
+      }
+    ]
+  },
+  "grau2_3": {
+    "metais": [
+      {
+        "nome": "Platinium Santo",
+        "valor": "1.500 D",
+        "nivel": 40,
+        "imagem": "https://placehold.co/400x300/e5e5e5/1a1614?text=Platinium+Santo",
+        "descricao": "Uma platina rara, forjada com métodos celestiais para criar armas e armaduras de grande poder."
+      },
+      {
+        "nome": "Escudarinus Subline",
+        "valor": "1.500 D",
+        "nivel": 40,
+        "imagem": "https://placehold.co/400x300/4c1d95/f0e8d9?text=Escudarinus",
+        "descricao": "Metal encontrado nas profundezas do submundo, com propriedades de absorção de energia mágica."
+      }
+    ],
+    "itens": [
+      {
+        "nome": "Pedra Lápis Lazuli",
+        "valor": "3.500 D",
+        "nivel": 50,
+        "condicao": "Livre",
+        "quantidade": 2,
+        "imagem": "https://placehold.co/400x300/3b82f6/f0e8d9?text=Lápis+Lazuli",
+        "capacidades": "Uma pedra encantada que serve como fonte de energia extra. Pode se transformar em qualquer acessório de bijuteria. Limite: 2 vezes por combate. Regenera +25% de energia por pedra destruída."
+      },
+      {
+        "nome": "Pincel Aquarela",
+        "valor": "2.500 D",
+        "nivel": 25,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/a78bfa/1a1614?text=Pincel+Aquarela",
+        "capacidades": "Um pincel prateado que ao ser usado para desenhar em uma superfície plana pode abrir um 'portal' para um lugar que o portador já tenha frequentado ao menos duas vezes. Uso único."
+      },
+      {
+        "nome": "Bolsa sem Fundo",
+        "valor": "1.500 D",
+        "nivel": 50,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/57534e/f0e8d9?text=Bolsa+sem+Fundo",
+        "capacidades": "Uma bolsa que, como o nome diz, não tem fundo. Ótima para alquimistas e médicos. Limitação de tamanho de objetos (até 30 cm). Imune a cheiros, detectores de metal, sensores de calor e não pesa mais que uma bolsa normal."
+      },
+      {
+        "nome": "Véu Noturno",
+        "valor": "2.000 D",
+        "nivel": 40,
+        "imagem": "https://placehold.co/400x300/1e293b/f0e8d9?text=Véu+Noturno",
+        "capacidades": "Uma capa negra que reflete o céu noturno. Pode distrair um adversário por 1 turno. Durante a noite, concede invisibilidade para até 2 pessoas. O efeito dura 2 turnos e é quebrado se o usuário não for furtivo."
+      },
+      {
+        "nome": "1° Litro de Água de Atlantis",
+        "valor": "2.000 D",
+        "nivel": "Livre",
+        "imagem": "https://placehold.co/400x300/7dd3fc/1a1614?text=Água+de+Atlantis",
+        "capacidades": "Água cristalina que pode anular chamas do submundo. Se bebida com permissão do controlador, pode rejuvenescer o bebedor em até 1 ano."
+      },
+      {
+        "nome": "Amuleto da Enganação",
+        "valor": "2.000 D",
+        "nivel": 50,
+        "imagem": "https://placehold.co/400x300/f59e0b/1a1614?text=Amuleto+de+Hermes",
+        "capacidades": "Com uma amostra de DNA do adversário, o usuário pode clonar sua aparência e voz por quatro turnos. Após o uso, o amuleto perde o efeito."
+      },
+      {
+        "nome": "O Casamento",
+        "valor": "2.000 D",
+        "nivel": 50,
+        "imagem": "https://placehold.co/400x300/fecaca/1a1614?text=Anéis+de+Casamento",
+        "capacidades": "Um par de anéis para casais. Concede 'Elo mental' (comunicação telepática a qualquer distância) e 'Poder amoroso' (+10% nos status quando juntos). A infidelidade ou separação resulta em punições divinas."
+      },
+      {
+        "nome": "Escudo da Górgona (Fragmento)",
+        "valor": "4.000 D",
+        "nivel": 45,
+        "imagem": "https://placehold.co/400x300/4d7c0f/f0e8d9?text=Escudo+da+Górgona",
+        "capacidades": "Um pequeno broche de escudo que, quando ativado, expande-se para um escudo de porte médio por 3 turnos. Ataques corpo a corpo recebidos têm 1d6 de chance de infligir 'Atordoamento' no atacante por 1 turno. 1 vez por combate."
+      }
+    ],
+    "ovinhos": [
+      {
+        "nome": "Ovinhos da Sorte, 2/3° Grau",
+        "valor": "5.000 D",
+        "nivel": 25,
+        "condicao": "No mínimo Grau Superior",
+        "imagem": "https://placehold.co/400x300/d8b4fe/1a1614?text=Ovinho+Raro",
+        "capacidades": "Demora 2 semanas para chocar. O animal pode variar.",
+        "companheiros": [
+          {
+            "nome": "Pégaso",
+            "descricao": "Um cavalo alado que pode assumir forma adulta quando necessário. Carrega até duas pessoas e solta poderosas rajadas de vento. Forma adulta dura 2 turnos."
+          },
+          {
+            "nome": "Fada",
+            "descricao": "Pode assumir até 1 metro de altura. Concede buffs em ataques mágicos de 0,12x durante dois turnos."
+          },
+          {
+            "nome": "Grifo",
+            "descricao": "Assume forma adulta quando necessário, carregando até três pessoas. Sua mordida e garras causam infecção grave, cortando 10% da cura do alvo por 2 turnos."
+          }
+        ],
+        "status": {
+          "HP": "40% do HP do dono",
+          "Força": "+30",
+          "Velocidade": "+20",
+          "Velocidade de Habilidade": "+30",
+          "D. Físico": "+20",
+          "D. Habilidades": "+40"
+        }
+      }
+    ]
+  },
+  "reborn": {
+    "metais": [
+      {
+        "nome": "Ômega Divino",
+        "valor": "5.000 D",
+        "nivel": "Reborn +",
+        "condicao": "Reborn",
+        "imagem": "https://placehold.co/400x300/67e8f9/1a1614?text=Ômega+Divino",
+        "descricao": "Metais divinos usados pelos deuses como suas defesas principais. Possui um brilho único e cor variável. Se alguém incapaz (Não Reborn ou em forma divina) tentar usar, sua morte é eminente."
+      }
+    ],
+    "itens": [
+      {
+        "nome": "Essência do Caos Primordial",
+        "valor": "12.000 D",
+        "nivel": "Reborn",
+        "condicao": "Reborn",
+        "imagem": "https://placehold.co/400x300/4c1d95/f0e8d9?text=Essência+do+Caos",
+        "capacidades": "Um frasco contendo uma energia instável e turbulenta. Ao ser consumida, concede ao usuário um bônus aleatório e poderoso (+25% em um status) e um debuff aleatório (-15% em outro status) por 3 turnos. 1 vez por combate."
+      }
+    ],
+    "ovinhos": [
+      {
+        "nome": "Familiar, Último Grau",
+        "valor": "15.000 D",
+        "nivel": 100,
+        "condicao": "Ser de Último Grau",
+        "imagem": "https://placehold.co/400x300/fbcfe8/1a1614?text=Ovo+Familiar",
+        "capacidades": "Um ovo cintilante que demora duas semanas para chocar. Ao 'nascer', a criatura tomará a forma do espírito animal de seu dono. Pode receber um dom mágico (avaliado pela adm).",
+        "status": {
+          "HP": "100% do HP do dono",
+          "Força": "+100",
+          "Velocidade": "+60",
+          "Velocidade de Habilidade": "+80",
+          "D. Físico": "+60",
+          "D. Habilidades": "+120"
+        },
+        "observacao": "Em caso de maus-tratos, o familiar volta a ser um ovo. Se morrer em batalha, outro pode ser comprado, mas sem as memórias antigas."
+      }
+    ]
+  },
+  "especiais": {
+    "lacrimas": [
+      {
+        "nome": "Lacrima do Fogo",
+        "valor": "3.000 D",
+        "nivel": 50,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/f97316/1a1614?text=Lacrima+do+Fogo",
+        "capacidades": "Joia comestível que concede controle sobre fogo comum e imunidade a queimadura por duas rodadas."
+      },
+      {
+        "nome": "Lacrima da Água",
+        "valor": "3.000 D",
+        "nivel": 50,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/38bdf8/1a1614?text=Lacrima+da+Água",
+        "capacidades": "Joia comestível que concede controle sobre água comum e imunidade a congelamento por duas rodadas."
+      },
+      {
+        "nome": "Lacrima do Vento",
+        "valor": "3.000 D",
+        "nivel": 50,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/e5e7eb/1a1614?text=Lacrima+do+Vento",
+        "capacidades": "Joia comestível que concede controle sobre ar comum e imunidade a Restrição por duas rodadas."
+      },
+      {
+        "nome": "Lacrima da Terra",
+        "valor": "3.000 D",
+        "nivel": 50,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/84cc16/1a1614?text=Lacrima+da+Terra",
+        "capacidades": "Joia comestível que concede controle sobre terra e rochas, e imunidade a petrificação por duas rodadas."
+      },
+      {
+        "nome": "Lacrima das Trevas",
+        "valor": "3.000 D",
+        "nivel": 50,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/4c1d95/f0e8d9?text=Lacrima+das+Trevas",
+        "capacidades": "Joia comestível que concede controle sobre sombras comuns e imunidade a Corrosão  por duas rodadas."
+      },
+      {
+        "nome": "Lacrima da Luz",
+        "valor": "3.000 D",
+        "nivel": 50,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/fef08a/1a1614?text=Lacrima+da+Luz",
+        "capacidades": "Joia comestível que concede controle sobre luz comum e imunidade a infecção por duas rodadas."
+      },
+      {
+        "nome": "Lacrima do Raio",
+        "valor": "3.000 D",
+        "nivel": 50,
+        "condicao": "Livre",
+        "imagem": "https://placehold.co/400x300/facc15/1a1614?text=Lacrima+do+Raio",
+        "capacidades": "Joia comestível que concede controle sobre raios comuns e imunidade a eletrificação por duas rodadas."
+      }
+    ],
+    "outros": [
+      {
+        "nome": "Vaga para +1 personagem",
+        "valor": "10.000 D",
+        "nivel": "Livre",
+        "imagem": "https://placehold.co/400x300/a855f7/1a1614?text=Vaga+Extra",
+        "descricao": "Comprar vaga para personagens novos! Também é necessário para caso queira filhotes/herdandos!"
+      },
+      {
+        "nome": "Pena de Fênix",
+        "valor": "30.000 D",
+        "nivel": "Livre",
+        "imagem": "https://placehold.co/400x300/f97316/1a1614?text=Pena+de+Fênix",
+        "descricao": "Quando o comprador morre, seu corpo queima e, após 1 turno, volta à vida. Pode ser usada em aliados mortos há menos de 2 turnos."
+      }
+    ]
+  },
+  "servicos": {
+    "alquimista": {
+      "nome": "Serviços de Alquimista",
+      "cura": {
+        "titulo": "Cura de HP",
+        "obs": "Poções de Cura só podem ser usadas uma vez por combate! Se o alvo estiver com debuff de infecção, ela não fará efeito!",
+        "itens": [
+          {
+            "nome": "P. de Cura Insta. Pequena (10% do HP)",
+            "valor": "1.000 D"
+          },
+          { "nome": "P. de Cura Insta. Média (20% do HP)", "valor": "2.000 D" },
+          { "nome": "P. de Cura Insta. Alta (30% do HP)", "valor": "4.200 D" }
+        ]
+      },
+      "debuffs": {
+        "titulo": "Poções/Colares contra Debuffs",
+        "obs": "Pode se usar quantos quiser durante o combate, mas apenas um uso de cada. No caso dos colares, eles se quebram e anulam o efeito!",
+        "itens": [
+          { "nome": "P. Contra Sangramento", "valor": "1.000 D" },
+          { "nome": "P. Contra Corrosão", "valor": "1.000 D" },
+          { "nome": "Colar Contra Explosão", "valor": "1.000 D" },
+          { "nome": "Colar Contra Congelamento", "valor": "1.500 D" },
+          { "nome": "P. Contra Queimadura", "valor": "1.000 D" },
+          { "nome": "P. Contra Infecção", "valor": "1.000 D" },
+          { "nome": "Colar. Contra Petrificação", "valor": "1.500 D" },
+          { "nome": "P. Contra Envenenamento", "valor": "1.000 D" },
+          { "nome": "Colar Contra Eletrificação", "valor": "1.500 D" },
+          { "nome": "P. Contra Atordoamento", "valor": "1.000 D" },
+          { "nome": "P. Contra Extorquido", "valor": "1.000 D" }
+        ]
+      }
+    },
+    "ferreiro": {
+      "nome": "Serviços de Ferreiro",
+      "obs": "Só pode diminuir pela metade o peso do material uma única vez.",
+      "itens": [
+        { "nome": "Construir Equipamento", "valor": "600 D" },
+        { "nome": "Reforçar", "valor": "500 D" },
+        { "nome": "Diminuir Peso do Material (Metade)", "valor": "5.000 D" },
+        { "nome": "Reparar +5", "valor": "500 D" },
+        { "nome": "Reparar +10", "valor": "900 D" },
+        { "nome": "Reparar +15", "valor": "1400 D" },
+        { "nome": "Reforçar Omega Divino", "valor": "2500 D" },
+        {
+          "nome": "Diminuir Peso do Omega Divino (Metade)",
+          "valor": "6.500 D"
+        },
+        { "nome": "Reparar O.D. +5", "valor": "700 D" },
+        { "nome": "Reparar O.D. +10", "valor": "1200 D" },
+        { "nome": "Reparar O.D. +15", "valor": "2000 D" }
+      ]
+    }
+  }
+}

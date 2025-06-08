@@ -271,11 +271,8 @@ export default function Header() {
             </MenuItem>
           </MenuItem>
 
-          <MenuItem label="Loja" menuKey="loja" isTopLevel={true}>
-            <MenuItem label="1º Grau" menuKey="loja-grau1" href="/loja/grau1" />
-            <MenuItem label="2º Grau" menuKey="loja-grau2" href="/loja/grau2" />
-            <MenuItem label="3º Grau" menuKey="loja-grau3" href="/loja/grau3" />
-          </MenuItem>
+          {/* Link da Loja Atualizado */}
+          <MenuItem label="Loja" menuKey="loja" isTopLevel={true} href="/loja" />
 
           <MenuItem
             label="Info Adicionais"

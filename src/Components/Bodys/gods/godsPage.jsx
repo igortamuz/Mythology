@@ -387,7 +387,7 @@ const StatusCalculator = ({
         </button>
       </div>
       <div className="theikos-form-selector">
-        <h6 className="theikos-form-title">Forma Ativa</h6>
+        <h6 className="theikos-form-title">Forma</h6>
         <div className="theikos-radio-group">
           {forms.map((form) => (
             <div key={form.id} className="radio-button-wrapper">
@@ -409,7 +409,7 @@ const StatusCalculator = ({
       </div>
 
       <div className="reborn-selector">
-        <label className="reborn-toggle-label">Player Reborn?</label>
+        <label className="reborn-toggle-label">Reborn?</label>
         <div className="reborn-toggle-switch">
           <input
             type="checkbox"
