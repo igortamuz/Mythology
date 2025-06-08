@@ -16,12 +16,6 @@ export default function Footer() {
             <li><a href="/termos">Termos de Uso</a></li>
           </ul>
         </nav>
-        <div className="footer-social">
-          {/* Add social media links here if you have them */}
-          {/* Example: */}
-          {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a> */}
-          {/* <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a> */}
-        </div>
       </div>
       <div className="footer-bottom">
         <p>&copy; {currentYear} Mythology. Todos os direitos reservados.</p>
