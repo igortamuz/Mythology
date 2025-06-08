@@ -1474,8 +1474,7 @@
               "descrição": "Agora, o desperto poderá extrair a cerca de cinco fios, um em cada dedo. Essa habilidade irá causar Sangramento por um turno se for usada como ataque ofensivo.",
               "alcance": "15 metros",
               "danoHabilidade": "25%",
-              "gastoEnergia": "25%",
-              "duracao": "1 turno"
+              "gastoEnergia": "25%"
             },
             {
               "level": 50,
@@ -1489,8 +1488,7 @@
               "descrição": "Podendo extrair fios de todos os dez dedos, o desperto de Atena/Minerva terá domínio total dessa habilidade! Ele poderá usar para se defender, atacar, imobilizar e afins. E assim, o efeito de Sangramento é estendido para dois turnos, e mantém efeito de livro sagrado.",
               "alcance": "30 metros",
               "danoHabilidade": "55%",
-              "gastoEnergia": "35%",
-              "duracao": "2 turnos"
+              "gastoEnergia": "35%"
             }
           ]
         },
