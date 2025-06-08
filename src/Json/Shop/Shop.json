@@ -5,42 +5,42 @@
         "nome": "Bronzenium",
         "valor": "250 D",
         "nivel": 1,
-        "imagem": "https://placehold.co/400x300/8c7853/f0e8d9?text=Bronzenium",
+        "imagem": "https://www.vestibulandoweb.com.br/wp-content/uploads/2024/03/materiais-de-bronze.jpg",
         "descricao": "Um metal comum, mas resistente, usado para forjar os primeiros equipamentos dos heróis."
       },
       {
         "nome": "Ourum",
         "valor": "250 D",
         "nivel": 1,
-        "imagem": "https://placehold.co/400x300/fde047/1a1614?text=Ourum",
+        "imagem": "https://img.freepik.com/premium-photo/gold-bars-generative-ai_802739-6.jpg",
         "descricao": "Metal dourado e maleável, frequentemente usado tanto em armaduras quanto em ornamentos."
       },
       {
         "nome": "Ferrerium",
         "valor": "450 D",
         "nivel": 10,
-        "imagem": "https://placehold.co/400x300/a8a29e/1a1614?text=Ferrerium",
+        "imagem": "https://cdn.shopify.com/s/files/1/0682/3244/6210/files/DALL_E_2024-04-01_22.45.41_-_An_image_showcasing_a_metal_art_piece_inspired_by_steampunk_featuring_abstract_shapes_and_a_vintage_look._480x480.png?v=1712004586",
         "descricao": "Um ferro de qualidade superior, conhecido por sua durabilidade em combate."
       },
       {
         "nome": "Aço Abençoado",
         "valor": "450 D",
         "nivel": 10,
-        "imagem": "https://placehold.co/400x300/e0e7ff/1a1614?text=Aço+Abençoado",
+        "imagem": "https://img.freepik.com/fotos-premium/engrenagens-de-ouro-prateadas-mecanicas-fundo-generativo-ai_845977-4451.jpg",
         "descricao": "Aço que recebeu bênçãos divinas, tornando-o mais eficaz contra criaturas sombrias."
       },
       {
         "nome": "Titânio Sagrado",
         "valor": "750 D",
         "nivel": 20,
-        "imagem": "https://placehold.co/400x300/e5e7eb/1a1614?text=Titânio+Sagrado",
+        "imagem": "https://images.nightcafe.studio/jobs/Whi3igetFfFTAgA2HCae/Whi3igetFfFTAgA2HCae--1--xnj6s.jpg?tr=w-1600,c-at_max",
         "descricao": "Leve e incrivelmente forte, este metal é imbuído com poder sagrado."
       },
       {
         "nome": "Diamante Divino",
         "valor": "750 D",
         "nivel": 20,
-        "imagem": "https://placehold.co/400x300/bae6fd/1a1614?text=Diamante+Divino",
+        "imagem": "https://img.freepik.com/premium-photo/glossy-diamond-ai-generative_847288-3226.jpg",
         "descricao": "Um dos materiais mais resistentes conhecidos, capaz de suportar grandes impactos."
       }
     ],
@@ -50,29 +50,29 @@
         "valor": "2.500 D",
         "nivel": 1,
         "quantidade": 2,
-        "imagem": "https://placehold.co/400x300/d4a373/1a1614?text=Biscoito+Mágico",
+        "imagem": "https://img.freepik.com/premium-photo/single-chocolate-chip-cookie-with-bite-taken-out-sitting-surface-covered-purple-glitter-crystals-making-it-look-like-magical-treat_14117-1151530.jpg",
         "capacidades": "Um biscoitinho feito para missões longas. Dá uma ativa por cada unidade ingerida, podendo ser muito útil em horas de emergência. Também pode recuperar uma parcela das suas energias. Limite: 2 vezes por combate. Regenera +10% de energia por biscoito mordido."
       },
       {
-        "nome": "Pulseira de Rosas",
+        "nome": "Pulseira de MidgneAne",
         "valor": "500 D",
         "nivel": 1,
-        "imagem": "https://placehold.co/400x300/f472b6/1a1614?text=Pulseira+de+Rosas",
-        "capacidades": "Uma pulseira simples feita de pétalas de uma mistura de rosas vermelhas. Permite ao usuário trocar de roupa quando desejar. Além disso, pode mudar a aparência do usuário durante três rodadas. Não afeta os poderes da prole. Ao fim, ela desaparece."
+        "imagem": "https://r2.starryai.com/results/1048667276/bb7999fd-974f-4b0a-a986-c16c96f11b64.webp",
+        "capacidades": "Uma pulseira simples feita de flores de MidgneAne, a flor da ilusão. Permite ao usuário trocar de roupa quando desejar. Além disso, pode mudar a aparência do usuário durante três rodadas. Não afeta os poderes da prole. Ao fim, ela desaparece."
       },
       {
-        "nome": "Espectro de Pombo",
+        "nome": "Espectro de Pássaro",
         "valor": "1.000 D",
         "nivel": 25,
-        "imagem": "https://placehold.co/400x300/fefce8/1a1614?text=Espectro+de+Pombo",
-        "capacidades": "Um acessório da escolha do semideus que ao mínimo toque vira um pombo espectro de cor dourada. Ao atingir o alvo, ele explode exalando uma fumaça que se estende por 20 metros."
+        "imagem": "https://img.freepik.com/premium-photo/gold-gold-design-with-bird-it_776674-883752.jpg",
+        "capacidades": "Um acessório da escolha do desperto que ao mínimo toque vira uma pequena ave espectro de cor dourada. Ao atingir o alvo, ele explode exalando uma fumaça que se estende por 20 metros."
       },
       {
         "nome": "Poção de Fôlego Aquático",
         "valor": "800 D",
         "nivel": 5,
-        "imagem": "https://placehold.co/400x300/38bdf8/1a1614?text=Poção+Aquática",
-        "capacidades": "Um pequeno frasco com um líquido azul cintilante. Ao ser consumido, permite ao usuário respirar debaixo d'água por 10 minutos. Uso único."
+        "imagem": "https://images.nightcafe.studio/jobs/CxvEdlElrXyGbE5PViUI/CxvEdlElrXyGbE5PViUI--1--2hygn.jpg",
+        "capacidades": "Um pequeno frasco com um líquido azul cintilante. Ao ser consumido, permite ao usuário respirar debaixo d'água por 10 turnos. Uso único."
       }
     ],
     "ovinhos": [
@@ -81,8 +81,8 @@
         "valor": "2.500 D",
         "nivel": 1,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/f3e8ff/1a1614?text=Ovinho+da+Sorte",
-        "capacidades": "Cada semideus pode ter até um ovinho da sorte que ao chocar, pode surgir um companheiro para todas as suas aventuras (será rolado em roleta).",
+        "imagem": "https://img.freepik.com/premium-photo/plate-colorful-easter-eggs-with-brown-bowl-blue-brown-colored-eggs_788548-258.jpg",
+        "capacidades": "Cada desperto pode ter até um ovinho da sorte que ao chocar, pode surgir um companheiro para todas as suas aventuras (será rolado em roleta).",
         "companheiros": [
           {
             "nome": "Mini Unicórnio",
@@ -113,15 +113,15 @@
         "nome": "Platinium Santo",
         "valor": "1.500 D",
         "nivel": 40,
-        "imagem": "https://placehold.co/400x300/e5e5e5/1a1614?text=Platinium+Santo",
-        "descricao": "Uma platina rara, forjada com métodos celestiais para criar armas e armaduras de grande poder."
+        "imagem": "https://images.nightcafe.studio/jobs/MuObyBGbNi8RdlQgi7k7/MuObyBGbNi8RdlQgi7k7--1--90juh.jpg",
+        "descricao": "Uma platina rara, forjada com métodos celestiais para criar armas de grande poder."
       },
       {
         "nome": "Escudarinus Subline",
         "valor": "1.500 D",
         "nivel": 40,
-        "imagem": "https://placehold.co/400x300/4c1d95/f0e8d9?text=Escudarinus",
-        "descricao": "Metal encontrado nas profundezas do submundo, com propriedades de absorção de energia mágica."
+        "imagem": "https://cdn.midjourney.com/19a43ed8-a0f5-4bd5-a36c-5804e604e7b5/grid_0_640_N.webp",
+        "descricao": "Metal encontrado nas profundezas do submundo para criar armaduras de grande resistência."
       }
     ],
     "itens": [
@@ -131,7 +131,7 @@
         "nivel": 50,
         "condicao": "Livre",
         "quantidade": 2,
-        "imagem": "https://placehold.co/400x300/3b82f6/f0e8d9?text=Lápis+Lazuli",
+        "imagem": "https://img.freepik.com/premium-photo/lapis-lazuli-texture-blue-stone-background-lazure-gem-slice-dark-blue-crystal-abstract-generative-ai-illustration_162695-5409.jpg",
         "capacidades": "Uma pedra encantada que serve como fonte de energia extra. Pode se transformar em qualquer acessório de bijuteria. Limite: 2 vezes por combate. Regenera +25% de energia por pedra destruída."
       },
       {
@@ -139,7 +139,7 @@
         "valor": "2.500 D",
         "nivel": 25,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/a78bfa/1a1614?text=Pincel+Aquarela",
+        "imagem": "https://static.vecteezy.com/system/resources/previews/030/728/535/non_2x/watercolor-image-of-a-paintbrush-and-paint-palette-ai-generative-free-png.png",
         "capacidades": "Um pincel prateado que ao ser usado para desenhar em uma superfície plana pode abrir um 'portal' para um lugar que o portador já tenha frequentado ao menos duas vezes. Uso único."
       },
       {
@@ -147,42 +147,42 @@
         "valor": "1.500 D",
         "nivel": 50,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/57534e/f0e8d9?text=Bolsa+sem+Fundo",
+        "imagem": "https://img.freepik.com/premium-photo/watercolor-backpack-clipart-generative-ai_879157-19536.jpg",
         "capacidades": "Uma bolsa que, como o nome diz, não tem fundo. Ótima para alquimistas e médicos. Limitação de tamanho de objetos (até 30 cm). Imune a cheiros, detectores de metal, sensores de calor e não pesa mais que uma bolsa normal."
       },
       {
         "nome": "Véu Noturno",
         "valor": "2.000 D",
         "nivel": 40,
-        "imagem": "https://placehold.co/400x300/1e293b/f0e8d9?text=Véu+Noturno",
+        "imagem": "https://cdn.pixabay.com/photo/2024/01/23/05/21/ai-generated-8526806_1280.jpg",
         "capacidades": "Uma capa negra que reflete o céu noturno. Pode distrair um adversário por 1 turno. Durante a noite, concede invisibilidade para até 2 pessoas. O efeito dura 2 turnos e é quebrado se o usuário não for furtivo."
       },
       {
         "nome": "1° Litro de Água de Atlantis",
-        "valor": "2.000 D",
+        "valor": "5000 D",
         "nivel": "Livre",
-        "imagem": "https://placehold.co/400x300/7dd3fc/1a1614?text=Água+de+Atlantis",
+        "imagem": "https://images.nightcafe.studio/jobs/AcF8xrDWZZQnCqhOP8Vy/AcF8xrDWZZQnCqhOP8Vy--1--mu6cq.jpg",
         "capacidades": "Água cristalina que pode anular chamas do submundo. Se bebida com permissão do controlador, pode rejuvenescer o bebedor em até 1 ano."
       },
       {
         "nome": "Amuleto da Enganação",
         "valor": "2.000 D",
         "nivel": 50,
-        "imagem": "https://placehold.co/400x300/f59e0b/1a1614?text=Amuleto+de+Hermes",
+        "imagem": "https://img.freepik.com/fotos-premium/colar-radiante-brilhante-pingente-de-pedra-embutida-generativo-por-ai_894067-10421.jpg",
         "capacidades": "Com uma amostra de DNA do adversário, o usuário pode clonar sua aparência e voz por quatro turnos. Após o uso, o amuleto perde o efeito."
       },
       {
         "nome": "O Casamento",
         "valor": "2.000 D",
         "nivel": 50,
-        "imagem": "https://placehold.co/400x300/fecaca/1a1614?text=Anéis+de+Casamento",
+        "imagem": "https://img.freepik.com/premium-photo/there-are-two-rings-that-are-connected-each-other-generative-ai_958165-10834.jpg",
         "capacidades": "Um par de anéis para casais. Concede 'Elo mental' (comunicação telepática a qualquer distância) e 'Poder amoroso' (+10% nos status quando juntos). A infidelidade ou separação resulta em punições divinas."
       },
       {
-        "nome": "Escudo da Górgona (Fragmento)",
+        "nome": "Escudo do Horror (Fragmento)",
         "valor": "4.000 D",
         "nivel": 45,
-        "imagem": "https://placehold.co/400x300/4d7c0f/f0e8d9?text=Escudo+da+Górgona",
+        "imagem": "https://images.nightcafe.studio/jobs/pYjdzeStAzbrGgWNicmg/pYjdzeStAzbrGgWNicmg--1--u5roi.jpg",
         "capacidades": "Um pequeno broche de escudo que, quando ativado, expande-se para um escudo de porte médio por 3 turnos. Ataques corpo a corpo recebidos têm 1d6 de chance de infligir 'Atordoamento' no atacante por 1 turno. 1 vez por combate."
       }
     ],
@@ -192,7 +192,7 @@
         "valor": "5.000 D",
         "nivel": 25,
         "condicao": "No mínimo Grau Superior",
-        "imagem": "https://placehold.co/400x300/d8b4fe/1a1614?text=Ovinho+Raro",
+        "imagem": "https://img.freepik.com/premium-photo/easter-egg-bliss-cheerful-eggs-white-easter-eggs-photography_1020697-7633.jpg?w=360",
         "capacidades": "Demora 2 semanas para chocar. O animal pode variar.",
         "companheiros": [
           {
@@ -226,8 +226,8 @@
         "valor": "5.000 D",
         "nivel": "Reborn +",
         "condicao": "Reborn",
-        "imagem": "https://placehold.co/400x300/67e8f9/1a1614?text=Ômega+Divino",
-        "descricao": "Metais divinos usados pelos deuses como suas defesas principais. Possui um brilho único e cor variável. Se alguém incapaz (Não Reborn ou em forma divina) tentar usar, sua morte é eminente."
+        "imagem": "https://img.freepik.com/premium-photo/colorful-metal-object-with-rainbow-colored-design-it_1281602-34954.jpg",
+        "descricao": "Objetos divinos usados pelos deuses como suas defesas principais. Possui um brilho único e cor variável. Se alguém incapaz (Não Reborn ou em forma divina) tentar usar, sua morte é eminente."
       }
     ],
     "itens": [
@@ -236,7 +236,7 @@
         "valor": "12.000 D",
         "nivel": "Reborn",
         "condicao": "Reborn",
-        "imagem": "https://placehold.co/400x300/4c1d95/f0e8d9?text=Essência+do+Caos",
+        "imagem": "https://images.nightcafe.studio/jobs/vXtzhvoDeejVMG59NaA9/vXtzhvoDeejVMG59NaA9--1--qxrp1.jpg",
         "capacidades": "Um frasco contendo uma energia instável e turbulenta. Ao ser consumida, concede ao usuário um bônus aleatório e poderoso (+25% em um status) e um debuff aleatório (-15% em outro status) por 3 turnos. 1 vez por combate."
       }
     ],
@@ -246,7 +246,7 @@
         "valor": "15.000 D",
         "nivel": 100,
         "condicao": "Ser de Último Grau",
-        "imagem": "https://placehold.co/400x300/fbcfe8/1a1614?text=Ovo+Familiar",
+        "imagem": "https://img.freepik.com/premium-photo/beautiful-easter-egg-with-unique-design-egg-is-decorated-with-vibrant-colors-has-glossy-finish_14117-393024.jpg",
         "capacidades": "Um ovo cintilante que demora duas semanas para chocar. Ao 'nascer', a criatura tomará a forma do espírito animal de seu dono. Pode receber um dom mágico (avaliado pela adm).",
         "status": {
           "HP": "100% do HP do dono",
@@ -264,58 +264,58 @@
     "lacrimas": [
       {
         "nome": "Lacrima do Fogo",
-        "valor": "3.000 D",
-        "nivel": 50,
+        "valor": "2.000 D",
+        "nivel": 30,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/f97316/1a1614?text=Lacrima+do+Fogo",
+        "imagem": "https://img.freepik.com/premium-photo/large-piece-lava-stone-with-red-orange-flame_962508-29029.jpg",
         "capacidades": "Joia comestível que concede controle sobre fogo comum e imunidade a queimadura por duas rodadas."
       },
       {
         "nome": "Lacrima da Água",
-        "valor": "3.000 D",
-        "nivel": 50,
+        "valor": "2.000 D",
+        "nivel": 30,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/38bdf8/1a1614?text=Lacrima+da+Água",
+        "imagem": "https://imgcdn.stablediffusionweb.com/2024/3/24/200c836b-f747-43ed-b8f8-8fa0b5f62ece.jpg",
         "capacidades": "Joia comestível que concede controle sobre água comum e imunidade a congelamento por duas rodadas."
       },
       {
         "nome": "Lacrima do Vento",
-        "valor": "3.000 D",
-        "nivel": 50,
+        "valor": "2.000 D",
+        "nivel": 30,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/e5e7eb/1a1614?text=Lacrima+do+Vento",
+        "imagem": "https://images.nightcafe.studio/jobs/UP9HlhLbongUEI2LknbU/UP9HlhLbongUEI2LknbU--1--s3j08.jpg",
         "capacidades": "Joia comestível que concede controle sobre ar comum e imunidade a Restrição por duas rodadas."
       },
       {
         "nome": "Lacrima da Terra",
-        "valor": "3.000 D",
-        "nivel": 50,
+        "valor": "2.000 D",
+        "nivel": 30,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/84cc16/1a1614?text=Lacrima+da+Terra",
+        "imagem": "https://images.nightcafe.studio/jobs/LD5SoxTN83qB376Fjbya/LD5SoxTN83qB376Fjbya.jpg",
         "capacidades": "Joia comestível que concede controle sobre terra e rochas, e imunidade a petrificação por duas rodadas."
       },
       {
         "nome": "Lacrima das Trevas",
-        "valor": "3.000 D",
-        "nivel": 50,
+        "valor": "2.000 D",
+        "nivel": 30,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/4c1d95/f0e8d9?text=Lacrima+das+Trevas",
+        "imagem": "https://img.stablecog.com/insecure/1920w/aHR0cHM6Ly9iLnN0YWJsZWNvZy5jb20vNjA0ZmZlNmUtMzRkMi00YjIzLTgzMGItMDMwYzIyMjliNjZiLmpwZWc.webp",
         "capacidades": "Joia comestível que concede controle sobre sombras comuns e imunidade a Corrosão  por duas rodadas."
       },
       {
         "nome": "Lacrima da Luz",
-        "valor": "3.000 D",
-        "nivel": 50,
+        "valor": "2.000 D",
+        "nivel": 30,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/fef08a/1a1614?text=Lacrima+da+Luz",
+        "imagem": "https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/1de4a307-14e8-4a21-ac10-6a554f139599/707c9875-fa7c-4237-8748-cc6ad9413683.png",
         "capacidades": "Joia comestível que concede controle sobre luz comum e imunidade a infecção por duas rodadas."
       },
       {
         "nome": "Lacrima do Raio",
-        "valor": "3.000 D",
-        "nivel": 50,
+        "valor": "2.000 D",
+        "nivel": 30,
         "condicao": "Livre",
-        "imagem": "https://placehold.co/400x300/facc15/1a1614?text=Lacrima+do+Raio",
+        "imagem": "https://imgcdn.stablediffusionweb.com/2024/4/15/e5e08bcb-bfcd-4613-8a70-260748c8ca5e.jpg",
         "capacidades": "Joia comestível que concede controle sobre raios comuns e imunidade a eletrificação por duas rodadas."
       }
     ],
@@ -324,14 +324,14 @@
         "nome": "Vaga para +1 personagem",
         "valor": "10.000 D",
         "nivel": "Livre",
-        "imagem": "https://placehold.co/400x300/a855f7/1a1614?text=Vaga+Extra",
+        "imagem": "https://img.freepik.com/fotos-premium/dna-humano-3d-generative-ai_841229-122.jpg",
         "descricao": "Comprar vaga para personagens novos! Também é necessário para caso queira filhotes/herdandos!"
       },
       {
         "nome": "Pena de Fênix",
         "valor": "30.000 D",
         "nivel": "Livre",
-        "imagem": "https://placehold.co/400x300/f97316/1a1614?text=Pena+de+Fênix",
+        "imagem": "https://images.nightcafe.studio/jobs/QxGsit9pzb2mepJcpBuh/QxGsit9pzb2mepJcpBuh--1--xo6kw.jpg",
         "descricao": "Quando o comprador morre, seu corpo queima e, após 1 turno, volta à vida. Pode ser usada em aliados mortos há menos de 2 turnos."
       }
     ]
