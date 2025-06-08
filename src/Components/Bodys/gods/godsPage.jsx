@@ -338,7 +338,6 @@ const HabilidadeCard = ({ habilidade, tipo, calculatedStats }) => {
   );
 };
 
-// <-- ALTERAÇÃO 4: Receber a ref como propriedade
 const StatusCalculator = ({
   playerLevel,
   onLevelChange,
@@ -443,7 +442,6 @@ const StatusCalculator = ({
         )}
         <br />
       </div>
-      {/* // <-- ALTERAÇÃO 5: Anexar a ref à div dos resultados */}
       {calculatedStats && (
         <div className="calculator-results" ref={resultsRef}>
           <div className="table-container">
@@ -484,7 +482,7 @@ const GodsPage = () => {
   const [isReborn, setIsReborn] = useState(false);
   const [rebornStartLevel, setRebornStartLevel] = useState("");
 
-  const resultsRef = useRef(null); // <-- ALTERAÇÃO 2: Criar a ref
+  const resultsRef = useRef(null);
 
   useEffect(() => {
     const data = panteoes[panteao.toLowerCase()];
@@ -500,16 +498,14 @@ const GodsPage = () => {
     }
   }, [panteao, nomeDeus]);
 
-  // <-- ALTERAÇÃO 6: Novo useEffect para controlar a rolagem
   useEffect(() => {
-    // Se 'calculatedStats' não for nulo (ou seja, foi calculado) e a ref estiver anexada
     if (calculatedStats && resultsRef.current) {
       resultsRef.current.scrollIntoView({
         behavior: "smooth",
         block: "start",
       });
     }
-  }, [calculatedStats]); // Este efeito executa sempre que 'calculatedStats' muda
+  }, [calculatedStats]);
 
   const findAlteracaoDeStatus = (habilidades) => {
     if (!habilidades) return null;
@@ -702,7 +698,7 @@ const GodsPage = () => {
                   onRebornLevelChange={(e) =>
                     setRebornStartLevel(e.target.value)
                   }
-                  resultsRef={resultsRef} // <-- ALTERAÇÃO 3: Passar a ref para o componente
+                  resultsRef={resultsRef}
                 />
               </div>
             )}
