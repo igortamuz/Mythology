@@ -5,7 +5,8 @@ import Footer from "../Components/Footer/footer";
 import Home from "../Components/Bodys/home/home";
 import Terms from "../Components/Bodys/terms/terms";
 import GodsPage from "../Components/Bodys/gods/godsPage";
-import GlobalKeywordApplier from "../GlobalWrapper/globalApplier"; 
+import GlobalKeywordApplier from "../GlobalWrapper/globalApplier";
+import Shop from "../Components/Bodys/shop/shop";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/Entrada" element={<Home />} />
               <Route path="/Termos" element={<Terms />} />
+			  <Route path="/loja" element={<Shop />} />
               <Route path="/panteao/:panteao/:nomeDeus" element={<GodsPage />} />
             </Routes>
           </GlobalKeywordApplier>
