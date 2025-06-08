@@ -202,7 +202,7 @@ export default function Shop() {
 
     const tabs = {
         grau1: "1° Grau",
-        grau2_3: "2°/3° Grau",
+        grau2_3: "2° Grau",
         reborn: "Reborn",
         especiais: "Especiais",
         servicos: "Serviços & Profissões",

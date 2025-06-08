@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./header.css";
 import logo from "../../Assets/Imgs/Minotauro_logo.png";
 import Olimpo from "../../Json/Deuses/Olimpo.json";
 import Sagas from "../../Json/Sagas/Sagas.json";
 
 export default function Header() {
-  const deusesOlimpo = Object.keys(Olimpo.deuses); //Recebimento do JSON dos deuses em Array
-  const temporadas = Object.entries(Sagas.sagas); //Recebimento do JSON das sagas em Array
+  const deusesOlimpo = Object.keys(Olimpo.deuses);
+  const temporadas = Object.entries(Sagas.sagas);
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openSubmenus, setOpenSubmenus] = useState({});
@@ -42,27 +43,25 @@ export default function Header() {
         !navRef.current.contains(event.target) &&
         !event.target.closest(".menu-toggle")
       ) {
-        // A lógica de fechar ao clicar fora foi removida conforme o original,
-        // mas se precisar, pode adicionar setIsMobileMenuOpen(false) aqui.
+        setIsMobileMenuOpen(false);
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [isMobileMenuOpen]);
 
-  // Componente reutilizável para itens de menu e submenus
   const MenuItem = ({
     label,
     children,
     menuKey,
     href = null,
-    isTopLevel = false,
     renderSubmenuRight = false,
   }) => {
     const hasSubmenu = React.Children.count(children) > 0;
     const isCurrentlyOpen = !!openSubmenus[menuKey];
 
     const liClasses = [
+      "menu-item",
       hasSubmenu ? "has-submenu" : "",
       isCurrentlyOpen && window.innerWidth <= 768 ? "mobile-submenu-open" : "",
     ]
@@ -77,34 +76,36 @@ export default function Header() {
       .filter(Boolean)
       .join(" ");
 
-    const handleClick = (e) => {
-      if (hasSubmenu) {
-        if (window.innerWidth <= 768) {
-          handleSubmenuToggle(menuKey, e);
-        }
-      } else {
-        if (isMobileMenuOpen && window.innerWidth <= 768) {
-          setTimeout(() => {
-            setIsMobileMenuOpen(false);
-          }, 250);
-        }
+    const handleItemClick = (e) => {
+      if (hasSubmenu && window.innerWidth <= 768) {
+        handleSubmenuToggle(menuKey, e);
+      } else if (
+        !hasSubmenu &&
+        href &&
+        isMobileMenuOpen &&
+        window.innerWidth <= 768
+      ) {
+        setTimeout(() => {
+          setIsMobileMenuOpen(false);
+        }, 250);
       }
     };
 
     return (
-      <li className={liClasses} onClick={handleClick}>
-        <span className="menu-item-label">
-          {!hasSubmenu && href && href !== "#" && href !== null ? (
-            <a
-              href={href}
-              onClick={(e) => e.stopPropagation()}
-            >
-              {label}
-            </a>
-          ) : (
-            label
-          )}
-        </span>
+      <li className={liClasses}>
+        {hasSubmenu ? (
+          <span className="menu-item-content" onClick={handleItemClick}>
+            {label}
+          </span>
+        ) : (
+          <a
+            href={href || "#"}
+            className="menu-item-content"
+            onClick={handleItemClick}
+          >
+            {label}
+          </a>
+        )}
 
         {hasSubmenu && <ul className={submenuClasses}>{children}</ul>}
       </li>
@@ -113,10 +114,12 @@ export default function Header() {
 
   return (
     <header className="header">
-      <div className="logo-container">
-        <img src={logo} alt="Minotauro_Logo" className="logo" />
-        <div className="site-name">Mythology</div>
-      </div>
+      <Link to={"/"}>
+        <div className="logo-container">
+          <img src={logo} alt="Minotauro_Logo" className="logo" />
+          <div className="site-name">Mythology</div>
+        </div>
+      </Link>
 
       <button
         className={`menu-toggle ${isMobileMenuOpen ? "open" : ""}`}
@@ -135,14 +138,9 @@ export default function Header() {
         aria-hidden={!isMobileMenuOpen && window.innerWidth <= 768}
       >
         <ul className="menu">
-          <MenuItem
-            label="Início"
-            menuKey="entrada"
-            isTopLevel={true}
-            href="/entrada"
-          />
+          <MenuItem label="Início" menuKey="entrada" href="/entrada" />
 
-          <MenuItem label="Sagas" menuKey="sagas" isTopLevel={true}>
+          <MenuItem label="Sagas" menuKey="sagas">
             {temporadas.map(([keyTemporada, temporada]) => (
               <MenuItem
                 key={keyTemporada}
@@ -164,7 +162,7 @@ export default function Header() {
             ))}
           </MenuItem>
 
-          <MenuItem label="Panteão" menuKey="panteao" isTopLevel={true}>
+          <MenuItem label="Panteão" menuKey="panteao">
             <MenuItem
               label="Olimpo"
               menuKey="panteao-olimpo"
@@ -207,20 +205,21 @@ export default function Header() {
             </MenuItem>
           </MenuItem>
 
-          <MenuItem
-            label="Sistemas RPG"
-            menuKey="sistemas-rpg"
-            isTopLevel={true}
-          >
+          <MenuItem label="Sistemas RPG" menuKey="sistemas-rpg">
             <MenuItem
-              label="Sistema Base"
+              label="Base"
               menuKey="sistemas-rpg-base"
               renderSubmenuRight={true}
             >
               <MenuItem
                 label="Leitura do Sistema"
                 menuKey="sistemas-rpg-base-leitura"
-                href="/sistemas/combate/leitura"
+                href="/sistemas/base/leitura"
+              />
+              <MenuItem
+                label="Fichas do RPG"
+                menuKey="sistemas-rpg-base-fichas"
+                href="/sistemas/base/fichas"
               />
               <MenuItem
                 label="Guildas"
@@ -239,7 +238,7 @@ export default function Header() {
               />
             </MenuItem>
             <MenuItem
-              label="Sistemas de Combate"
+              label="Combate"
               menuKey="sistemas-rpg-combate"
               renderSubmenuRight={true}
             >
@@ -271,14 +270,9 @@ export default function Header() {
             </MenuItem>
           </MenuItem>
 
-          {/* Link da Loja Atualizado */}
-          <MenuItem label="Loja" menuKey="loja" isTopLevel={true} href="/loja" />
+          <MenuItem label="Loja" menuKey="loja" href="/loja" />
 
-          <MenuItem
-            label="Info Adicionais"
-            menuKey="info-adicionais"
-            isTopLevel={true}
-          >
+          <MenuItem label="Info Adicionais" menuKey="info-adicionais">
             <MenuItem
               label="Hyperdimensão"
               menuKey="info-hyperdimensao"
@@ -311,12 +305,7 @@ export default function Header() {
             />
           </MenuItem>
 
-          <MenuItem
-            label="Termos"
-            menuKey="termos"
-            isTopLevel={true}
-            href="/termos"
-          />
+          <MenuItem label="Termos" menuKey="termos" href="/termos" />
         </ul>
       </nav>
     </header>
