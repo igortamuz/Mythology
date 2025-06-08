@@ -1,6 +1,6 @@
 /*
 ================================================
-|         ESTRUTURA PRINCIPAL DO HEADER        |
+|       ESTRUTURA PRINCIPAL DO HEADER        |
 ================================================
 */
 .header {
@@ -40,7 +40,7 @@
 
 /*
 ================================================
-|            MENU DESKTOP (>= 993px)           |
+|         MENU DESKTOP (>= 993px)          |
 ================================================
 */
 .nav {
@@ -150,7 +150,7 @@
 
 /*
 ================================================
-|         BOTÃO DE MENU MOBILE (HAMBURGER)     |
+|     BOTÃO DE MENU MOBILE (HAMBURGER)      |
 ================================================
 */
 .menu-toggle {
@@ -190,7 +190,7 @@
 
 /*
 ================================================
-|           MEDIA QUERIES (RESPONSIVIDADE)     |
+|     MEDIA QUERIES (RESPONSIVIDADE)       |
 ================================================
 */
 
@@ -243,19 +243,34 @@
   .nav .menu {
     flex-direction: column;
     width: 100%;
-    gap: 0.2rem;
+    gap: 0;
   }
+
+  /* --- MUDANÇAS PRINCIPAIS AQUI --- */
 
   .menu li {
     width: 100%;
-    padding: 0.8rem 0.5rem;
+    padding: 0;
     border-bottom: 1px solid #383838;
     border-radius: 0;
     transition: background-color 0.2s ease;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0.5rem; 
   }
+
+  .menu li .menu-item-label {
+      flex-grow: 1;
+      display: block;
+      margin-right: 0.5rem;
+  }
+
   .menu li:last-child {
     border-bottom: none;
   }
+
   .menu li:hover {
     background-color: #282828;
     transform: none;
@@ -279,6 +294,7 @@
     padding-top: 0;
     padding-bottom: 0;
     border-radius: 0;
+    flex-basis: 100%;
   }
 
   .submenu.open {
@@ -295,53 +311,41 @@
     border-bottom: none;
   }
   .submenu li:first-child {
-    border-top: none;
+    border-top: 1px solid #383838;
   }
   .submenu li:hover {
     background-color: #333;
   }
 
-  /* Desativa o hover de desktop no mobile */
   .has-submenu:hover > .submenu {
     display: none;
   }
 
-  /* Ativa a exibição via JS/classe .open */
   .has-submenu > .submenu.open {
     display: block;
   }
 
-  /* Setas dos submenus (Mobile) */
-  .menu > li.has-submenu::after {
+  /* --- NOVA ESTRUTURA DAS SETAS (MOBILE) --- */
+
+  .menu li.has-submenu::after {
     content: "";
     border: solid white;
     border-width: 0 2px 2px 0;
     display: inline-block;
-    padding: 3px;
-    position: absolute;
-    right: 1rem;
-    top: 50%;
-    transform: translateY(-50%) rotate(45deg);
+    padding: 4px; /* Aumenta o tamanho da seta */
+    transform: rotate(45deg); /* Seta para baixo */
     transition: transform 0.3s ease;
+
+    position: static;
+
+    flex-shrink: 0;
   }
 
-  .menu > li.has-submenu.mobile-submenu-open::after {
-    transform: translateY(-50%) rotate(135deg);
+  .menu li.has-submenu.mobile-submenu-open::after {
+    transform: rotate(-135deg); /* Seta para cima */
   }
 
   .submenu li.has-submenu::after {
-    content: "";
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 3px;
-    position: absolute;
-    right: 0.5rem;
-    top: 50%;
-    transform: translateY(-50%) rotate(45deg);
-    transition: transform 0.3s ease;
-  }
-  .submenu li.has-submenu.mobile-submenu-open::after {
-    transform: translateY(-50%) rotate(135deg);
+    padding: 3px; /* Seta um pouco menor para sub-itens */
   }
 }

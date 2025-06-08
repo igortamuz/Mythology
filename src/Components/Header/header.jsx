@@ -23,13 +23,10 @@ export default function Header() {
       const isCurrentlyOpen = !!prevOpenState[menuKey];
       newState[menuKey] = !isCurrentlyOpen;
 
-      // Se estamos fechando este menu, fechar também todos os seus descendentes
       if (!newState[menuKey]) {
-        // Se o menu foi fechado com este clique
         Object.keys(newState).forEach((key) => {
-          // Verifica se 'key' é um descendente de 'menuKey'
           if (key.startsWith(menuKey + "-")) {
-            newState[key] = false; // Fecha os filhos
+            newState[key] = false;
           }
         });
       }
@@ -45,6 +42,8 @@ export default function Header() {
         !navRef.current.contains(event.target) &&
         !event.target.closest(".menu-toggle")
       ) {
+        // A lógica de fechar ao clicar fora foi removida conforme o original,
+        // mas se precisar, pode adicionar setIsMobileMenuOpen(false) aqui.
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
@@ -55,7 +54,7 @@ export default function Header() {
   const MenuItem = ({
     label,
     children,
-    menuKey, // Chave única para este item de menu
+    menuKey,
     href = null,
     isTopLevel = false,
     renderSubmenuRight = false,
@@ -81,49 +80,32 @@ export default function Header() {
     const handleClick = (e) => {
       if (hasSubmenu) {
         if (window.innerWidth <= 768) {
-          // Mobile
           handleSubmenuToggle(menuKey, e);
-        } else {
-          // Desktop - clique em item com submenu
-          if (href && href !== "#" && href !== null) {
-            // Se o item pai do submenu também for um link navegável
-            // A navegação padrão do <a> (se 'label' fosse um <a>) ou via JS.
-            // Ex: window.location.href = href; (sem e.preventDefault())
-          }
         }
       } else {
-        // Item sem submenu (folha)
-        // Se tiver um href válido, a navegação ocorrerá.
-        // O <a> renderizado abaixo cuidará da navegação.
-
-        // Fechar o menu mobile ao clicar em um item final
         if (isMobileMenuOpen && window.innerWidth <= 768) {
           setTimeout(() => {
-            setIsMobileMenuOpen(false); // Aciona a animação de fechamento do menu principal
-          }, 250); // Delay de 250ms
+            setIsMobileMenuOpen(false);
+          }, 250);
         }
       }
     };
 
     return (
       <li className={liClasses} onClick={handleClick}>
-        {/* Se for um link final (sem submenu) E tiver href, renderiza como <a> */}
-        {/* Caso contrário, apenas o label (se tiver submenu, o clique no <li> abre o submenu) */}
-        {!hasSubmenu && href && href !== "#" && href !== null ? (
-          <a
-            href={href}
-            onClick={
-              (e) =>
-                e.stopPropagation() /* Para não disparar o handleClick do <li> desnecessariamente */
-            }
-          >
-            {label}
-          </a>
-        ) : (
-          label
-        )}
+        <span className="menu-item-label">
+          {!hasSubmenu && href && href !== "#" && href !== null ? (
+            <a
+              href={href}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {label}
+            </a>
+          ) : (
+            label
+          )}
+        </span>
 
-        {/* Renderiza os filhos <MenuItem> diretamente se eles existirem */}
         {hasSubmenu && <ul className={submenuClasses}>{children}</ul>}
       </li>
     );
@@ -163,18 +145,18 @@ export default function Header() {
           <MenuItem label="Sagas" menuKey="sagas" isTopLevel={true}>
             {temporadas.map(([keyTemporada, temporada]) => (
               <MenuItem
-                key={keyTemporada} // React key
+                key={keyTemporada}
                 label={temporada.nome}
-                menuKey={`sagas-${keyTemporada}`} // Chave para controle de estado do submenu
+                menuKey={`sagas-${keyTemporada}`}
                 renderSubmenuRight={true}
               >
                 {Object.entries(temporada)
                   .filter(([key]) => key !== "nome")
                   .map(([keySaga, saga]) => (
                     <MenuItem
-                      key={keySaga} // React key
+                      key={keySaga}
                       label={saga.nome}
-                      menuKey={`sagas-${keyTemporada}-${keySaga}`} // Chave para controle de estado
+                      menuKey={`sagas-${keyTemporada}-${keySaga}`}
                       href={`/sagas/${keyTemporada}/${keySaga}`}
                     />
                   ))}
@@ -257,7 +239,7 @@ export default function Header() {
               />
             </MenuItem>
             <MenuItem
-              label="Sistemas de Combate‎‎‎‎‎‎‎‎ㅤ"
+              label="Sistemas de Combate"
               menuKey="sistemas-rpg-combate"
               renderSubmenuRight={true}
             >
