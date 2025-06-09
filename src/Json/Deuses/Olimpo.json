@@ -53,7 +53,7 @@
           "niveis": [
             {
               "level": 25,
-              "descrição": "O descendente aplica extorquido e fixação para todos aqueles de level inferior ou até 10 leveis superior a ele de 5% de sua velocidade, dano físico e de habilidade dentro do combate e aplica em si mesmo extorquir no mesmo valor.",
+              "descrição": "O descendente aplica extorquido e fixação para todos aqueles de level inferior ou até 5 leveis superior a ele de 5% de sua velocidade, dano físico e de habilidade dentro do combate e aplica em si mesmo extorquir no mesmo valor.",
               "duracao": "5 turnos",
               "recarga": "1 vez por combate",
               "alcance": "35 metros"
@@ -77,8 +77,8 @@
               "Força": "+50",
               "VelocidadeMovimento": "+9",
               "VelocidadeHabilidade": "+7",
-              "DanoFisico": "+6",
-              "DanoHabilidade": "+9",
+              "DanoFisico": "+7",
+              "DanoHabilidade": "+10",
               "DanoArmaInvocada": "+1"
             },
             "26-50": {
@@ -86,35 +86,35 @@
               "Força": "+500",
               "VelocidadeMovimento": "+11",
               "VelocidadeHabilidade": "+10",
-              "DanoFisico": "+8",
-              "DanoHabilidade": "+14",
+              "DanoFisico": "+9",
+              "DanoHabilidade": "+15",
               "DanoArmaInvocada": "+3"
             },
             "51-75": {
-              "PV": "+50",
+              "PV": "+70",
               "Força": "+5000",
               "VelocidadeMovimento": "+16",
               "VelocidadeHabilidade": "+18",
-              "DanoFisico": "+10",
-              "DanoHabilidade": "+20",
-              "DanoArmaInvocada": "+5"
+              "DanoFisico": "+11",
+              "DanoHabilidade": "+22",
+              "DanoArmaInvocada": "+6"
             },
             "76-100": {
-              "PV": "+70",
+              "PV": "+87",
               "Força": "+10000",
               "VelocidadeMovimento": "+20",
               "VelocidadeHabilidade": "+22",
-              "DanoFisico": "+12",
-              "DanoHabilidade": "+23",
-              "DanoArmaInvocada": "+5"
+              "DanoFisico": "+13",
+              "DanoHabilidade": "+25",
+              "DanoArmaInvocada": "+6"
             },
             "101+": {
-              "PV": "+35",
+              "PV": "+45",
               "Força": "+15000",
               "VelocidadeMovimento": "+11",
               "VelocidadeHabilidade": "+10",
-              "DanoFisico": "+8",
-              "DanoHabilidade": "+14",
+              "DanoFisico": "+9",
+              "DanoHabilidade": "+15",
               "DanoArmaInvocada": "+3"
             }
           }
@@ -136,7 +136,7 @@
               "duracao": "",
               "recarga": "",
               "alcance": "15 metros",
-              "danoHabilidade": "25%",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
             },
             {
@@ -145,7 +145,7 @@
               "duracao": "",
               "recarga": "",
               "alcance": "30 metros",
-              "danoHabilidade": "35%",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
@@ -154,7 +154,7 @@
               "duracao": "",
               "recarga": "",
               "alcance": "50 metros",
-              "danoHabilidade": "50%",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%",
               "subHabilidade": "Armadura de Ar",
               "reducaoDeDano": "15%",
@@ -167,7 +167,7 @@
               "duracao": "",
               "recarga": "",
               "alcance": "70 metros",
-              "danoHabilidade": "75%",
+              "danoHabilidade": "92.5%",
               "gastoEnergia": "35%"
             },
             {
@@ -176,9 +176,9 @@
               "duracao": "",
               "recarga": "",
               "alcance": "150 metros",
-              "danoFísico": "100%",
-              "danoHabilidade": "150%",
-              "gastoEnergia": "75%",
+              "danoFísico": "120%",
+              "danoHabilidade": "175%",
+              "gastoEnergia": "85%",
               "Reborn": ""
             }
           ]
@@ -224,7 +224,7 @@
           "tipo": "Poder Divino",
           "descricao": "O rei dos deuses, quando nascido foi escondido aonde pudesse crescer e se preparar para destronar o seu pai e engolidor de seus irmãos: Cronos. Desta forma, este foi criado e treinado em proteção das ninfas e fadas a qual o abençoaram com sua presença e quando o homem se tornou o Deus supremo, foram abençoadas com a beleza eterna. O descendentes nascem sob proteção dessas belas criaturas e podem invocar minúsculas fadas de energia. As fadas causam efeito de eliminar contato. Essas pequenas criaturas, não são seres vivos e nem mortos, possuem um aspecto transparente (ficam invisíveis no escuro) e podem se tornar intangíveis e com a cor indo do branco, amarelo ao rosado. Apesar de serem extremamente sensíveis, são bem úteis.",
           "Obs1": "Gasto de energia para convocar 10 fadas: 1% de energia.",
-          "Obs2": "Dano de Habilidade: 1%",
+          "Obs2": "Dano de Habilidade: 11.1%",
           "Obs3": "Duração: 3 turnos.",
           "niveis": [
             {
@@ -242,7 +242,7 @@
               "duracao": "",
               "recarga": "",
               "alcance": "10 metros",
-              "danoHabilidade": "40%",
+              "danoHabilidade": "54%",
               "gastoEnergia": "25%"
             },
             {
@@ -261,7 +261,7 @@
               "duracao": "",
               "recarga": "4 turnos",
               "alcance": "???",
-              "danoHabilidade": "75%",
+              "danoHabilidade": "92.5%",
               "gastoEnergia": "25%",
               "Reborn": ""
             }
@@ -294,6 +294,29 @@
       "Classe": "Suporte Puro",
       "Divindade": "Deusa do Casamento, da Fidelidade, do Nascimento e da Maternidade",
       "Símbolos": "Pavão, Vaca e a Diadema",
+      "Dogmas": {
+        "Introducao": "Seguidores não são filhos ou despertos, são pessoas que dedicam sua vida a seguir e obedecer os ideias de um deus/deusa, em troca, o deus o entrega uma parcela do seu poder divino. Humanos normais podem se tornar seguidores/sacerdotes, assim como despertos e até outros tipos de criaturas do mundo divino. Entre muitos dogmas citarei os 5 principais da deusa Junera, vale lembrar que quem não seguir esses dogmas poderá ser abandonado pela deusa.",
+        "Dogma1": {
+          "titulo": "1º - Lealdade",
+          "descricao": "Junera era caracterizada como uma deusa do casamento e como tal sempre manteve a fidelidade com seu marido, mesmo mediante as incessantes traições dele. As seguidores de Junera, ao se comprometerem com alguém deve manter a fidelidade inabalável e irrefutável."
+        },
+        "Dogma2": {
+          "titulo": "2º - Priorize seu amado",
+          "descricao": "Como uma boa seguidora, a seguidoras deve sempre cuidar do seu companheiro em primeiro lugar. Claro, sem descuidar de si mesma, a menos que queira. Entre finalizar um inimigo, persegui uma chance de vingança e curar seu parceiro ela sempre deve priorizar o parceiro, seu compromisso com o parceiro não deve nunca ser negligenciado."
+        },
+        "Dogma3": {
+          "titulo": "3º - Não existe perdão",
+          "descricao": "A deusa do matrimônio perdoou diversas vezes as traições do seu marido, sentiu na pele a dor que isso trazia e não deseja o mesmo para suas seguidoras, um término originado de traições ou falsidade sempre será permanente. Todavia, términos vindo de enganações ou mal entendido podem ser reatados."
+        },
+        "Dogma4": {
+          "titulo": "4º - Proteja a todos que ama",
+          "descricao": "Como uma mãe, Junera protege suas seguidoras e aqueles que são dignos do seu afeto. Suas seguidores devem seguir esse exemplo de amor. Aqueles que tiverem laços afetivos com as seguidoras será digno da proteção dela e nunca será abandonado. A seguidora não pode negar proteção para aqueles que gosta/ama, como uma mãe, daria sua vida por ele(a)."
+        },
+        "Dogma5": {
+          "titulo": "5º - Nada de 'ficar por ficar'",
+          "descricao": "Junera era uma deusa que buscava amor acima de tudo, se negando a se entregar para sentimentos triviais e desejos fúteis. Suas seguidoras devem manter esse pensamento, se for para se entregar para alguém, até mesmo um beijo, que seja em um sentimento verdadeiro e real de amor ou compromisso sério, seja ele namoro ou casamento."
+        }
+      },
       "Atratividade_AD": {
         "Pontos_Fixos": {
           "Aprender_Forma_Divina": 20,
@@ -328,7 +351,7 @@
         "PassivaUm": {
           "nome": "Alto controle da realeza - Poder Divino - Martares Bellatores e Athenerva Custosena",
           "Tipo": "Poder Divino",
-          "descricao": "Como Sacerdotisa da Deusa Junera, a deusa da proteção feminina, está possuirá inúmeras habilidades fantásticas, além de uma personalidade extremamente forte. As sacerdotisas de Junera Regines buscam sempre refletir a sua deusa e a honra-la. Portanto, são abençoadas por Ares e Atena, adquirindo imunidades a debuffs de Atordoamento, corrosão e provocação."
+          "descricao": "Como Sacerdotisa da Deusa Junera, a deusa da proteção feminina, está possuirá inúmeras habilidades fantásticas, além de uma personalidade extremamente forte. As sacerdotisas de Junera Regines buscam sempre refletir a sua deusa e a honra-la. Portanto, são abençoadas por Ares e Atena, adquirindo imunidades a debuffs de Atordoamento, Corrosão e provocação."
         },
         "PassivaDois": {
           "nome": "Joia Veloz - Poder Divino - Mercmes Vox Caelestises e Vulcanus Hephaesti",
@@ -369,7 +392,7 @@
               "VelocidadeMovimento": "+7",
               "VelocidadeHabilidade": "+9",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+8",
+              "DanoHabilidade": "+9",
               "DanoArmaInvocada": "+2"
             },
             "26-50": {
@@ -378,34 +401,34 @@
               "VelocidadeMovimento": "+8",
               "VelocidadeHabilidade": "+14",
               "DanoFisico": "+1",
-              "DanoHabilidade": "+17",
+              "DanoHabilidade": "+19",
               "DanoArmaInvocada": "+2"
             },
             "51-75": {
-              "PV": "+27",
+              "PV": "+47",
               "Força": "+4",
               "VelocidadeMovimento": "+15",
               "VelocidadeHabilidade": "+20",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+23",
+              "DanoHabilidade": "+25",
               "DanoArmaInvocada": "+2"
             },
             "76-100": {
-              "PV": "+45",
+              "PV": "+62",
               "Força": "+5",
               "VelocidadeMovimento": "+18",
               "VelocidadeHabilidade": "+25",
               "DanoFisico": "+3",
-              "DanoHabilidade": "+27",
-              "DanoArmaInvocada": "+5"
+              "DanoHabilidade": "+30",
+              "DanoArmaInvocada": "+6"
             },
             "101+": {
-              "PV": "+20",
+              "PV": "+30",
               "Força": "+3",
               "VelocidadeMovimento": "+8",
               "VelocidadeHabilidade": "+14",
               "DanoFisico": "+1",
-              "DanoHabilidade": "+17",
+              "DanoHabilidade": "+19",
               "DanoArmaInvocada": "+2"
             }
           }
@@ -455,28 +478,28 @@
               "level": 5,
               "descrição": "No primeiro level desta habilidade, a devota de Junera pode convocar vinhas do subsolo e de arvores para golpear seus alvos e \"amaldiçoar\" um oponente atingido com a Perda de Tato e Perda de Olfato, dificultando para aqueles que precisam usar armas ou se guiam por cheiros.",
               "alcance": "20 metros",
-              "danoHabilidade": "25%",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "A devota de Junera pode imitar as sensações de embriaguez em até dois alvos de uma vez. Nesse caso, causando a Perda do Tato, Perda do Olfato e sua Perda da Visão.",
               "alcance": "30 metros",
-              "danoHabilidade": "35%",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
               "level": 45,
               "descrição": "Agora, o efeito de Envenenamento também é aplicado, em união aos debuffs de perda de sentido!",
               "alcance": "50 metros",
-              "danoHabilidade": "50%",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
-              "descrição": "Reborn: No auge de seu poder, a sacerdotisa canaliza a ira combinada de Junera, Dionísio e Deméter. Os inimigos atingidos sofrem a supressão completa dos cinco sentidos (tato, olfato, visão, audição e paladar), mergulhando num estado de confusão total. Além disso, o poder das vinhas agora provoca efeito de Fúria!",
+              "descrição": "No auge de seu poder, a sacerdotisa canaliza a ira combinada de Junera, Dionísio e Deméter. Os inimigos atingidos sofrem a supressão completa dos cinco sentidos (tato, olfato, visão, audição e paladar), mergulhando num estado de confusão total. Além disso, o poder das vinhas agora provoca efeito de Fúria!",
               "alcance": "70 metros",
-              "danoHabilidade": "100%",
+              "danoHabilidade": "120%",
               "gastoEnergia": "35%",
               "Reborn": ""
             }
@@ -522,7 +545,7 @@
             },
             {
               "level": 80,
-              "descrição": "Reborn: No ápice de sua conexão com os deuses, a sacerdotisa canaliza a essência pura do céu e do mar. Uma coroa de luz líquida e raios orbita sobre sua cabeça, e um pilar de energia se forma ao redor do alvo escolhido. com sua habilidade ao limite, é capaz de ativar o Incremento de Dano de Físico, de Incremento de Dano de Arma ou de Incremento de Dano de Habilidade ao mesmo tempo! Sendo um tipo de cada, do alvo(a si ou um aliado) em até 25%! No caso dos descendentes de Zeus, 40%!",
+              "descrição": "No ápice de sua conexão com os deuses, a sacerdotisa canaliza a essência pura do céu e do mar. Uma coroa de luz líquida e raios orbita sobre sua cabeça, e um pilar de energia se forma ao redor do alvo escolhido. com sua habilidade ao limite, é capaz de ativar o Incremento de Dano de Físico, de Incremento de Dano de Arma ou de Incremento de Dano de Habilidade ao mesmo tempo! Sendo um tipo de cada, do alvo(a si ou um aliado) em até 25%! No caso dos descendentes de Zeus, 40%!",
               "duracao": "3 turnos",
               "alcance": "20 metros",
               "gastoEnergia": "25% por alvo (Até 3 alvos)",
@@ -596,7 +619,7 @@
         "PassivaUm": {
           "nome": "Descobridor dos 7 mares",
           "Tipo": "Capacidade",
-          "descricao": "O desperto pode ver linhas cartesianas e é um exímio navegador em alto mar, também pode pressentir tempestades e se guiar pelas correntes, além de servir de bússola, astrolábio e habilidade em cartografia. Possuindo imunidade a afogamento, Congelamento e corrosão e Envenenamento por líquidos. Além de imunidade ao debuff de Sangramento, impedindo seu corpo de sofrer hemorragias segurando o máximo possível do líquido dentro deste."
+          "descricao": "O desperto pode ver linhas cartesianas e é um exímio navegador em alto mar, também pode pressentir tempestades e se guiar pelas correntes, além de servir de bússola, astrolábio e habilidade em cartografia. Possuindo imunidade a afogamento, Congelamento e Corrosão e Envenenamento por líquidos. Além de imunidade ao debuff de Sangramento, impedindo seu corpo de sofrer hemorragias segurando o máximo possível do líquido dentro deste."
         },
         "PassivaDois": {
           "nome": "O Regente",
@@ -625,7 +648,7 @@
               "VelocidadeMovimento": "+8",
               "VelocidadeHabilidade": "+8",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+9",
+              "DanoHabilidade": "+10",
               "DanoArmaInvocada": "+4"
             },
             "26-50": {
@@ -634,35 +657,35 @@
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+10",
               "DanoFisico": "+3",
-              "DanoHabilidade": "+14",
-              "DanoArmaInvocada": "+8"
+              "DanoHabilidade": "+15",
+              "DanoArmaInvocada": "+9"
             },
             "51-75": {
-              "PV": "+30",
+              "PV": "+50",
               "Força": "+6",
               "VelocidadeMovimento": "+17",
               "VelocidadeHabilidade": "+17",
-              "DanoFisico": "+5",
-              "DanoHabilidade": "+20",
-              "DanoArmaInvocada": "+10"
+              "DanoFisico": "+6",
+              "DanoHabilidade": "+22",
+              "DanoArmaInvocada": "+11"
             },
             "76-100": {
-              "PV": "+50",
+              "PV": "+67",
               "Força": "+8",
               "VelocidadeMovimento": "+20",
               "VelocidadeHabilidade": "+21",
-              "DanoFisico": "+5",
-              "DanoHabilidade": "+23",
-              "DanoArmaInvocada": "+12"
+              "DanoFisico": "+6",
+              "DanoHabilidade": "+25",
+              "DanoArmaInvocada": "+13"
             },
             "101+": {
-              "PV": "+22",
+              "PV": "+32",
               "Força": "+4",
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+10",
               "DanoFisico": "+3",
-              "DanoHabilidade": "+14",
-              "DanoArmaInvocada": "+8"
+              "DanoHabilidade": "+15",
+              "DanoArmaInvocada": "+9"
             }
           }
         }
@@ -677,36 +700,36 @@
               "level": 5,
               "descrição": "Com um controle simplista, mas ainda afiado, o desperto é capaz de gerar e controlar chicotes de água que pode usar da forma que preferir contra seu oponente, podendo a chegar a 8 destes com facilidade.",
               "alcance": "10 metros",
-              "danoHabilidade": "25%",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "Com o melhor domínio a quantidade de chicote chega a dobrar. Porém, algo especial é adicionado, o usuário é capaz de gerar uma enorme rajada líquida que, ao atingir uma parte do corpo do alvo, pode causar debuff de Congelamento por um turno inteiro.",
               "alcance": "30 metros",
-              "danoHabilidade": "35%",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "Com a evolução da sua especialização sobre a manipulação das águas e, ao contrário do que aprendeu antes, este agora é capaz de aumentar consideravelmente a temperatura desta para que, ao lançar contra seus alvos, possa gerar o debuff de Queimadura por 1 turno.",
               "alcance": "50 metros",
-              "danoHabilidade": "50%",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
               "descrição": "Agora, a manipulação atinge o nível próximo ao seu ápice, permitindo o controle quase que total das águas, do quente ao frio, a Queimadura gerada por se estender por 2 turnos completos.",
               "alcance": "70 metros",
-              "danoHabilidade": "75%",
+              "danoHabilidade": "92.5%",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
-              "descrição": "Reborn: O poder de um nascido dos oceanos. O desperto é capaz de gerar a mais turbulenta das tempestades marítimas, gerando tsunamis gigantescos e devastadores que engolem áreas inteiras. É capaz de, a partir do debuff de Congelamento, que agora se estende a dois turnos, gerar o de Queimadura, mantendo ambos ativos.",
+              "descrição": "O poder de um nascido dos oceanos. O desperto é capaz de gerar a mais turbulenta das tempestades marítimas, gerando tsunamis gigantescos e devastadores que engolem áreas inteiras. É capaz de, a partir do debuff de Congelamento, que agora se estende a dois turnos, gerar o de Queimadura, mantendo ambos ativos.",
               "alcance": "120 metros",
-              "danoHabilidade": "175%",
-              "gastoEnergia": "75%",
+              "danoHabilidade": "202.5%",
+              "gastoEnergia": "85%",
               "Reborn": ""
             }
           ]
@@ -719,25 +742,25 @@
             {
               "level": 5,
               "descrição": "Imbuindo o tridente com sua energia, o desperto pode desferir cortes que causam o efeito de Sangramento instantaneamente na parte do corpo atingida, até mesmo com o leve tocar da arma, ficando ativo por 2 turnos.",
-              "danoHabilidade": "+10% da habilidade no Dano de Invocada",
+              "danoHabilidade": "+20% da habilidade no Dano de Invocada",
               "gastoEnergia": "5%"
             },
             {
               "level": 15,
               "descrição": "Alterando os componentes da sua própria energia canalizada no objeto que utiliza como arma, normalmente um tridente, o desperto ativa o efeito de Envenenamento, que fica ativo por 1 turno no corpo do alvo!",
-              "danoHabilidade": "+20% da habilidade no Dano de Invocada",
+              "danoHabilidade": "+30% da habilidade no Dano de Invocada",
               "gastoEnergia": "10%"
             },
             {
               "level": 25,
               "descrição": "O Sangramento é fortalecido, assim como a força da habilidade, durando agora a até mesmo 3 turnos completos.",
-              "danoHabilidade": "+35% da habilidade no Dano de Invocada",
+              "danoHabilidade": "+45% da habilidade no Dano de Invocada",
               "gastoEnergia": "12%"
             },
             {
               "level": 50,
               "descrição": "Agora em um estágio evoluído, o Envenenamento causado pelo tridente ativa automaticamente o efeito de Sangramento, com ambos durando 2 turnos juntos e ativos sob o alvo!",
-              "danoHabilidade": "+50% da habilidade no Dano de Invocada",
+              "danoHabilidade": "+60% da habilidade no Dano de Invocada",
               "gastoEnergia": "20%"
             }
           ]
@@ -751,28 +774,28 @@
               "level": 5,
               "descrição": "Descendente convoca um Tremor Costeiro modesto, mas já imbuído de poder divino. Uma vibração rústica emerge das areias e rochas da costa, envolvendo a área imediata ao invocador em tremores sutis. Num raio de apenas seis metros, o chão desnorteia inimigos como uma maré rasteira, fazendo-os perder o equilíbrio e sentir o estremecer das fundações terrestres.",
               "alcance": "6 metros",
-              "danoHabilidade": "25%",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "O poder da técnica se expande para um Tremor Oceânico muito mais impactante. O próprio mar parece cantar em uníssono com a terra: um rugido trovejante ecoa, e as ondas erguem-se como colossos em 30 metros ao redor do conjurador.",
               "alcance": "30 metros",
-              "danoHabilidade": "35%",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "A técnica atinge proporções épicas com o Tremor Abissal. Do abismo do fundo do mar, surge uma onda de destruição sem precedentes: numa extensão de 50 metros, a terra se abre em chamas salgadas. O estrondo sísmico abissal faz as construções costeiras desmoronar e ergue colossos de água que varrem tudo ao redor. Causa efeito de Atordoamento por 1 turno!",
               "alcance": "50 metros",
-              "danoHabilidade": "50%",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             },
             {
               "level": 70,
               "descrição": "No ápice do poder, o Cataclismo Oceânico é desencadeado, tornando-se uma calamidade lendária. A ira de Netuno irrompe com total magnitude: centenas de metros em torno do invocador se tornam um caos de mar aberto. O chão treme em fissuras colossais ao passo que ondas titânicas levantam-se como muralhas vivas, como se todo o mar se rebelasse. Causa efeito de Atordoamento por 1 turno!",
               "alcance": "100 metros",
-              "danoHabilidade": "65%",
+              "danoHabilidade": "81.5%",
               "gastoEnergia": "35%"
             }
           ]
@@ -836,7 +859,7 @@
         "PassivaUm": {
           "nome": "Beleza Eterna",
           "Tipo": "Capacidade",
-          "descricao": "Os despertos de Afrodite/Vênus são reconhecidos pela sua beleza indescritível, do encanto e pela \"perfeição\" aparente. Embora possam parecer frágeis e inocentes à primeira vista, sua beleza não é mero adorno; ela é uma arma, uma armadura e um escudo. Seus corpos são templos divinos! Sendo assim, os herdeiros de Afrênus Divina não podem ser afetados por Atordoamento, cegueira e corrosão."
+          "descricao": "Os despertos de Afrodite/Vênus são reconhecidos pela sua beleza indescritível, do encanto e pela \"perfeição\" aparente. Embora possam parecer frágeis e inocentes à primeira vista, sua beleza não é mero adorno; ela é uma arma, uma armadura e um escudo. Seus corpos são templos divinos! Sendo assim, os herdeiros de Afrênus Divina não podem ser afetados por Atordoamento, Cegueira e Corrosão."
         },
         "PassivaDois": {
           "nome": "Amor ou Ruína",
@@ -850,7 +873,7 @@
             },
             {
               "level": 20,
-              "descrição": "Os despertos são perfeccionistas, desta forma, conseguem analisar ações, prever movimentos e identificar falhas que geram aberturas de seus oponentes. Como uma rosa, os despertos de Afrodite/Vênus, recebem o buff de espinhos.",
+              "descrição": "Os despertos são perfeccionistas, desta forma, conseguem analisar ações, prever movimentos e identificar falhas que geram aberturas de seus oponentes. Como uma rosa, os despertos de Afrodite/Vênus, recebem o buff de Espinhos.",
               "duracao": "2 turnos"
             },
             {
@@ -862,7 +885,7 @@
         },
         "PassivaTres": {
           "nome": "Graça Bélica",
-          "Tipo": "Poder Divino",
+          "Tipo": "Alteração de Status",
           "descricao": "Apesar de ser conhecida como a Deusa do Amor, da Beleza e do Prazer, Afrodite/Vênus é muito mais do que apenas títulos! Como uma deusa guerreira (sim! Afinal, ela influenciou diretamente a Guerra de Tróia), compreende que há muitas formas de lutar, seja com armas, sua aparência, saciar desejos ou manipulações. A arte da guerra vai muito, muito além da velha e boa violência. Seus filhos e despertos também entendem isto, portanto, não deveriam ser facilmente subestimados.",
           "bonusPorLevel": {
             "1-25": {
@@ -871,7 +894,7 @@
               "VelocidadeMovimento": "+7",
               "VelocidadeHabilidade": "+9",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+8",
+              "DanoHabilidade": "+9",
               "DanoArmaInvocada": "+2"
             },
             "26-50": {
@@ -880,34 +903,34 @@
               "VelocidadeMovimento": "+8",
               "VelocidadeHabilidade": "+14",
               "DanoFisico": "+1",
-              "DanoHabilidade": "+17",
+              "DanoHabilidade": "+16",
               "DanoArmaInvocada": "+2"
             },
             "51-75": {
-              "PV": "+27",
+              "PV": "+47",
               "Força": "+4",
               "VelocidadeMovimento": "+15",
               "VelocidadeHabilidade": "+20",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+23",
+              "DanoHabilidade": "+20",
               "DanoArmaInvocada": "+2"
             },
             "76-100": {
-              "PV": "+45",
+              "PV": "+62",
               "Força": "+5",
               "VelocidadeMovimento": "+18",
               "VelocidadeHabilidade": "+25",
               "DanoFisico": "+3",
-              "DanoHabilidade": "+27",
-              "DanoArmaInvocada": "+5"
+              "DanoHabilidade": "+25",
+              "DanoArmaInvocada": "+6"
             },
             "101+": {
-              "PV": "+20",
+              "PV": "+30",
               "Força": "+3",
               "VelocidadeMovimento": "+8",
               "VelocidadeHabilidade": "+14",
               "DanoFisico": "+1",
-              "DanoHabilidade": "+17",
+              "DanoHabilidade": "+19",
               "DanoArmaInvocada": "+2"
             }
           }
@@ -923,7 +946,7 @@
               "level": 5,
               "descrição": "Disparo da Ódio - O alvo atingido sente sua pele esfriar como a frieza do ódio, essa flecha tem o efeito de Congelamento.",
               "alcance": "20 metros",
-              "danoHabilidade": "25%",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
             },
             {
@@ -937,7 +960,7 @@
               "level": 30,
               "descrição": "Disparo do Dor - O alvo atingido recebe uma dor intensa, essa habilidade possui o tem o efeito de Dor Cruél.",
               "alcance": "50 metros",
-              "danoHabilidade": "50%",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             },
             {
@@ -948,10 +971,10 @@
               "recarga": "2 Turnos."
             },
             {
-              "level": 60,
+              "level": 75,
               "descrição": "Disparo da Ira - O alvo atingido recebe uma dor monstruosa, especialmente se já estiver sobre efeitos de outros debuffs, pois esse disparo tem o efeito de Fúria.",
               "alcance": "70 metros",
-              "danoHabilidade": "75%",
+              "danoHabilidade": "80%",
               "gastoEnergia": "35%"
             },
             {
@@ -962,10 +985,10 @@
               "recarga": "5 turnos."
             },
             {
-              "level": 80,
-              "descrição": "Reborn: Disparo da Destruição - O último disparo, concentrado e destrutivo com o poder imenso do desperto. Esse disparo recebe os efeitos de todos os disparos anteriores, que causam dano, combinados em um só: Ódio, Dor, Ira... gera a destruição! Os efeitos somam com o efeito de explosão!",
+              "level": 100,
+              "descrição": "Disparo da Destruição - O último disparo, concentrado e destrutivo com o poder imenso do desperto. Esse disparo recebe os efeitos de todos os disparos anteriores, que causam dano, combinados em um só: Ódio, Dor, Ira... gera a destruição! Os efeitos somam com o efeito de explosão!",
               "alcance": "70 metros",
-              "danoHabilidade": "100%",
+              "danoHabilidade": "120%",
               "gastoEnergia": "50%",
               "Reborn": ""
             }
@@ -1010,7 +1033,7 @@
             },
             {
               "level": 100,
-              "descrição": "Reborn: Manto de Obsidiana - Um manto de obsidiana negra resplandece ao redor do portador e de dois aliados, reunindo o legado de todos os mantos anteriores e ampliando o potencial ofensivo.",
+              "descrição": "Manto de Obsidiana - Um manto de obsidiana negra resplandece ao redor do portador e de dois aliados, reunindo o legado de todos os mantos anteriores e ampliando o potencial ofensivo.",
               "alcance": "5 metros",
               "duracao": "2 turnos",
               "recarga": "5 turnos",
@@ -1039,7 +1062,7 @@
             },
             {
               "level": 100,
-              "descrição": "Reborn: Agora, elas podem realizar ataques que, embora não causem dano, aplicam Restrição em alvos atingidos, mantendo os efeitos anteriores!",
+              "descrição": "Agora, elas podem realizar ataques que, embora não causem dano, aplicam Restrição em alvos atingidos, mantendo os efeitos anteriores!",
               "alcance": "25 metros",
               "resistenciaHabilidade": "100%",
               "velocidadeCriaturas": "100% da Velocidade de Habilidade",
@@ -1149,36 +1172,36 @@
               "Força": "+100",
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+8",
-              "DanoFisico": "+6",
-              "DanoHabilidade": "+8",
-              "DanoArmaInvocada": "+6"
+              "DanoFisico": "+7",
+              "DanoHabilidade": "+9",
+              "DanoArmaInvocada": "+7"
             },
             "51-75": {
-              "PV": "+40",
+              "PV": "+60",
               "Força": "+100",
               "VelocidadeMovimento": "+13",
               "VelocidadeHabilidade": "+16",
-              "DanoFisico": "+6",
-              "DanoHabilidade": "+10",
-              "DanoArmaInvocada": "+11"
+              "DanoFisico": "+7",
+              "DanoHabilidade": "+11",
+              "DanoArmaInvocada": "+12"
             },
             "76-100": {
-              "PV": "+60",
+              "PV": "+77",
               "Força": "+150",
               "VelocidadeMovimento": "+18",
               "VelocidadeHabilidade": "+18",
-              "DanoFisico": "+8",
-              "DanoHabilidade": "+14",
-              "DanoArmaInvocada": "+13"
+              "DanoFisico": "+9",
+              "DanoHabilidade": "+15",
+              "DanoArmaInvocada": "+14"
             },
             "101+": {
-              "PV": "+28",
+              "PV": "+38",
               "Força": "+100",
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+8",
-              "DanoFisico": "+5",
-              "DanoHabilidade": "+8",
-              "DanoArmaInvocada": "+7"
+              "DanoFisico": "+6",
+              "DanoHabilidade": "+9",
+              "DanoArmaInvocada": "+8"
             }
           }
         }
@@ -1192,28 +1215,28 @@
             {
               "level": 5,
               "descrição": "O desperto imbuí sua arma com sua essência combativa, permitindo que o mais leve toque cause Sangramento na região atingida. Esse efeito permanece ativo por 2 turnos.",
-              "danoArmaInvocada": "+15%",
+              "danoArmaInvocada": "+25%",
               "gastoEnergia": "5%",
               "duracao": "2 turnos"
             },
             {
               "level": 15,
               "descrição": "O desperto manipula sua própria energia para alterar a natureza da arma, fazendo com que os golpes apliquem infecção, que enfraquece os processos regenerativos do alvo por 1 turno.",
-              "danoArmaInvocada": "+25%",
+              "danoArmaInvocada": "+35%",
               "gastoEnergia": "10%",
               "duracao": "2 turnos"
             },
             {
               "level": 25,
               "descrição": "O Sangramento causado pelos golpes agora se intensifica, passando a durar 3 turnos completos, mesmo com ferimentos leves. O efeito representa a Fúria do combate que não cessa até o fim da luta.",
-              "danoArmaInvocada": "+40%",
+              "danoArmaInvocada": "+50%",
               "gastoEnergia": "15%",
               "duracao": "2 turnos"
             },
             {
               "level": 50,
               "descrição": "A infecção causada pelos golpes do desperto agora ativa automaticamente o Sangramento, fazendo com que ambos os efeitos durem 2 turnos simultaneamente. Uma verdadeira maldição bélica selada na carne do inimigo.",
-              "danoArmaInvocada": "+60%",
+              "danoArmaInvocada": "+70%",
               "gastoEnergia": "20%",
               "duracao": "2 turnos"
             }
@@ -1228,35 +1251,35 @@
               "level": 5,
               "descrição": "Seus punhos são cobertos por energia vermelha flamejante, ampliando sua força física para níveis sobrenaturais. Ao golpear, uma onda sísmica é disparada à frente, mesmo sem contato direto, atingindo inimigos em linha reta. Causa efeito de Lâmina Furiosa.",
               "alcance": "1 metro",
-              "danoFísico": "+30%",
+              "danoFísico": "+43%",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "As luvas de energia se tornam mais densas e pulsantes. Agora, os golpes liberam impactos mais violentos, capazes de empurrar inimigos e afetar objetos ao redor. Ao serem canalizados para armas, ampliam seu alcance e impacto. Causa efeito de Lâmina Furiosa.",
               "alcance": "2 metros",
-              "danoFísico": "+40%",
+              "danoFísico": "+54%",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "Cada golpe libera uma explosão sísmica mais agressiva, causando rachaduras no solo e afetando múltiplos inimigos em linha. As armas encantadas com essa energia vibram com poder, podendo romper defesas físicas. Causa efeito de Lâmina Furiosa.",
               "alcance": "4 metros",
-              "danoFísico": "+50%",
+              "danoFísico": "+65%",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
               "descrição": "A energia de Ares agora cria tremores ao seu redor quando ativada, e seus golpes se tornam verdadeiros terremotos portáteis. O impacto gerado é capaz de desestabilizar até alvos que estejam protegidos por barreiras. Causa efeito de Lâmina Furiosa.",
               "alcance": "6 metros",
-              "danoFísico": "+70%",
+              "danoFísico": "+87%",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
-              "descrição": "Reborn: Encarnando o aspecto bélico supremo de Marte, seus golpes se tornam cataclísmicos. As ondas sísmicas atravessam obstáculos, despedaçando estruturas e atingindo múltiplos alvos em ampla área. Armas canalizadas com esse poder brilham como forjadas na própria guerra. Causa efeito de Lâmina Furiosa.",
+              "descrição": "Encarnando o aspecto bélico supremo de Marte, seus golpes se tornam cataclísmicos. As ondas sísmicas atravessam obstáculos, despedaçando estruturas e atingindo múltiplos alvos em ampla área. Armas canalizadas com esse poder brilham como forjadas na própria guerra. Causa efeito de Lâmina Furiosa.",
               "alcance": "10 metros",
-              "danoFísico": "+150%",
+              "danoFísico": "+175%",
               "gastoEnergia": "60%",
               "Reborn": ""
             }
@@ -1275,7 +1298,7 @@
             },
             {
               "level": 100,
-              "descrição": "Reborn: Pode absorver até 3 ataques. A habilidade tem o efeito de Devolução.",
+              "descrição": "Pode absorver até 3 ataques. A habilidade tem o efeito de Devolução.",
               "gastoEnergia": "60%",
               "recarga": "3 turnos",
               "Reborn": ""
@@ -1371,7 +1394,7 @@
               "VelocidadeMovimento": "+7",
               "VelocidadeHabilidade": "+7",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+6",
+              "DanoHabilidade": "+7",
               "DanoArmaInvocada": "+4"
             },
             "26-50": {
@@ -1380,35 +1403,35 @@
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+10",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+13",
-              "DanoArmaInvocada": "+5"
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+6"
             },
             "51-75": {
-              "PV": "+30",
+              "PV": "+50",
               "Força": "+6",
               "VelocidadeMovimento": "+14",
               "VelocidadeHabilidade": "+17",
               "DanoFisico": "+3",
-              "DanoHabilidade": "+14",
-              "DanoArmaInvocada": "+10"
+              "DanoHabilidade": "+15",
+              "DanoArmaInvocada": "+11"
             },
             "76-100": {
-              "PV": "+50",
+              "PV": "+67",
               "Força": "+8",
               "VelocidadeMovimento": "+18",
               "VelocidadeHabilidade": "+19",
               "DanoFisico": "+4",
-              "DanoHabilidade": "+21",
-              "DanoArmaInvocada": "+10"
+              "DanoHabilidade": "+23",
+              "DanoArmaInvocada": "+11"
             },
             "101+": {
-              "PV": "+22",
+              "PV": "+32",
               "Força": "+4",
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+10",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+13",
-              "DanoArmaInvocada": "+5"
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+6"
             }
           }
         }
@@ -1423,36 +1446,36 @@
               "level": 5,
               "descrição": "Com sua telecinese no estágio inicial, é capaz de elevar o peso de coisas com até a mesma força física que você possui. Sua capacidade pode criar pequenos impulsos tele cinéticos.",
               "alcance": "5 metros",
-              "danoHabilidade": "25%",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "Neste estágio, é capaz de criar barreiras defensivas que podem te cercar a 360° o seu corpo e reduzir danos de acordo com até metade do seu dano do nível de habilidade.",
               "alcance": "15 metros",
-              "danoHabilidade": "35%",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "Os objetos erguidos agora são com o dobro de sua força máxima, desta forma consegue elevar até mesmo oponentes com uma considerável facilidade, os dominando pelo ar.",
               "alcance": "25 metros",
-              "danoHabilidade": "50%",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
               "descrição": "Agora suas habilidades se estendem a um nível novo de telecinese, aonde é capaz de gerar defesas refletoras, com o efeito de reflexão de até 25% do dano que elas receberem!",
               "alcance": "40 metros",
-              "danoHabilidade": "75%",
+              "danoHabilidade": "92.5%",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
-              "descrição": "Reborn: Um vendaval de poder mental, é capaz de causar tormentas gigantescas utilizando a força de sua mente e concentração, o nível de sua reflexão se estende para 40% do dano e é capaz de erguer objetos com o quadruplo de sua força física! Uma mente afiada e poderosa, supera os poderes e capacidades do mais forte de todos os corpos!!!",
+              "descrição": "Um vendaval de poder mental, é capaz de causar tormentas gigantescas utilizando a força de sua mente e concentração, o nível de sua reflexão se estende para 40% do dano e é capaz de erguer objetos com o quadruplo de sua força física! Uma mente afiada e poderosa, supera os poderes e capacidades do mais forte de todos os corpos!!!",
               "alcance": "50 metros",
-              "danoHabilidade": "175%",
-              "gastoEnergia": "75%",
+              "danoHabilidade": "202.5%",
+              "gastoEnergia": "85%",
               "Reborn": ""
             }
           ]
@@ -1466,31 +1489,31 @@
               "level": 5,
               "descrição": "No primeiro level desta habilidade, o desperto poderá extrair até três fios, mas estes terão uma cor ainda visível aos olhos humanos. Estes servem para imobilizar, prender ou distrair os oponentes.",
               "alcance": "10 metros",
-              "danoHabilidade": "15%",
+              "danoHabilidade": "26.5%",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "Agora, o desperto poderá extrair a cerca de cinco fios, um em cada dedo. Essa habilidade irá causar Sangramento por um turno se for usada como ataque ofensivo.",
               "alcance": "15 metros",
-              "danoHabilidade": "25%",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "25%",
-              "duracao": "1 turno (Sangramento)"
+              "duracao": "1 turno"
             },
             {
               "level": 50,
               "descrição": "Agora é permitido que até sete fios saiam de suas mãos! Estes serão quase invisíveis a olhos semidivinos ou humanos. Sendo assim, receberá uma nova \"habilidade\" para estes, com efeito do livro sagrado.",
               "alcance": "20 metros",
-              "danoHabilidade": "35%",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "30%"
             },
             {
               "level": 70,
               "descrição": "Podendo extrair fios de todos os dez dedos, o desperto de Atena/Minerva terá domínio total dessa habilidade! Ele poderá usar para se defender, atacar, imobilizar e afins. E assim, o efeito de Sangramento é estendido para dois turnos, e mantém efeito de livro sagrado.",
               "alcance": "30 metros",
-              "danoHabilidade": "55%",
+              "danoHabilidade": "70.5%",
               "gastoEnergia": "35%",
-              "duracao": "2 turnos (Sangramento)"
+              "duracao": "2 turnos"
             }
           ]
         },
@@ -1515,7 +1538,7 @@
             },
             {
               "level": 90,
-              "descrição": "Reborn: Já com domínio de suas habilidades, a duração da Petrificação se estende por dois turnos inteiros!",
+              "descrição": "Já com domínio de suas habilidades, a duração da Petrificação se estende por dois turnos inteiros!",
               "alcance": "8 metros",
               "gastoEnergia": "50%",
               "duracao": "2 turnos",
@@ -1523,7 +1546,7 @@
             },
             {
               "level": 120,
-              "descrição": "Reborn: Agora, com as capacidades ao limite, o olhar direto e trocado, o desperto de Atena/Minerva é capaz de petrificar completamente um alvo, mantendo-o sobre o efeito de se transformar em uma rocha por dois turnos inteiros! Graças a destrutiva Petrificação.",
+              "descrição": "Agora, com as capacidades ao limite, o olhar direto e trocado, o desperto de Atena/Minerva é capaz de petrificar completamente um alvo, mantendo-o sobre o efeito de se transformar em uma rocha por dois turnos inteiros! Graças a destrutiva Petrificação.",
               "alcance": "10 metros",
               "gastoEnergia": "70%",
               "duracao": "2 turnos",
@@ -1592,7 +1615,7 @@
         "PassivaUm": {
           "nome": "Luz Interior",
           "Tipo": "Capacidade",
-          "descricao": "inextinguível de seu ancestral solar. Guiados pelo deus da luz, da profecia e da arte, esses indivíduos irradiam confiança, carisma e equilíbrio, sendo reconhecidos por manterem a clareza mesmo nas situações mais caóticas. Como marca divina, seus corpos brilham levemente em ambientes sombrios, tornando-os imunes aos efeitos de cegueira, Queimadura e infecção. Comumente nascem na vila: \"Aurora de Apolo/Febo\"."
+          "descricao": "inextinguível de seu ancestral solar. Guiados pelo deus da luz, da profecia e da arte, esses indivíduos irradiam confiança, carisma e equilíbrio, sendo reconhecidos por manterem a clareza mesmo nas situações mais caóticas. Como marca divina, seus corpos brilham levemente em ambientes sombrios, tornando-os imunes aos efeitos de Cegueira, Queimadura e infecção. Comumente nascem na vila: \"Aurora de Apolo/Febo\"."
         },
         "PassivaDois": {
           "nome": "Presença Ressonante",
@@ -1621,7 +1644,7 @@
               "VelocidadeMovimento": "+7",
               "VelocidadeHabilidade": "+8",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+6",
+              "DanoHabilidade": "+7",
               "DanoArmaInvocada": "+4"
             },
             "26-50": {
@@ -1630,35 +1653,35 @@
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+11",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+13",
-              "DanoArmaInvocada": "+5"
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+6"
             },
             "51-75": {
-              "PV": "+25",
+              "PV": "+45",
               "Força": "+6",
               "VelocidadeMovimento": "+14",
               "VelocidadeHabilidade": "+18",
               "DanoFisico": "+3",
-              "DanoHabilidade": "+14",
-              "DanoArmaInvocada": "+10"
+              "DanoHabilidade": "+15",
+              "DanoArmaInvocada": "+11"
             },
             "76-100": {
-              "PV": "+45",
+              "PV": "+62",
               "Força": "+8",
               "VelocidadeMovimento": "+18",
               "VelocidadeHabilidade": "+12",
               "DanoFisico": "+4",
-              "DanoHabilidade": "+21",
-              "DanoArmaInvocada": "+10"
+              "DanoHabilidade": "+23",
+              "DanoArmaInvocada": "+11"
             },
             "101+": {
-              "PV": "+20",
+              "PV": "+30",
               "Força": "+4",
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+11",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+13",
-              "DanoArmaInvocada": "+5"
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+6"
             }
           }
         }
@@ -1671,30 +1694,30 @@
           "niveis": [
             {
               "level": 5,
-              "descrição": "O desperto canaliza a luz ao seu redor e a projeta em um feixe concentrado, cegando, caso seja acertado no rosto, aplicando infecção ao inimigo por 1 turno!",
+              "descrição": "O desperto canaliza a luz ao seu redor e a projeta em um feixe concentrado, aplicando Cegueira, caso seja acertado no rosto, aplicando infecção ao inimigo por 1 turno!",
               "alcance": "5 metros",
-              "danoHabilidade": "25% + 10% Durante a dia",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "A manipulação da luz torna-se mais refinada, permitindo lançar feixes mais longos e intensos que podem atravessar defesas simples.",
               "alcance": "10 metros",
-              "danoHabilidade": "35% + 10% Durante a dia",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "O desperto agora invoca uma verdadeira lança de fótons, que perfura com precisão cirúrgica, lembrando as flechas de Apolo. Agora, a infecção se estende para 2 turnos aos alvos serem atingidos pelos feixes!",
               "alcance": "10 metros",
-              "danoHabilidade": "50% + 10% Durante a dia",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
-              "descrição": "Reborn: O campo de batalha é banhado em rajadas cegantes e incandescentes. Os inimigos são atingidos por múltiplos feixes em sequência. Agora, apenas o ato de olhar diretamente a luz já aplica o efeito de cegueira, que agora é estendido para 2 turnos!",
+              "descrição": "O campo de batalha é banhado em rajadas cegantes e incandescentes. Os inimigos são atingidos por múltiplos feixes em sequência. Agora, apenas o ato de olhar diretamente a luz já aplica o efeito de Cegueira, que agora é estendido para 2 turnos!",
               "alcance": "15 metros",
-              "danoHabilidade": "75% + 10% Durante a dia",
+              "danoHabilidade": "92.5%",
               "gastoEnergia": "35%",
               "Reborn": ""
             }
@@ -1743,41 +1766,41 @@
               "level": 5,
               "descrição": "Um disparo de energia solar pura é lançado da mão do desperto ou por um arco invocado. Habilidade causa debuff de Queimadura por 2 turnos.",
               "alcance": "5 metros",
-              "danoHabilidade": "20%",
-              "danoHabilidadeArco": "30% + 10% do dano de arma invocada",
+              "danoHabilidade": "32%",
+              "danoHabilidadeArco": "43% + 10% do dano de arma invocada",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "As flechas solares ganham mais potência!",
               "alcance": "15 metros",
-              "danoHabilidade": "30%",
-              "danoHabilidadeArco": "35% + 10% do dano de arma invocada",
+              "danoHabilidade": "43%",
+              "danoHabilidadeArco": "48.5% + 10% do dano de arma invocada",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "A luz é condensada em uma flecha que explode ao impacto, emulando o poder destrutivo do meio-dia solar. Espalhando o debuff de Queimadura por todo corpo do alvo!",
               "alcance": "35 metros",
-              "danoHabilidade": "45%",
-              "danoHabilidadeArco": "55% + 10% do dano de arma invocada",
+              "danoHabilidade": "59.5%",
+              "danoHabilidadeArco": "70.5% + 10% do dano de arma invocada",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
               "descrição": "A flecha solar rasga os céus como um eclipse flamejante, com calor intenso e brilho cortante. Habilidade causa debuff de Queimadura por 3 turnos.",
               "alcance": "70 metros",
-              "danoHabilidade": "70%",
-              "danoHabilidadeArco": "80% + 10% do dano de arma invocada",
+              "danoHabilidade": "87%",
+              "danoHabilidadeArco": "98% + 10% do dano de arma invocada",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
-              "descrição": "Reborn: Manifestando o poder ancestral do nascimento de Apolo/Febo, o desperto lança um tiro devastador de pura luz divina, capaz de obliterar inimigos em seu caminho. Essa habilidade pode causar efeito de Ruína caso o usuário deseje!",
+              "descrição": "Manifestando o poder ancestral do nascimento de Apolo/Febo, o desperto lança um tiro devastador de pura luz divina, capaz de obliterar inimigos em seu caminho. Essa habilidade pode causar efeito de Arruinar caso o usuário deseje!",
               "alcance": "150 metros",
-              "danoHabilidade": "165%",
-              "danoHabilidadeArco": "185% + 10% do dano de arma invocada",
-              "gastoEnergia": "75%",
+              "danoHabilidade": "191.5%",
+              "danoHabilidadeArco": "213.5% + 10% do dano de arma invocada",
+              "gastoEnergia": "85%",
               "Reborn": ""
             }
           ]
@@ -1793,7 +1816,7 @@
           "Level 150": "5 Turnos. Aumento de atributos: +50%"
         },
         "subDescricao": {
-          "Arco_Divinus_Solarian": "O arco que o desperto porta ganha um aumento de +5x Ômega Divino e suas chamas queimam a 5500° quando acertam o alvo, deixando um enorme rastro de luz. A sua arma se transforma num poderoso arco do sol, radiante e destrutivo. Na presença dessa arma, ao redor do desperto, todos a sua escolha em até 40 metros, sofrem o efeito de Queimadura em todas as partes de seu corpo. Os tiros realizados no arco tem o efeito de Dor Cruél."
+          "Arco Divinus Solarian": "O arco que o desperto porta ganha um aumento de +5x Ômega Divino e suas chamas queimam a 5500° quando acertam o alvo, deixando um enorme rastro de luz. A sua arma se transforma num poderoso arco do sol, radiante e destrutivo. Na presença dessa arma, ao redor do desperto, todos a sua escolha em até 40 metros, sofrem o efeito de Queimadura em todas as partes de seu corpo. Os tiros realizados no arco tem o efeito de Dor Cruél."
         }
       }
     },
@@ -1807,6 +1830,29 @@
       "Classe": "Armamentista/Mago",
       "Divindade": "Deusa do Lua, da Castidade, da Caça, dos Animais, da Proteção as Mulheres",
       "Símbolos": "Cervo, Lua e o Arco",
+      "Dogmas": {
+        "Introducao": "Seguidores não são filhos ou despertos, são pessoas que dedicam sua vida a seguir e obedecer os ideias de um deus/deusa, em troca, o deus o entrega uma parcela do seu poder. Entre muitos dogmas citarei os 5 principais de Ártemis, vale lembrar que quem não seguir esses dogmas poderá ser abandonado pela deusa.",
+        "Dogma1": {
+          "titulo": "1º - A primeira caçada",
+          "descricao": "A primeira caçada é um ritual muito respeitado entre os caçadores(Homens normais, não seguidores.), caçadoras e ate mesmo pela própria deusa, é nesse momento onde a deusa observa sua seguidora e ela tem a chance de mostrar suas habilidades. Todavia, caso não complete a caça, hesite na execução da presa ou cometa algum erro terá automaticamente negado seu pedido para entrar nas caçadoras."
+        },
+        "Dogma2": {
+          "titulo": "2º - Caçadas ilegais",
+          "descricao": "É a deusa da caça mas também amigas dos animais e da floresta, afinal, era seu ambiente. Suas caçadoras devem respeitar todas as leis de caça como; Não caçar criaturas em extinção, nunca executar caça a humanos ou outros despertos por diversão, respeitar áreas determinadas para caça e o limite da reserva de animais, entre outros...Assim como também deve respeitar a floresta ao qual está caçando."
+        },
+        "Dogma3": {
+          "titulo": "3º - Viva para a caça",
+          "descricao": "Lunala não era romanticamente envolvida com ninguém, pediu a Zeuspiteris o direito de se manter imaculada e não precisar casar-se ou relacionar-se com ninguém e este como presente, concedeu está permissão, suas seguidoras e caçadoras devem seguir esse modelo de vida, não namorem ou relacionem sexualmente (de beijos até relações sexuais) com ninguém, independente do sexo. Mas, isso não impede paixões, pois você não controla o seu coração."
+        },
+        "Dogma4": {
+          "titulo": "4º - O chamado da caça",
+          "descricao": "A caça é um esporte, contudo, possuí seus seres que são indispensáveis pela glória que ele trás. As seguidores de Lunala não podem resistir ao chamado de caçar uma criatura lendária, todavia, caso a diferença entre a caçadora e a criatura seja de mais de 20 níveis ela não será punida por abandonar a luta, afinal? sua vida é mais importante que glória."
+        },
+        "Dogma5": {
+          "titulo": "5º - Louve a mim",
+          "descricao": "Apesar de Lunala não odiar seu irmão ela vive em constante disputa com o mesmo, suas caçadoras devem sempre honrar suas conquistas a Lunala como um presente para a mesma se sobrepor a seu irmão e nunca para ele."
+        }
+      },
       "Atratividade_AD": {
         "Pontos_Fixos": {
           "Aprender_Forma_Divina": 10,
@@ -1841,7 +1887,7 @@
         "PassivaUm": {
           "nome": "Luz Interior",
           "Tipo": "Capacidade",
-          "descricao": "Guiados pela deusa da noite, da caça e dos animais, essas seguidoras irradiam uma serenidade firme, um magnetismo silencioso e uma conexão profunda com a natureza. Seus corpos brilham levemente em ambientes escuros, tornando-os imunes a cegueira, Congelamento e infecção."
+          "descricao": "Guiados pela deusa da noite, da caça e dos animais, essas seguidoras irradiam uma serenidade firme, um magnetismo silencioso e uma conexão profunda com a natureza. Seus corpos brilham levemente em ambientes escuros, tornando-os imunes a Cegueira, Congelamento e infecção."
         },
         "PassivaDois": {
           "nome": "Presença Ressonante",
@@ -1862,7 +1908,7 @@
         "PassivaTres": {
           "nome": "Reflexo da Sabedoria",
           "Tipo": "Alteração de Status",
-          "descricao": "Apolo, também chamado Febo entre os romanos, é o deus solar da beleza, música, poesia, cura, pestes e profecias. Irmão gêmeo de Ártemis/Diana e filho de Zeus/Júpiter e Leto, Febo era reverenciado tanto por sua arte quanto por seu poder destrutivo. Seu legado se reflete em suas seguidoras, que carregam traços de inspiração divina, magnetismo pessoal e dons místicos. Esses descendentes costumam ter aparência marcante, voz melodiosa e uma aura quente e tranquilizadora, sendo naturalmente carismáticos e inspiradores.",
+          "descricao": "Lunala, é a deusa da lua, da caça, da natureza selvagem e da proteção das jovens e parturientes. Irmã gêmea de Apolo/Febo e filha de Zeus/Júpiter e Leto, é símbolo de independência, força instintiva e conexão com o mundo natural. Guardiã das florestas e dos animais, sua presença impõe respeito e fascínio. Seus descendentes herdaram seu espírito livre, olhar penetrante e postura altiva. Costumam ter uma beleza austera e marcante, movimentos ágeis e silenciosos, além de uma aura misteriosa e firme que transmite segurança, autocontrole e um magnetismo sutil e enigmático.",
           "bonusPorLevel": {
             "1-25": {
               "PV": "+12",
@@ -1870,7 +1916,7 @@
               "VelocidadeMovimento": "+7",
               "VelocidadeHabilidade": "+8",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+6",
+              "DanoHabilidade": "+7",
               "DanoArmaInvocada": "+4"
             },
             "26-50": {
@@ -1879,35 +1925,35 @@
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+11",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+13",
-              "DanoArmaInvocada": "+5"
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+6"
             },
             "51-75": {
-              "PV": "+25",
+              "PV": "+45",
               "Força": "+6",
               "VelocidadeMovimento": "+14",
               "VelocidadeHabilidade": "+18",
               "DanoFisico": "+3",
-              "DanoHabilidade": "+14",
-              "DanoArmaInvocada": "+10"
+              "DanoHabilidade": "+15",
+              "DanoArmaInvocada": "+11"
             },
             "76-100": {
-              "PV": "+45",
+              "PV": "+62",
               "Força": "+8",
               "VelocidadeMovimento": "+18",
               "VelocidadeHabilidade": "+12",
               "DanoFisico": "+4",
-              "DanoHabilidade": "+21",
-              "DanoArmaInvocada": "+10"
+              "DanoHabilidade": "+23",
+              "DanoArmaInvocada": "+11"
             },
             "101+": {
-              "PV": "+20",
+              "PV": "+30",
               "Força": "+4",
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+11",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+13",
-              "DanoArmaInvocada": "+5"
+              "DanoHabilidade": "+14",
+              "DanoArmaInvocada": "+6"
             }
           }
         }
@@ -1921,20 +1967,20 @@
             {
               "level": 5,
               "descrição": "A caçadora mergulha nas sombras da noite, ficando parcialmente camuflada sob o luar. Ela se torna mais difícil de detectar e seus ataques à distância (arco, besta ou lança) marcam o inimigo com um brilho prateado, tornando-o rastreável mesmo em meio ao caos. A caçadora fica invisível por um turno.",
-              "gastoEnergia": "10% + 10% Durante a noite.",
+              "gastoEnergia": "10%",
               "recarga": "2 turnos"
             },
             {
               "level": 20,
               "descrição": "Agora, a Sombra Prateada assume forma tangível: uma aura de lua crescente envolve a arma da caçadora. Ataques causam Atordoamento, por 1 turno, e aplicam Marcação Lunar, que revela a posição do inimigo mesmo através de paredes.",
-              "danoHabilidade": "35% + 10% Durante a noite.",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "Agora a invisibilidade dura por 2 turnos, não deixa cheiros, rastros, energia ou pegadas no chão. Seus inimigos marcados pelos ataques energizados agora recebem +10% de danos de todos os locais por 2 turnos!",
               "alcance": "10 metros",
-              "danoHabilidade": "50% + 10% Durante a noite.",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             }
           ]
@@ -1982,41 +2028,41 @@
               "level": 5,
               "descrição": "Um disparo de energia lunar pura é lançado da mão da seguidora ou por um arco invocado. Habilidade causa debuff de Congelamento por 2 turnos.",
               "alcance": "5 metros",
-              "danoHabilidade": "20%",
-              "danoHabilidadeArco": "30% + 10% do dano de arma invocada",
+              "danoHabilidade": "32%",
+              "danoHabilidadeArco": "43% + 10% do dano de arma invocada",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "As flechas lunares ganham mais potência!",
               "alcance": "15 metros",
-              "danoHabilidade": "30%",
-              "danoHabilidadeArco": "35% + 10% do dano de arma invocada",
+              "danoHabilidade": "43%",
+              "danoHabilidadeArco": "48.5% + 10% do dano de arma invocada",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "A luz é condensada em uma flecha que explode ao impacto, emulando o poder destrutivo do meia-noite lunar. Espalhando o debuff de Congelamento por todo corpo do alvo!",
               "alcance": "35 metros",
-              "danoHabilidade": "45%",
-              "danoHabilidadeArco": "55% + 10% do dano de arma invocada",
+              "danoHabilidade": "59.5%",
+              "danoHabilidadeArco": "70.5% + 10% do dano de arma invocada",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
               "descrição": "A flecha solar rasga os céus como um eclipse flamejante, com calor intenso e brilho cortante. Habilidade causa debuff de Congelamento por 3 turnos.",
               "alcance": "70 metros",
-              "danoHabilidade": "70%",
-              "danoHabilidadeArco": "80% + 10% do dano de arma invocada",
+              "danoHabilidade": "87%",
+              "danoHabilidadeArco": "98% + 10% do dano de arma invocada",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
-              "descrição": "Reborn: Manifestando o poder ancestral do nascimento de Lunala, a seguidora lança um tiro devastador de pura luz divina, capaz de obliterar inimigos em seu caminho. Essa habilidade pode causar efeito de Ruína caso o usuário deseje!",
+              "descrição": "Manifestando o poder ancestral do nascimento de Lunala, a seguidora lança um tiro devastador de pura luz divina, capaz de obliterar inimigos em seu caminho. Essa habilidade pode causar efeito de Arruinar caso o usuário deseje!",
               "alcance": "150 metros",
-              "danoHabilidade": "165%",
-              "danoHabilidadeArco": "185% + 10% do dano de arma invocada",
-              "gastoEnergia": "75%",
+              "danoHabilidade": "191.5%",
+              "danoHabilidadeArco": "213.5% + 10% do dano de arma invocada",
+              "gastoEnergia": "85%",
               "Reborn": ""
             }
           ]
@@ -2032,7 +2078,7 @@
           "Level 150": "5 Turnos. Aumento de atributos: +50%"
         },
         "subDescricao": {
-          "Arco_Divinus_Lunaris": "O arco que a seguidora porta ganha um aumento de +5x Ômega Divino e seus Congelamentos causam -230° quando acertam o alvo, deixando um enorme rastro de luz lunar. A sua arma se transforma num poderoso arco do sol, radiante e destrutivo. Na presença dessa arma, ao redor da seguidora, todos a sua escolha em até 40 metros, sofrem o efeito de Congelamento em todas as partes de seu corpo. Os tiros realizados no arco tem o efeito de Dor Cruél."
+          "Arco Divinus Lunaris": "O arco que a seguidora porta ganha um aumento de +5x Ômega Divino e seus Congelamentos causam -230° quando acertam o alvo, deixando um enorme rastro de luz lunar. A sua arma se transforma num poderoso arco do sol, radiante e destrutivo. Na presença dessa arma, ao redor da seguidora, todos a sua escolha em até 40 metros, sofrem o efeito de Congelamento em todas as partes de seu corpo. Os tiros realizados no arco tem o efeito de Dor Cruél."
         }
       }
     },
@@ -2097,7 +2143,7 @@
             },
             {
               "level": 75,
-              "descrição": "Reborn: Ao limite do conhecimento e poder, até 6 itens podem ser elevados em +7x de estagio! Ou, 3 itens em até 10x!",
+              "descrição": "Ao limite do conhecimento e poder, até 6 itens podem ser elevados em +7x de estagio! Ou, 3 itens em até 10x!",
               "Reborn": ""
             }
           ]
@@ -2113,7 +2159,7 @@
               "VelocidadeMovimento": "+7",
               "VelocidadeHabilidade": "+6",
               "DanoFisico": "+2",
-              "DanoHabilidade": "+5",
+              "DanoHabilidade": "+6",
               "DanoArmaInvocada": "+4"
             },
             "26-50": {
@@ -2122,35 +2168,35 @@
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+8",
               "DanoFisico": "+4",
-              "DanoHabilidade": "+10",
-              "DanoArmaInvocada": "+6"
+              "DanoHabilidade": "+11",
+              "DanoArmaInvocada": "+7"
             },
             "51-75": {
-              "PV": "+40",
+              "PV": "+60",
               "Força": "+20",
               "VelocidadeMovimento": "+13",
               "VelocidadeHabilidade": "+16",
               "DanoFisico": "+4",
-              "DanoHabilidade": "+15",
-              "DanoArmaInvocada": "+9"
+              "DanoHabilidade": "+17",
+              "DanoArmaInvocada": "+10"
             },
             "76-100": {
-              "PV": "+60",
+              "PV": "+77",
               "Força": "+30",
               "VelocidadeMovimento": "+18",
               "VelocidadeHabilidade": "+18",
-              "DanoFisico": "+6",
-              "DanoHabilidade": "+18",
-              "DanoArmaInvocada": "+11"
+              "DanoFisico": "+7",
+              "DanoHabilidade": "+20",
+              "DanoArmaInvocada": "+12"
             },
             "101+": {
-              "PV": "+28",
+              "PV": "+38",
               "Força": "+50",
               "VelocidadeMovimento": "+10",
               "VelocidadeHabilidade": "+8",
-              "DanoFisico": "+5",
-              "DanoHabilidade": "+8",
-              "DanoArmaInvocada": "+7"
+              "DanoFisico": "+6",
+              "DanoHabilidade": "+9",
+              "DanoArmaInvocada": "+8"
             }
           }
         }
@@ -2165,36 +2211,36 @@
               "level": 5,
               "descrição": "É capaz de conjurar chamas, que saem de seu corpo e atira-las para atingir seus alvos. Estas causam efeito de Queimadura.",
               "alcance": "6 metros",
-              "danoHabilidade": "25%",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
             },
             {
               "level": 20,
               "descrição": "As chamas agora podem ser manipuladas em novos formatos, podendo ser mais versáteis e úteis dentro de um combate pesado. O efeito de ruptura é aplicado no alvo fortalecendo ainda mais a força da capacidade.",
               "alcance": "12 metros",
-              "danoHabilidade": "35%",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "O poder das chamas se estende a serem geradas ao seu redor e não apenas de seu próprio corpo. O debuff se estende para dois turnos. Os dois efeitos anteriores são aplicados na habilidade ao mesmo tempo.",
               "alcance": "30 metros",
-              "danoHabilidade": "50%",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
               "descrição": "As chamas ardem ainda mais forte e debuff o efeito de explosão.",
               "alcance": "50 metros",
-              "danoHabilidade": "75%",
+              "danoHabilidade": "92.5%",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
-              "descrição": "Reborn: O poder divino do fogo, as chamas agora possuem o debuff que causam o triplo do efeito e o efeito positivo da técnica se mantém por quatro turnos. Os vendavais de fogo são ameaçadores e extremamente destrutivos! Essa habilidade ativa efeito de Dor Cruél.",
+              "descrição": "O poder divino do fogo, as chamas agora possuem o debuff que causam o triplo do efeito e o efeito positivo da técnica se mantém por quatro turnos. Os vendavais de fogo são ameaçadores e extremamente destrutivos! Essa habilidade ativa efeito de Dor Cruél.",
               "alcance": "100 metros",
-              "danoHabilidade": "175%",
-              "gastoEnergia": "75%",
+              "danoHabilidade": "202.5%",
+              "gastoEnergia": "85%",
               "Reborn": ""
             }
           ]
@@ -2208,34 +2254,34 @@
               "level": 10,
               "descrição": "É capaz de manipular metais de primeiro grau! Os golpeado na cabeça por estes, sofrem de Atordoamento por 1 turno inteiro. As criações metálicas duram até 2 turnos ativas.",
               "alcance": "10 metros",
-              "danoHabilidade": "25%",
+              "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
             },
             {
               "level": 25,
               "descrição": "É capaz de manipular metais para modificar suas formas, podendo usá-lo apenas com o controle da mente e movimentos de mãos! Manipulando agora, metais de segundo grau! As criações metálicas duram até 3 turnos ativas.",
               "alcance": "20 metros",
-              "danoHabilidade": "35%",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
-              "descrição": "É capaz de manipular metais de terceiro grau! Agora, sua habilidade pode ativar o efeito de ruína! As criações metálicas duram até 4 turnos ativas.",
+              "descrição": "É capaz de manipular metais de terceiro grau! Agora, sua habilidade pode ativar o efeito de Arruinar! As criações metálicas duram até 4 turnos ativas.",
               "alcance": "30 metros",
-              "danoHabilidade": "50%",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
               "descrição": "Por fim, chegando ao limite de seu poder, é capaz de manipular metais de até quarto grau! Pode manipular e modelar o metal das formas mais variadas possíveis para usar das mais adversas capacidades destes para um bom uso em combate. As criações metálicas duram até 5 turnos ativas.",
               "alcance": "40 metros",
-              "danoHabilidade": "75%",
+              "danoHabilidade": "92.5%",
               "gastoEnergia": "35%"
             }
           ]
         },
         "AtivaTres": {
-          "nome": "Fúria em Erupção",
+          "nome": "Ira em Erupção",
           "tipo": "Poder Divino",
           "descricao": "Os vulcões, uma destrutiva força da natureza que está em pose do domínio do deu Hefesto. Assim como nomeia a vila \"Vulcão Forjador\", a qual é o local de presente a grande maioria dos despertos de Vulcano, estes desenvolveram a capacidade de controlar a lava e utilizar esse poder como uma poderosa arma destrutiva.",
           "niveis": [
@@ -2243,29 +2289,29 @@
               "level": 20,
               "descrição": "É capaz de, à partir de lava já criada, manipular estas para direciona-las e assim, atingir seus alvos, aplicando o efeito de Queimadura com o dobro de efeito) por 1 turno.",
               "alcance": "20 metros",
-              "danoHabilidade": "35%",
+              "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
             },
             {
               "level": 50,
               "descrição": "O poder da lava agora pode é ser controlado ainda mais, o desperto pode concentra-la e assim, endurecê-la, transformando-o na mais pura rocha para prender seus alvos.",
               "alcance": "50 metros",
-              "danoHabilidade": "50%",
+              "danoHabilidade": "65%",
               "gastoEnergia": "30%"
             },
             {
               "level": 80,
               "descrição": "A partir das rochas do solo, o desperto de Hefesto/Vulcano pode gerar criar vibrações extremamente poderosas para que estas se aqueçam em extrema velocidade e se transformem em lava!!! O efeito do debuff aumenta para 2 turnos! E, é capaz de ativar o debuff de explosão contra os seus alvos.",
               "alcance": "70 metros",
-              "danoHabilidade": "75%",
+              "danoHabilidade": "92.5%",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
-              "descrição": "Reborn: Com o poder ao limite, é capaz de até mesmo forçar a ativação de vulcões inativos, iniciando uma onde gigantesca de destruição! Aplicando os dois debuffs anteriores.",
+              "descrição": "Com o poder ao limite, é capaz de até mesmo forçar a ativação de vulcões inativos, iniciando uma onde gigantesca de destruição! Aplicando os dois debuffs anteriores.",
               "alcance": "120 metros",
-              "danoHabilidade": "175%",
-              "gastoEnergia": "75%",
+              "danoHabilidade": "202.5%",
+              "gastoEnergia": "85%",
               "Reborn": ""
             }
           ]
@@ -2281,7 +2327,7 @@
           "Level 150": "5 Turnos. Aumento de atributos: +50%"
         },
         "subDescricao": {
-          "Martelo_do_forjador": "Usando sua energia divina, pode recobrir um martelo que usa, com sua aura e assim, a resistência do material subirá em +5x Ômega Divino. Suas forjas, precisam de apenas uma batida deste para que seus equipamentos e armas estejam total construídos ou reconcertados (apenas duas vezes por combate, cada item). Podendo criar até 4 equipamentos em uma única cena! Os golpes desse item coberto de constantes chamas, ativam o efeito de Dor Cruél!"
+          "Martelo do Forjador": "Usando sua energia divina, pode recobrir um martelo que usa, com sua aura e assim, a resistência do material subirá em +5x Ômega Divino. Suas forjas, precisam de apenas uma batida deste para que seus equipamentos e armas estejam total construídos ou reconcertados (apenas duas vezes por combate, cada item). Podendo criar até 4 equipamentos em uma única cena! Os golpes desse item coberto de constantes chamas, ativam o efeito de Dor Cruél!"
         }
       }
     }

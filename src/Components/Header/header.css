@@ -124,12 +124,12 @@
 
 /* ----- Setas dos submenus (Desktop) ----- */
 .menu > .has-submenu > .menu-item-content::after {
-  content: "▼";
   font-size: 0.7em;
   margin-left: 0.6em;
   display: inline-block;
   vertical-align: middle;
   transition: transform 0.3s ease;
+  content: none;
 }
 
 .menu > .has-submenu:hover > .menu-item-content::after {
@@ -137,7 +137,7 @@
 }
 
 .submenu .has-submenu > .menu-item-content::after {
-  content: "▶";
+  content: "";
   font-size: 0.8em;
   position: absolute;
   right: 1rem;
@@ -328,26 +328,7 @@
     display: block;
   }
 
-  /* Setas (MOBILE) */
-  .has-submenu::after {
-    content: "";
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 4px;
-    transform: rotate(45deg);
-    transition: transform 0.3s ease;
-    flex-shrink: 0;
-    margin-right: 0.5rem;
-  }
 
-  .has-submenu.mobile-submenu-open::after {
-    transform: rotate(-135deg);
-  }
-
-  .submenu .has-submenu::after {
-    padding: 3px;
-  }
 }
 
 .nav .menu a {
