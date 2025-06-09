@@ -45,7 +45,7 @@ const keywordData = [
   { term: "Amplificação", color: "#3b82f6", iconName: "Zap" },
   { term: "Devolução", color: "#10b981", iconName: "Undo2" },
   { term: "Dor Cruél", color: "#ef4444", iconName: "HeartCrack" },
-  { term: "Laminar Sagrada", color: "#f59e0b", iconName: "Sword" },
+  { term: "Laminar Sagrado", color: "#f59e0b", iconName: "Sword" },
   { term: "Papiro Sagrado", color: "#a855f7", iconName: "BookOpen" },
   { term: "Ataque Preventivo", color: "#84cc16", iconName: "ShieldCheck" },
   { term: "Eliminar", color: "#ef4444", iconName: "XCircle" },

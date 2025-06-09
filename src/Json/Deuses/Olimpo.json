@@ -44,7 +44,7 @@
         "Capacidade": {
           "nome": "De origem: Olimpo",
           "Tipo": "Capacidade",
-          "descricao": "Os descendentes possuem uma grande resistência ao frio, graças a sua vivência em ambientes de extrema altitude em especial quando utilizam de sua habilidade de voo, e da mesma forma se considera com o calor, assim como também são completamente imunes aos raios que possuem uma temperatura superior até mesmo a da superfície do sol! Por fim, isso transmite aos mesmos uma imunidade relacionada aos ataques (exceto para habilidades de gelo, ele é imune ao debuff de Congelamento porém ainda recebe o dano da habilidade) afins e debuffs de extorquido, Queimadura e eletrificação. Estes também podem se comunicar com criaturas aladas e que possuem capacidade natural de voo."
+          "descricao": "Os descendentes possuem uma grande resistência ao frio, graças a sua vivência em ambientes de extrema altitude em especial quando utilizam de sua habilidade de voo, e da mesma forma se considera com o calor, assim como também são completamente imunes aos raios que possuem uma temperatura superior até mesmo a da superfície do sol! Por fim, isso transmite aos mesmos uma imunidade relacionada aos ataques (exceto para habilidades de gelo, ele é imune ao debuff de Congelamento porém ainda recebe o dano da habilidade) afins e debuffs de Extorquido, Queimadura e Eletrificação. Estes também podem se comunicar com criaturas aladas e que possuem capacidade natural de voo."
         },
         "Poder_Divino": {
           "nome": "O Imperador",
@@ -53,7 +53,7 @@
           "niveis": [
             {
               "level": 25,
-              "descrição": "O descendente aplica extorquido e fixação para todos aqueles de level inferior ou até 5 leveis superior a ele de 5% de sua velocidade, dano físico e de habilidade dentro do combate e aplica em si mesmo extorquir no mesmo valor.",
+              "descrição": "O descendente aplica Extorquido e Fixação para todos aqueles de level inferior ou até 5 leveis superior a ele de 5% de sua velocidade, dano físico e de habilidade dentro do combate e aplica em si mesmo Extorquir no mesmo valor.",
               "duracao": "5 turnos",
               "recarga": "1 vez por combate",
               "alcance": "35 metros"
@@ -141,7 +141,7 @@
             },
             {
               "level": 20,
-              "descrição": "Focando em suas quatro partes, duas mãos e os dois pés, pode gerar uma onda de eletricidade que focada nestes causam Queimadura e eletrificação por 1 turno no alvo atingido. É capaz de manipular a eletricidade do ambiente em até 10 metros. Utilizando a eletricidade já presente no ambiente(não conta de sua própria origem), pode causar um aumento de 5% de dano.",
+              "descrição": "Focando em suas quatro partes, duas mãos e os dois pés, pode gerar uma onda de eletricidade que focada nestes causam Queimadura e Eletrificação por 1 turno no alvo atingido. É capaz de manipular a eletricidade do ambiente em até 10 metros. Utilizando a eletricidade já presente no ambiente(não conta de sua própria origem), pode causar um aumento de 5% de dano.",
               "duracao": "",
               "recarga": "",
               "alcance": "30 metros",
@@ -163,7 +163,7 @@
             },
             {
               "level": 80,
-              "descrição": "Queimadura e eletrificação agora dura por 2 turnos. Manipulando o clima, pode gerar chuva e invocar raios e eletricidade das próprias nuvens para gerar ataques surpresas e destrutivos. Ataques vindos de nuvens carregadas possuem +15% de velocidade.",
+              "descrição": "Queimadura e Eletrificação agora dura por 2 turnos. Manipulando o clima, pode gerar chuva e invocar raios e eletricidade das próprias nuvens para gerar ataques surpresas e destrutivos. Ataques vindos de nuvens carregadas possuem +15% de velocidade.",
               "duracao": "",
               "recarga": "",
               "alcance": "70 metros",
@@ -172,7 +172,7 @@
             },
             {
               "level": 120,
-              "descrição": "Reborn - O poder de um nascido das tempestades. Uma tempestade feita total e unicamente de apenas raios, trovões e relâmpagos e destroem tudo. É uma gigantesca catástrofe danosa, e o mais monstruoso disso: os raios não podem ser absorvidos, e só podem ser redirecionados por oponentes de level maior com controle do elemento natural, ferindo qualquer um sobre o desejo do filho do rei! Essa habilidade ainda aplica os efeitos anteriores e também adiciona o efeito de Fúria.",
+              "descrição": "O poder de um nascido das tempestades. Uma tempestade feita total e unicamente de apenas raios, trovões e relâmpagos e destroem tudo. É uma gigantesca catástrofe danosa, e o mais monstruoso disso: os raios não podem ser absorvidos, e só podem ser redirecionados por oponentes de level maior com controle do elemento natural, ferindo qualquer um sobre o desejo do filho do rei! Essa habilidade ainda aplica os efeitos anteriores e também adiciona o efeito de Fúria.",
               "duracao": "",
               "recarga": "",
               "alcance": "150 metros",
@@ -209,7 +209,7 @@
             },
             {
               "level": 120,
-              "descrição": "Reborn - Agora a distância acompanha a do 'Imperador da Tempestade'!",
+              "descrição": "Agora a distância acompanha a do 'Imperador da Tempestade'!",
               "duracao": "",
               "recarga": "",
               "alcance": "",
@@ -224,8 +224,7 @@
           "tipo": "Poder Divino",
           "descricao": "O rei dos deuses, quando nascido foi escondido aonde pudesse crescer e se preparar para destronar o seu pai e engolidor de seus irmãos: Cronos. Desta forma, este foi criado e treinado em proteção das ninfas e fadas a qual o abençoaram com sua presença e quando o homem se tornou o Deus supremo, foram abençoadas com a beleza eterna. O descendentes nascem sob proteção dessas belas criaturas e podem invocar minúsculas fadas de energia. As fadas causam efeito de eliminar contato. Essas pequenas criaturas, não são seres vivos e nem mortos, possuem um aspecto transparente (ficam invisíveis no escuro) e podem se tornar intangíveis e com a cor indo do branco, amarelo ao rosado. Apesar de serem extremamente sensíveis, são bem úteis.",
           "Obs1": "Gasto de energia para convocar 10 fadas: 1% de energia.",
-          "Obs2": "Dano de Habilidade: 11.1%",
-          "Obs3": "Duração: 3 turnos.",
+          "Obs2": "Duração: 3 turnos.",
           "niveis": [
             {
               "level": 5,
@@ -242,8 +241,8 @@
               "duracao": "",
               "recarga": "",
               "alcance": "10 metros",
-              "danoHabilidade": "54%",
-              "gastoEnergia": "25%"
+              "danoHabilidade": "2%",
+              "gastoEnergia": "1%"
             },
             {
               "level": 100,
@@ -356,11 +355,11 @@
         "PassivaDois": {
           "nome": "Joia Veloz - Poder Divino - Mercmes Vox Caelestises e Vulcanus Hephaesti",
           "Tipo": "Poder Divino",
-          "descricao": "As sacerdotisas de Junera, são abençoadas desde sempre pelos deuses Mercmes e Vulcanus; estes que apesar de não serem os favoritos da Deusa, ainda servem e possuem certo respeito pela mesma. A a sacerdotisa terá alguns acréscimos em sua velocidade. E do filho menos querido da Deusa, a sacerdotisa receberá a possibilidade de usar \"barreira\", efeito de habilidade que absorve danos.",
+          "descricao": "As sacerdotisas de Junera, são abençoadas desde sempre pelos deuses Mercmes e Vulcanus; estes que apesar de não serem os favoritos da Deusa, ainda servem e possuem certo respeito pela mesma. A a sacerdotisa terá alguns acréscimos em sua velocidade. E do filho menos querido da Deusa, a sacerdotisa receberá a possibilidade de usar \"Barreira\", efeito de habilidade que absorve danos.",
           "niveis": [
             {
               "level": 5,
-              "descrição": "A devota deverá escolher apenas um dos dois deuses para receber o buff de tal! De Mercmes: Ela aplicará Incremento de Velocidade, de si mesmo e de um aliado em 5%. De Vulcanus: Uma aura vermelha cobrirá seu corpo, e a de um aliado, aplicando barreira, absorvendo 10% do dano que deveria ser no PV, escalando com seu dano de habilidade.",
+              "descrição": "A devota deverá escolher apenas um dos dois deuses para receber o buff de tal! De Mercmes: Ela aplicará Incremento de Velocidade, de si mesmo e de um aliado em 5%. De Vulcanus: Uma aura vermelha cobrirá seu corpo, e a de um aliado, aplicando Barreira, absorvendo 10% do dano que deveria ser no PV, escalando com seu dano de habilidade.",
               "duracao": "2 turnos",
               "recarga": "4 turnos",
               "alcance": "4 metros"
@@ -374,7 +373,7 @@
             },
             {
               "level": 50,
-              "descrição": "No ultimo level, a sacerdotisa poderá usufruir de ambas habilidades fornecidas pelos deuses, se caso desejarem. Nesse caso, se usarem o Incremento de Velocidade e o efeito de barreira, ambos terão o valor igual de 10% e 25%. Mas, se usar separadamente. De Mercmes: Ela aplicará Incremento de Velocidade, de si mesmo e de um aliado em 15%. De Vulcanus: Uma aura vermelha cobrirá seu corpo, absorvendo 45% do dano que deveria ser no PV.",
+              "descrição": "No ultimo level, a sacerdotisa poderá usufruir de ambas habilidades fornecidas pelos deuses, se caso desejarem. Nesse caso, se usarem o Incremento de Velocidade e o efeito de Barreira, ambos terão o valor igual de 10% e 25%. Mas, se usar separadamente. De Mercmes: Ela aplicará Incremento de Velocidade, de si mesmo e de um aliado em 15%. De Vulcanus: Uma aura vermelha cobrirá seu corpo, absorvendo 45% do dano que deveria ser no PV.",
               "duracao": "3 turnos",
               "recarga": "4 turnos",
               "alcance": "50 metros"
@@ -455,7 +454,7 @@
             },
             {
               "level": 40,
-              "descrição": "Pode curar até dois aliados ao mesmo tempo por batalha, num raio de 15 metros. A cura pode remover até um debuff de escolha da mesma que estiver ativo no aliado e desativa automaticamente o debuff de infecção. O gasto agora é por ativação e não por alvo.",
+              "descrição": "Pode curar até dois aliados ao mesmo tempo por batalha, num raio de 15 metros. A cura pode remover até um debuff de escolha da mesma que estiver ativo no aliado e desativa automaticamente o debuff de Infecção. O gasto agora é por ativação e não por alvo.",
               "alcance": "10 metros",
               "Cura": "15% do PV máximo",
               "gastoEnergia": "20%"
@@ -483,7 +482,7 @@
             },
             {
               "level": 20,
-              "descrição": "A devota de Junera pode imitar as sensações de embriaguez em até dois alvos de uma vez. Nesse caso, causando a Perda do Tato, Perda do Olfato e sua Perda da Visão.",
+              "descrição": "A devota de Junera pode imitar as sensações de embriaguez em até dois alvos de uma vez. Nesse caso, causando a Perda de Tato, Perda de Olfato e Cegueira.",
               "alcance": "30 metros",
               "danoHabilidade": "48.5%",
               "gastoEnergia": "25%"
@@ -497,7 +496,7 @@
             },
             {
               "level": 80,
-              "descrição": "No auge de seu poder, a sacerdotisa canaliza a ira combinada de Junera, Dionísio e Deméter. Os inimigos atingidos sofrem a supressão completa dos cinco sentidos (tato, olfato, visão, audição e paladar), mergulhando num estado de confusão total. Além disso, o poder das vinhas agora provoca efeito de Fúria!",
+              "descrição": "No auge de seu poder, a sacerdotisa canaliza a ira combinada de Junera, Dionísio e Deméter. Os inimigos atingidos sofrem a supressão completa dos cinco sentidos (tato, olfato, visão, audição e paladar), mergulhando num estado de confusão total. Além disso, o poder das vinhas agora possui o efeito de Laminar Sagrado!",
               "alcance": "70 metros",
               "danoHabilidade": "120%",
               "gastoEnergia": "35%",
@@ -632,7 +631,7 @@
             },
             {
               "level": 50,
-              "descrição": "Pode concentrar sua energia e pode causa dano de lâmina furiosa com seus ataques com tridente e magia.",
+              "descrição": "Pode concentrar sua energia e pode causa dano de Lâmina Furiosa com seus ataques com tridente e magia.",
               "duracao": "3 turnos"
             }
           ]
@@ -742,26 +741,26 @@
             {
               "level": 5,
               "descrição": "Imbuindo o tridente com sua energia, o desperto pode desferir cortes que causam o efeito de Sangramento instantaneamente na parte do corpo atingida, até mesmo com o leve tocar da arma, ficando ativo por 2 turnos.",
-              "danoHabilidade": "+20% da habilidade no Dano de Invocada",
-              "gastoEnergia": "5%"
+              "danoArmaInvocada": "+100%",
+              "gastoEnergia": "10%"
             },
             {
               "level": 15,
               "descrição": "Alterando os componentes da sua própria energia canalizada no objeto que utiliza como arma, normalmente um tridente, o desperto ativa o efeito de Envenenamento, que fica ativo por 1 turno no corpo do alvo!",
-              "danoHabilidade": "+30% da habilidade no Dano de Invocada",
-              "gastoEnergia": "10%"
+              "danoArmaInvocada": "+110%",
+              "gastoEnergia": "15%"
             },
             {
               "level": 25,
               "descrição": "O Sangramento é fortalecido, assim como a força da habilidade, durando agora a até mesmo 3 turnos completos.",
-              "danoHabilidade": "+45% da habilidade no Dano de Invocada",
-              "gastoEnergia": "12%"
+              "danoArmaInvocada": "+125%",
+              "gastoEnergia": "20%"
             },
             {
               "level": 50,
               "descrição": "Agora em um estágio evoluído, o Envenenamento causado pelo tridente ativa automaticamente o efeito de Sangramento, com ambos durando 2 turnos juntos e ativos sob o alvo!",
-              "danoHabilidade": "+60% da habilidade no Dano de Invocada",
-              "gastoEnergia": "20%"
+              "danoArmaInvocada": "+150%",
+              "gastoEnergia": "25%"
             }
           ]
         },
@@ -811,7 +810,7 @@
           "Level 150": "5 Turnos. Aumento de atributos: +50%"
         },
         "subDescricao": {
-          "Tridente dos 7 Mares": "Usando sua energia divina, pode recobrir um tridente que usa, com sua aura e assim, a resistência do material subirá em +5x Ômega Divino. Desta forma, se tornará um tridente capaz de causar horror a seus alvos. Concentrando sua energia, é capaz de invocar um raio dos céus que faz com que o tridente seja imbuído por um raio frio celeste, lhe dando o efeito de eletrificação, pode lançar rajadas elétricas deste ou perfurações e cortes. Seu controle sobre as águas se torna basicamente sem limites, se estendendo a quase qualquer líquido com H2O em sua composição (exceto no interior dos corpos de seres vivos com até menos 20 níveis que o seu)."
+          "Tridente dos 7 Mares": "Usando sua energia divina, pode recobrir um tridente que usa, com sua aura e assim, a resistência do material subirá em +5x Ômega Divino. Desta forma, se tornará um tridente capaz de causar horror a seus alvos. Concentrando sua energia, é capaz de invocar um raio dos céus que faz com que o tridente seja imbuído por um raio frio celeste, lhe dando o efeito de Eletrificação, pode lançar rajadas elétricas deste ou perfurações e cortes. Seu controle sobre as águas se torna basicamente sem limites, se estendendo a quase qualquer líquido com H2O em sua composição (exceto no interior dos corpos de seres vivos com até menos 20 níveis que o seu)."
         }
       }
     },
@@ -859,7 +858,7 @@
         "PassivaUm": {
           "nome": "Beleza Eterna",
           "Tipo": "Capacidade",
-          "descricao": "Os despertos de Afrodite/Vênus são reconhecidos pela sua beleza indescritível, do encanto e pela \"perfeição\" aparente. Embora possam parecer frágeis e inocentes à primeira vista, sua beleza não é mero adorno; ela é uma arma, uma armadura e um escudo. Seus corpos são templos divinos! Sendo assim, os herdeiros de Afrênus Divina não podem ser afetados por Atordoamento, Cegueira e Corrosão."
+          "descricao": "Os despertos de Afrodite/Vênus são reconhecidos pela sua beleza indescritível, do encanto e pela \"beleza\" aparente. Embora possam parecer frágeis e inocentes à primeira vista, sua beleza não é mero adorno; ela é uma arma, uma armadura e um escudo. Seus corpos são templos divinos! Sendo assim, os herdeiros de Afrênus Divina não podem ser afetados por Atordoamento, Cegueira e Corrosão."
         },
         "PassivaDois": {
           "nome": "Amor ou Ruína",
@@ -878,7 +877,7 @@
             },
             {
               "level": 50,
-              "descrição": "Nos primeiros dois turnos de combate, os despertos de Afrodite/Vênus, em combates em grupo, não podem ser alvos de nenhum ataque ou habilidade. E caso seja um combate um contra um, os despertos (abaixo da trindade) não poderão atacar os despertos de Afrodite/Vênus no primeiro turno. O buff de espinhos agora dura 3 turnos.",
+              "descrição": "Nos primeiros dois turnos de combate, os despertos de Afrodite/Vênus, em combates em grupo, não podem ser alvos de nenhum ataque ou habilidade. E caso seja um combate um contra um, os despertos (abaixo da trindade) não poderão atacar os despertos de Afrodite/Vênus no primeiro turno. O buff de Espinhos agora dura 3 turnos.",
               "duracao": "2 turnos"
             }
           ]
@@ -979,14 +978,14 @@
             },
             {
               "level": 80,
-              "descrição": "Disparo Magnifíco - O alvo atingido recebe perfeição pelo turno atingido e o seguinte!",
+              "descrição": "Disparo Magnifíco - O alvo atingido recebe Perfeição pelo turno atingido e o seguinte!",
               "alcance": "70 metros",
               "gastoEnergia": "35%",
               "recarga": "5 turnos."
             },
             {
               "level": 100,
-              "descrição": "Disparo da Destruição - O último disparo, concentrado e destrutivo com o poder imenso do desperto. Esse disparo recebe os efeitos de todos os disparos anteriores, que causam dano, combinados em um só: Ódio, Dor, Ira... gera a destruição! Os efeitos somam com o efeito de explosão!",
+              "descrição": "Disparo da Destruição - O último disparo, concentrado e destrutivo com o poder imenso do desperto. Esse disparo recebe os efeitos de todos os disparos anteriores, que causam dano, combinados em um só: Ódio, Dor, Ira... gera a destruição! Os efeitos somam com o debuff de Explosão!",
               "alcance": "70 metros",
               "danoHabilidade": "120%",
               "gastoEnergia": "50%",
@@ -1017,7 +1016,7 @@
             },
             {
               "level": 40,
-              "descrição": "Manto de Perola - Um véu perolado e elegante envolve o corpo, refletindo ataques com graça e firmeza. O manto possui o efeito de reflexão de poder da habilidade, retornando o dano recebido em 50%.",
+              "descrição": "Manto de Perola - Um véu perolado e elegante envolve o corpo, refletindo ataques com graça e firmeza. O manto possui o efeito de Reflexão de poder da habilidade, retornando o dano recebido em 50%.",
               "alcance": "2 metros",
               "duracao": "1 turno",
               "recarga": "3 turnos",
@@ -1055,7 +1054,7 @@
             },
             {
               "level": 50,
-              "descrição": "Invoca 2 Criaturas de Espuma com os mesmos efeitos do nível anterior. Agora, além de Provocação, também recebem o buff barreira, aumentando seus PV em 15%.",
+              "descrição": "Invoca 2 Criaturas de Espuma com os mesmos efeitos do nível anterior. Agora, além de Provocação, também recebem o buff Barreira, aumentando seus PV em 15%.",
               "alcance": "10 metros",
               "resistenciaHabilidade": "50%",
               "gastoEnergia": "30%"
@@ -1076,7 +1075,7 @@
         "nome": "Forma Suprema do Amor",
         "descricao": "As despertas de Afrodite/Vênus, ao liberarem sua \"energia do amor\", assumem sua forma divina, transcendendo a beleza e o encanto mortal. Seus cabelos brilham como fios de ouro rosado, os olhos reluzem como safiras líquidas e sua voz carrega um eco hipnótico que ressoa diretamente no coração de quem a ouve. Nesta forma, sua presença emana paixão e desejo absoluto, alterando a atmosfera ao seu redor como se o ar fosse impregnado por fragrâncias florais encantadoras e luzes suaves dançando em tons de rosa e dourado. Todos se sentirão atraídos pela cria de Afrodite/Vênus, independentemente da sexualidade, a menos que estejam em um amor verdadeiro e correspondido, ou sejam incapazes de sentir amor ou paixão. Podem gerar asas gigantes em suas costas, como de borboletas ou cisnes divinos. Descendentes de Hefesto/Vulcanus ou Ares/Marte são automaticamente afetados por Amor Incontrolável até final da forma divina.",
         "obs": "Amor incontrolável: Alvos afetados por esse debuff tem a necessidade extrema de proteger os usuários dele.",
-        "obs 2": "O desperto ganha buff de perfeição por 1 turno inteiro!",
+        "obs 2": "O desperto ganha buff de Perfeição por 1 turno inteiro!",
         "niveis": {
           "Level 80": "2 Turnos. Aumento de atributos: +10%",
           "Level 100": "3 Turnos. Aumento de atributos: +20%",
@@ -1221,7 +1220,7 @@
             },
             {
               "level": 15,
-              "descrição": "O desperto manipula sua própria energia para alterar a natureza da arma, fazendo com que os golpes apliquem infecção, que enfraquece os processos regenerativos do alvo por 1 turno.",
+              "descrição": "O desperto manipula sua própria energia para alterar a natureza da arma, fazendo com que os golpes apliquem Infecção, que enfraquece os processos regenerativos do alvo por 1 turno.",
               "danoArmaInvocada": "+35%",
               "gastoEnergia": "10%",
               "duracao": "2 turnos"
@@ -1235,7 +1234,7 @@
             },
             {
               "level": 50,
-              "descrição": "A infecção causada pelos golpes do desperto agora ativa automaticamente o Sangramento, fazendo com que ambos os efeitos durem 2 turnos simultaneamente. Uma verdadeira maldição bélica selada na carne do inimigo.",
+              "descrição": "A Infecção causada pelos golpes do desperto agora ativa automaticamente o Sangramento, fazendo com que ambos os efeitos durem 2 turnos simultaneamente. Uma verdadeira maldição bélica selada na carne do inimigo.",
               "danoArmaInvocada": "+70%",
               "gastoEnergia": "20%",
               "duracao": "2 turnos"
@@ -1263,7 +1262,7 @@
             },
             {
               "level": 50,
-              "descrição": "Cada golpe libera uma explosão sísmica mais agressiva, causando rachaduras no solo e afetando múltiplos inimigos em linha. As armas encantadas com essa energia vibram com poder, podendo romper defesas físicas. Causa efeito de Lâmina Furiosa.",
+              "descrição": "Cada golpe libera uma onda sísmica mais agressiva, causando rachaduras no solo e afetando múltiplos inimigos em linha. As armas encantadas com essa energia vibram com poder, podendo romper defesas físicas. Causa efeito de Lâmina Furiosa.",
               "alcance": "4 metros",
               "danoFísico": "+65%",
               "gastoEnergia": "30%"
@@ -1375,11 +1374,11 @@
           "niveis": [
             {
               "level": 25,
-              "descrição": "A presença da coruja afeta dois alvos vivos, com o Atordoamento. Porém, a coruja agora é capaz de arranhar seus alvos, lhe causando o efeito de infecção que reduz sua cura em 30% por 2 turnos."
+              "descrição": "A presença da coruja afeta dois alvos vivos, com o Atordoamento. Porém, a coruja agora é capaz de arranhar seus alvos, lhe causando o efeito de Infecção que reduz sua cura em 30% por 2 turnos."
             },
             {
               "level": 50,
-              "descrição": "A presença do piar da coruja afetará até três alvos. E, a infecção é evoluída para reduzir as capacidades de cura do alvo em até 50% do efeito padrão! E, não apenas isso, pois o efeito de Restrição é aplicado tanto nesta capacidade, quanto na de Surdez, por um turno, impedindo o alvo se livrar de debuffs até passar este turno completo."
+              "descrição": "A presença do piar da coruja afetará até três alvos. E, a Infecção é evoluída para reduzir as capacidades de cura do alvo em até 50% do efeito padrão! E, não apenas isso, pois o efeito de Restrição é aplicado tanto nesta capacidade, quanto na de Surdez, por um turno, impedindo o alvo se livrar de debuffs até passar este turno completo."
             }
           ]
         },
@@ -1465,14 +1464,14 @@
             },
             {
               "level": 80,
-              "descrição": "Agora suas habilidades se estendem a um nível novo de telecinese, aonde é capaz de gerar defesas refletoras, com o efeito de reflexão de até 25% do dano que elas receberem!",
+              "descrição": "Agora suas habilidades se estendem a um nível novo de telecinese, aonde é capaz de gerar defesas refletoras, com o efeito de Reflexão de até 25% do dano que elas receberem!",
               "alcance": "40 metros",
               "danoHabilidade": "92.5%",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
-              "descrição": "Um vendaval de poder mental, é capaz de causar tormentas gigantescas utilizando a força de sua mente e concentração, o nível de sua reflexão se estende para 40% do dano e é capaz de erguer objetos com o quadruplo de sua força física! Uma mente afiada e poderosa, supera os poderes e capacidades do mais forte de todos os corpos!!!",
+              "descrição": "Um vendaval de poder mental, é capaz de causar tormentas gigantescas utilizando a força de sua mente e concentração, o nível de sua Reflexão se estende para 40% do dano e é capaz de erguer objetos com o quadruplo de sua força física! Uma mente afiada e poderosa, supera os poderes e capacidades do mais forte de todos os corpos!!!",
               "alcance": "50 metros",
               "danoHabilidade": "202.5%",
               "gastoEnergia": "85%",
@@ -1572,7 +1571,7 @@
       }
     },
     "Apolo": {
-      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001151-9253a9253d/450/imagem_2025-05-16_075251184.webp?ph=2880431619",
+      "Foto": "https://i.pinimg.com/originals/47/61/b2/4761b269598aba3b9caf3cace68d2719.jpg",
       "nome_original": "Solumen Aeternum",
       "nome_grego": "Apolo",
       "Tipo": "Olimpo",
@@ -1615,7 +1614,7 @@
         "PassivaUm": {
           "nome": "Luz Interior",
           "Tipo": "Capacidade",
-          "descricao": "inextinguível de seu ancestral solar. Guiados pelo deus da luz, da profecia e da arte, esses indivíduos irradiam confiança, carisma e equilíbrio, sendo reconhecidos por manterem a clareza mesmo nas situações mais caóticas. Como marca divina, seus corpos brilham levemente em ambientes sombrios, tornando-os imunes aos efeitos de Cegueira, Queimadura e infecção. Comumente nascem na vila: \"Aurora de Apolo/Febo\"."
+          "descricao": "inextinguível de seu ancestral solar. Guiados pelo deus da luz, da profecia e da arte, esses indivíduos irradiam confiança, carisma e equilíbrio, sendo reconhecidos por manterem a clareza mesmo nas situações mais caóticas. Como marca divina, seus corpos brilham levemente em ambientes sombrios, tornando-os imunes aos efeitos de Cegueira, Queimadura e Infecção. Comumente nascem na vila: \"Aurora de Apolo/Febo\"."
         },
         "PassivaDois": {
           "nome": "Presença Ressonante",
@@ -1628,7 +1627,7 @@
             },
             {
               "level": 50,
-              "descrição": "Agora o incremento é aumentado para +15 metros. Por dois turno (reiniciar ao ser atingido novamente) os oponentes atingidos pelas flechas do usuário, recebem o efeito de extorquido, por 2 turnos, perdendo -20% de seu dano de arma invocada e o desperto recebe o buff de extorquir, recebendo o valor perdido pelo oponente!",
+              "descrição": "Agora o incremento é aumentado para +15 metros. Por dois turno (reiniciar ao ser atingido novamente) os oponentes atingidos pelas flechas do usuário, recebem o efeito de Extorquido, por 2 turnos, perdendo -20% de seu dano de arma invocada e o desperto recebe o buff de Extorquir, recebendo o valor perdido pelo oponente!",
               "recargaPorAlvo": "3 turnos"
             }
           ]
@@ -1694,7 +1693,7 @@
           "niveis": [
             {
               "level": 5,
-              "descrição": "O desperto canaliza a luz ao seu redor e a projeta em um feixe concentrado, aplicando Cegueira, caso seja acertado no rosto, aplicando infecção ao inimigo por 1 turno!",
+              "descrição": "O desperto canaliza a luz ao seu redor e a projeta em um feixe concentrado, aplicando Cegueira, caso seja acertado no rosto, aplicando Infecção ao inimigo por 1 turno!",
               "alcance": "5 metros",
               "danoHabilidade": "37.5%",
               "gastoEnergia": "20%"
@@ -1708,7 +1707,7 @@
             },
             {
               "level": 50,
-              "descrição": "O desperto agora invoca uma verdadeira lança de fótons, que perfura com precisão cirúrgica, lembrando as flechas de Apolo. Agora, a infecção se estende para 2 turnos aos alvos serem atingidos pelos feixes!",
+              "descrição": "O desperto agora invoca uma verdadeira lança de fótons, que perfura com precisão cirúrgica, lembrando as flechas de Apolo. Agora, a Infecção se estende para 2 turnos aos alvos serem atingidos pelos feixes!",
               "alcance": "10 metros",
               "danoHabilidade": "65%",
               "gastoEnergia": "30%"
@@ -1767,7 +1766,7 @@
               "descrição": "Um disparo de energia solar pura é lançado da mão do desperto ou por um arco invocado. Habilidade causa debuff de Queimadura por 2 turnos.",
               "alcance": "5 metros",
               "danoHabilidade": "32%",
-              "danoHabilidadeArco": "43% + 10% do dano de arma invocada",
+              "danoHabilidadeArco": "43%",
               "gastoEnergia": "20%"
             },
             {
@@ -1775,7 +1774,7 @@
               "descrição": "As flechas solares ganham mais potência!",
               "alcance": "15 metros",
               "danoHabilidade": "43%",
-              "danoHabilidadeArco": "48.5% + 10% do dano de arma invocada",
+              "danoHabilidadeArco": "48.5%",
               "gastoEnergia": "25%"
             },
             {
@@ -1783,7 +1782,7 @@
               "descrição": "A luz é condensada em uma flecha que explode ao impacto, emulando o poder destrutivo do meio-dia solar. Espalhando o debuff de Queimadura por todo corpo do alvo!",
               "alcance": "35 metros",
               "danoHabilidade": "59.5%",
-              "danoHabilidadeArco": "70.5% + 10% do dano de arma invocada",
+              "danoHabilidadeArco": "70.5%",
               "gastoEnergia": "30%"
             },
             {
@@ -1791,15 +1790,15 @@
               "descrição": "A flecha solar rasga os céus como um eclipse flamejante, com calor intenso e brilho cortante. Habilidade causa debuff de Queimadura por 3 turnos.",
               "alcance": "70 metros",
               "danoHabilidade": "87%",
-              "danoHabilidadeArco": "98% + 10% do dano de arma invocada",
+              "danoHabilidadeArco": "98%",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
               "descrição": "Manifestando o poder ancestral do nascimento de Apolo/Febo, o desperto lança um tiro devastador de pura luz divina, capaz de obliterar inimigos em seu caminho. Essa habilidade pode causar efeito de Arruinar caso o usuário deseje!",
               "alcance": "150 metros",
-              "danoHabilidade": "191.5%",
-              "danoHabilidadeArco": "213.5% + 10% do dano de arma invocada",
+              "danoHabilidade": "180%",
+              "danoHabilidadeArco": "195%",
               "gastoEnergia": "85%",
               "Reborn": ""
             }
@@ -1821,7 +1820,7 @@
       }
     },
     "Artemis": {
-      "Foto": "https://2880431619.cbaul-cdnwnd.com/0c91872e6e89de3c6088fb0de8e4ada9/200001147-253dc253dd/700/imagem_2025-05-16_075159301.webp?ph=2880431619",
+      "Foto": "https://r2.fluxpro.art/cm1q3mdpy2ypngxjxgaxigfd9/0.webp",
       "nome_original": "Lunala Aeternum",
       "nome_grego": "Artemis",
       "Tipo": "Olimpo",
@@ -1887,7 +1886,7 @@
         "PassivaUm": {
           "nome": "Luz Interior",
           "Tipo": "Capacidade",
-          "descricao": "Guiados pela deusa da noite, da caça e dos animais, essas seguidoras irradiam uma serenidade firme, um magnetismo silencioso e uma conexão profunda com a natureza. Seus corpos brilham levemente em ambientes escuros, tornando-os imunes a Cegueira, Congelamento e infecção."
+          "descricao": "Guiados pela deusa da noite, da caça e dos animais, essas seguidoras irradiam uma serenidade firme, um magnetismo silencioso e uma conexão profunda com a natureza. Seus corpos brilham levemente em ambientes escuros, tornando-os imunes a Cegueira, Congelamento e Infecção."
         },
         "PassivaDois": {
           "nome": "Presença Ressonante",
@@ -1900,7 +1899,7 @@
             },
             {
               "level": 50,
-              "descrição": "Agora o incremento é aumentado para +15 metros. Por dois turno (reiniciar ao ser atingido novamente) os oponentes atingidos pelas flechas do usuário, recebem o efeito de extorquido, por 2 turnos, perdendo -20% de seu dano de arma invocada e a seguidora recebe o buff de extorquir, recebendo o valor perdido pelo oponente!",
+              "descrição": "Agora o incremento é aumentado para +15 metros. Por dois turno (reiniciar ao ser atingido novamente) os oponentes atingidos pelas flechas do usuário, recebem o efeito de Extorquido, por 2 turnos, perdendo -20% de seu dano de arma invocada e a seguidora recebe o buff de Extorquir, recebendo o valor perdido pelo oponente!",
               "recargaPorAlvo": "3 turnos"
             }
           ]
@@ -2029,7 +2028,7 @@
               "descrição": "Um disparo de energia lunar pura é lançado da mão da seguidora ou por um arco invocado. Habilidade causa debuff de Congelamento por 2 turnos.",
               "alcance": "5 metros",
               "danoHabilidade": "32%",
-              "danoHabilidadeArco": "43% + 10% do dano de arma invocada",
+              "danoHabilidadeArco": "43%",
               "gastoEnergia": "20%"
             },
             {
@@ -2037,7 +2036,7 @@
               "descrição": "As flechas lunares ganham mais potência!",
               "alcance": "15 metros",
               "danoHabilidade": "43%",
-              "danoHabilidadeArco": "48.5% + 10% do dano de arma invocada",
+              "danoHabilidadeArco": "48.5%",
               "gastoEnergia": "25%"
             },
             {
@@ -2045,7 +2044,7 @@
               "descrição": "A luz é condensada em uma flecha que explode ao impacto, emulando o poder destrutivo do meia-noite lunar. Espalhando o debuff de Congelamento por todo corpo do alvo!",
               "alcance": "35 metros",
               "danoHabilidade": "59.5%",
-              "danoHabilidadeArco": "70.5% + 10% do dano de arma invocada",
+              "danoHabilidadeArco": "70.5%",
               "gastoEnergia": "30%"
             },
             {
@@ -2053,15 +2052,15 @@
               "descrição": "A flecha solar rasga os céus como um eclipse flamejante, com calor intenso e brilho cortante. Habilidade causa debuff de Congelamento por 3 turnos.",
               "alcance": "70 metros",
               "danoHabilidade": "87%",
-              "danoHabilidadeArco": "98% + 10% do dano de arma invocada",
+              "danoHabilidadeArco": "98%",
               "gastoEnergia": "35%"
             },
             {
               "level": 120,
               "descrição": "Manifestando o poder ancestral do nascimento de Lunala, a seguidora lança um tiro devastador de pura luz divina, capaz de obliterar inimigos em seu caminho. Essa habilidade pode causar efeito de Arruinar caso o usuário deseje!",
               "alcance": "150 metros",
-              "danoHabilidade": "191.5%",
-              "danoHabilidadeArco": "213.5% + 10% do dano de arma invocada",
+              "danoHabilidade": "180%",
+              "danoHabilidadeArco": "195%",
               "gastoEnergia": "85%",
               "Reborn": ""
             }
@@ -2126,7 +2125,7 @@
         "PassivaUm": {
           "nome": "A beleza da Construção",
           "Tipo": "Capacidade",
-          "descricao": "Os descendentes de Hefesto/Vulcano são conhecidos pela sua grande capacidade de construção, sejam de tecnologias, equipamentos ou até mesmo moradias. Sendo assim, estes desenvolveram corpos extremamente adaptados para horas de trabalho contínuo e as piores condições de uma forja. Não recebendo danos de chamas comuns ou de forja, estes não podem ser afetados por debuffs de Queimadura, Atordoamento e de explosão."
+          "descricao": "Os descendentes de Hefesto/Vulcano são conhecidos pela sua grande capacidade de construção, sejam de tecnologias, equipamentos ou até mesmo moradias. Sendo assim, estes desenvolveram corpos extremamente adaptados para horas de trabalho contínuo e as piores condições de uma forja. Não recebendo danos de chamas comuns ou de forja, estes não podem ser afetados por debuffs de Queimadura, Atordoamento e de Explosão."
         },
         "PassivaDois": {
           "nome": "Elevação Constante!",
@@ -2230,7 +2229,7 @@
             },
             {
               "level": 80,
-              "descrição": "As chamas ardem ainda mais forte e debuff o efeito de explosão.",
+              "descrição": "As chamas ardem ainda mais forte e aplicam debuff de Explosão.",
               "alcance": "50 metros",
               "danoHabilidade": "92.5%",
               "gastoEnergia": "35%"
@@ -2301,7 +2300,7 @@
             },
             {
               "level": 80,
-              "descrição": "A partir das rochas do solo, o desperto de Hefesto/Vulcano pode gerar criar vibrações extremamente poderosas para que estas se aqueçam em extrema velocidade e se transformem em lava!!! O efeito do debuff aumenta para 2 turnos! E, é capaz de ativar o debuff de explosão contra os seus alvos.",
+              "descrição": "A partir das rochas do solo, o desperto de Hefesto/Vulcano pode gerar criar vibrações extremamente poderosas para que estas se aqueçam em extrema velocidade e se transformem em lava!!! O efeito do debuff aumenta para 2 turnos! E, é capaz de ativar o debuff de Explosão contra os seus alvos.",
               "alcance": "70 metros",
               "danoHabilidade": "92.5%",
               "gastoEnergia": "35%"
