@@ -171,7 +171,7 @@ export default function Header() {
               {deusesOlimpo.map((nomeDoDeus) => (
                 <MenuItem
                   key={nomeDoDeus}
-                  label={nomeDoDeus}
+                  label={Olimpo.deuses[nomeDoDeus].nome_original || nomeDoDeus}
                   menuKey={`panteao-olimpo-${nomeDoDeus
                     .toLowerCase()
                     .replace(/\s+/g, "-")}`}
