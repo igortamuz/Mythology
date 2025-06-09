@@ -111,7 +111,7 @@ export default function Terms() {
                 9.2. Este Contrato constitui o acordo integral entre as partes quanto ao objeto aqui tratado.
             </p>
             <p>
-                9.3. Fica eleito o foro da comarca de Fortaleza/CE para dirimir quaisquer controvérsias oriundas deste Contrato.
+                9.3. Fica eleito o foro da comarca de Imperatriz/MA para dirimir quaisquer controvérsias oriundas deste Contrato.
             </p>
         </section>
       </main>
@@ -135,7 +135,7 @@ export default function Terms() {
         </div>
 
         <div className="signature-block">
-          <p><strong>Data de última atualização:</strong> 16 de Maio de 2025</p>
+          <p><strong>Data de última atualização:</strong> 09 de Junho de 2025</p>
           <p><strong>Administração Mythology RPG</strong></p>
           <p>Igor Tamuz da Silva Veloso Alves da Silva</p>
           <p>CPF 668.611.603-34</p>

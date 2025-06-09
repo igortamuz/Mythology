@@ -435,6 +435,9 @@ body {
 .stat-item.damage-a {
   color: #09640f;
 }
+.stat-item.damage-h-arco {
+  color: #38bdf8; 
+}
 .stat-item.cost {
   color: #60a5fa;
 }
@@ -474,6 +477,7 @@ body {
 }
 
 /* ESTILOS PARA ADAPTAÇÕES E SUB-HABILIDADES */
+
 .ability-adaptation,
 .sub-ability {
   background-color: rgba(17, 24, 39, 0.7);

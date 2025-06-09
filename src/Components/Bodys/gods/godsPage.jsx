@@ -17,7 +17,7 @@ import {
   Info,
   GitMerge,
   ShieldPlus,
-  ScrollText
+  ScrollText,
 } from "lucide-react";
 import "../gods/godsPage.css";
 import olimpoData from "../../../Json/Deuses/Olimpo.json";
@@ -226,6 +226,7 @@ const HabilidadeCard = ({ habilidade, tipo, calculatedStats }) => {
     let baseValue = 0;
     switch (statType) {
       case "danoHabilidade":
+      case "danoHabilidadeArco":
         baseValue = baseStats.DanoHabilidade;
         break;
       case "danoFísico":
@@ -374,6 +375,17 @@ const HabilidadeCard = ({ habilidade, tipo, calculatedStats }) => {
                       {getCalculatedValue(
                         nivel.danoFísico,
                         "danoFísico",
+                        calculatedStats
+                      )}
+                    </span>
+                  )}
+                  {nivel.danoHabilidadeArco && (
+                    <span className="stat-item damage-h-arco">
+                      <BowArrow size={14} />
+                      <strong>Dano de Habilidade + Arco:</strong>
+                      {getCalculatedValue(
+                        nivel.danoHabilidadeArco,
+                        "danoHabilidadeArco",
                         calculatedStats
                       )}
                     </span>
@@ -768,8 +780,8 @@ const GodsPage = () => {
     );
 
   const infoGeral = {
-    Panteão: deus.Tipo,
-    Divindade: deus.Divindade,
+    Tipo: deus.Tipo,
+    Domínio: deus.Divindade,
     Classe: deus.Classe,
     Símbolos: deus.Símbolos,
   };
@@ -810,9 +822,7 @@ const GodsPage = () => {
             )}
           </aside>
           <section className="skills-column">
-			{deus.Dogmas && (
-                <DogmasCard data={deus.Dogmas} icon={ScrollText} />
-            )}
+            {deus.Dogmas && <DogmasCard data={deus.Dogmas} icon={ScrollText} />}
             {alteracaoDeStatus && (
               <div className="skills-section-content">
                 <SectionTitle>{alteracaoDeStatus.Tipo}</SectionTitle>
